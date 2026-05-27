@@ -1,0 +1,19 @@
+# Environnement Python
+venv/
+__pycache__/
+*.pyc
+
+# Fichiers générés
+*.pdf
+*.html
+*.png
+pdf_texte.txt
+
+# Données (à voir : pour l'instant on les ignore)
+tournois.csv
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
