@@ -5,10 +5,16 @@ URL = "https://tenup.fft.fr/recherche/tournois?pratique=PADEL"
 VILLE = "Montpellier"
 DOSSIER_PROJET = os.path.expanduser("~/padel-app")
 
+# Variable d'environnement : HEADLESS=true => mode invisible (serveur)
+HEADLESS = os.getenv("HEADLESS", "false").lower() == "true"
+
 
 def telecharger_pdf():
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False, slow_mo=600)
+        browser = p.chromium.launch(
+            headless=HEADLESS,
+            slow_mo=0 if HEADLESS else 600
+        )
         context = browser.new_context(
             accept_downloads=True,
             user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"

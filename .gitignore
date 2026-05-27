@@ -12,9 +12,30 @@ pdf_texte.txt
 # Exceptions : on garde
 !docs/*.png
 !index.html
+!tournois.pdf
 
-# Données
-tournois.csv
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+YAMLEOF
+cat > .gitignore << 'EOF'
+# Environnement Python
+venv/
+__pycache__/
+*.pyc
+
+# Fichiers générés
+*.pdf
+*.html
+*.png
+pdf_texte.txt
+
+# Exceptions : on garde
+!docs/*.png
+!index.html
+!tournois.pdf
 
 # OS
 .DS_Store
