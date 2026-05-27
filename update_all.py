@@ -33,4 +33,4 @@ print("  ✅ TERMINÉ — Ouverture de la carte...")
 print("=" * 60)
 
 # Ouvre la carte dans le navigateur
-subprocess.run(["open", "carte.html"])
+subprocess.run(["open", "index.html"])

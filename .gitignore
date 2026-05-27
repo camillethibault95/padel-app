@@ -9,8 +9,9 @@ __pycache__/
 *.png
 pdf_texte.txt
 
-# Exception : on garde les screenshots de la doc
+# Exceptions : on garde
 !docs/*.png
+!index.html
 
 # Données
 tournois.csv

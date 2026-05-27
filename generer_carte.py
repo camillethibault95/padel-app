@@ -85,8 +85,8 @@ tournois.forEach(t => {
 html = html_template.replace("__COUNT__", str(len(tournois_geo)))
 html = html.replace("__DATA__", points_json)
 
-with open("carte.html", "w", encoding="utf-8") as f:
+with open("index.html", "w", encoding="utf-8") as f:
     f.write(html)
 
-print("Carte generee : carte.html")
-print("Pour l'ouvrir : open carte.html")
+print("Carte generee : index.html")
+print("Pour l'ouvrir : open index.html")
