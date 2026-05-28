@@ -10,6 +10,16 @@
 * { box-sizing: border-box; }
 body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f5f6fa; }
 
+/* Couleurs par catégorie - utilisées partout */
+.cat-P25   { background: #e5f5ff; color: #0066a1; }
+.cat-P50   { background: #d4ecff; color: #00528a; }
+.cat-P100  { background: #c6f6d5; color: #1d6f3a; }
+.cat-P250  { background: #fef3c7; color: #92400e; }
+.cat-P500  { background: #fed7aa; color: #9a3412; }
+.cat-P1000 { background: #fbcfe8; color: #9d174d; }
+.cat-P1500 { background: #ddd6fe; color: #5b21b6; }
+.cat-P2000 { background: #fecaca; color: #991b1b; }
+
 #header {
     background: #1a2554;
     color: white;
@@ -88,6 +98,22 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sa
     color: white;
     border-color: #1a2554;
 }
+/* Pastille de couleur dans les boutons de filtre */
+.filter-btn[data-value^="P"]::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+.filter-btn[data-value="P25"]::before   { background: #0066a1; }
+.filter-btn[data-value="P50"]::before   { background: #00528a; }
+.filter-btn[data-value="P100"]::before  { background: #1d6f3a; }
+.filter-btn[data-value="P250"]::before  { background: #92400e; }
+.filter-btn[data-value="P500"]::before  { background: #9a3412; }
+.filter-btn[data-value="P1000"]::before { background: #9d174d; }
 
 #map { height: calc(100vh - 215px); }
 
@@ -144,6 +170,7 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sa
     flex-direction: column;
     transition: all 0.15s;
     min-height: 60px;
+    border: 2px solid transparent;
 }
 .calendar-day:hover { background: #e5eafd; }
 .calendar-day.empty {
@@ -151,8 +178,24 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sa
     cursor: default;
 }
 .calendar-day.has-tournois {
-    background: #fff9b8;
+    background: #fafafa;
     font-weight: 500;
+}
+/* Jour AUJOURD'HUI : bordure vive */
+.calendar-day.today {
+    border-color: #d4ff00;
+    box-shadow: 0 0 0 1px #1a2554 inset;
+}
+.calendar-day.today .day-number {
+    background: #1a2554;
+    color: #d4ff00;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
 }
 .calendar-day.selected {
     background: #1a2554;
@@ -169,15 +212,9 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sa
 }
 .day-badge {
     font-size: 9px;
-    padding: 1px 4px;
-    background: #1a2554;
-    color: white;
+    padding: 1px 5px;
     border-radius: 3px;
-    font-weight: 600;
-}
-.calendar-day.selected .day-badge {
-    background: #d4ff00;
-    color: #1a2554;
+    font-weight: 700;
 }
 
 #day-details {
@@ -212,21 +249,39 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sa
 }
 .day-tournoi .badge {
     display: inline-block;
-    background: #d4ff00;
-    color: #1a2554;
-    padding: 1px 6px;
+    padding: 2px 8px;
     border-radius: 3px;
     font-weight: bold;
     font-size: 10px;
     margin-right: 4px;
 }
 
+/* Légende couleurs */
+#legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid #e5e5e5;
+}
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+    color: #666;
+}
+.legend-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
 .popup-tournoi { font-size: 13px; line-height: 1.5; }
 .popup-tournoi h3 { margin: 0 0 8px; color: #1a2554; }
 .popup-tournoi .badge {
     display: inline-block;
-    background: #d4ff00;
-    color: #1a2554;
     padding: 2px 8px;
     border-radius: 4px;
     font-weight: bold;
@@ -288,6 +343,14 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sa
             <div class="calendar-header">Dim</div>
         </div>
         <div class="calendar-grid" id="calendar-days"></div>
+        <div id="legend">
+            <div class="legend-item"><span class="legend-dot" style="background:#0066a1"></span>P25</div>
+            <div class="legend-item"><span class="legend-dot" style="background:#00528a"></span>P50</div>
+            <div class="legend-item"><span class="legend-dot" style="background:#1d6f3a"></span>P100</div>
+            <div class="legend-item"><span class="legend-dot" style="background:#92400e"></span>P250</div>
+            <div class="legend-item"><span class="legend-dot" style="background:#9a3412"></span>P500</div>
+            <div class="legend-item"><span class="legend-dot" style="background:#9d174d"></span>P1000</div>
+        </div>
     </div>
     <div id="day-details">
         <h3 id="day-title">Selectionne un jour</h3>
@@ -302,7 +365,9 @@ const tournois = [{"lat": 43.617368, "lon": 3.839961, "club": "AMICALE HERAULT",
 let filtres = { cat: "all", genre: "all" };
 let markers = [];
 let currentView = "map";
-let currentMonth = new Date(2026, 5, 1); // juin 2026
+const today = new Date();
+const todayStr = `${today.getFullYear()}-${String(today.getMonth() + 1).padStart(2, "0")}-${String(today.getDate()).padStart(2, "0")}`;
+let currentMonth = new Date(today.getFullYear(), today.getMonth(), 1);
 let selectedDay = null;
 
 // ----- CARTE -----
@@ -325,7 +390,7 @@ const padelIcon = L.divIcon({
 function popupHtml(t) {
     return '<div class="popup-tournoi">' +
         '<h3>' + t.nom + '</h3>' +
-        '<div class="info"><span class="badge">' + t.categories_str + '</span></div>' +
+        '<div class="info"><span class="badge cat-' + (t.categories[0] || 'P25') + '">' + t.categories_str + '</span></div>' +
         '<div class="info"><span class="label">Club</span><br>' + t.club + '</div>' +
         '<div class="info"><span class="label">Lieu</span><br>' + t.ville + '</div>' +
         '<div class="info"><span class="label">Dates</span><br>' + t.dates + '</div>' +
@@ -363,28 +428,23 @@ function refreshCalendar() {
     const year = currentMonth.getFullYear();
     const month = currentMonth.getMonth();
     
-    // Titre
     const monthNames = ["Janvier","Fevrier","Mars","Avril","Mai","Juin","Juillet","Aout","Septembre","Octobre","Novembre","Decembre"];
     document.getElementById("month-title").textContent = monthNames[month] + " " + year;
     
-    // Construire la grille
     const grid = document.getElementById("calendar-days");
     grid.innerHTML = "";
     
     const firstDay = new Date(year, month, 1);
     const lastDay = new Date(year, month + 1, 0);
-    // Jour de la semaine du 1er (0=Dim, on veut 0=Lun)
     let startWeekday = firstDay.getDay() - 1;
     if (startWeekday < 0) startWeekday = 6;
     
-    // Cases vides avant le 1er
     for (let i = 0; i < startWeekday; i++) {
         const empty = document.createElement("div");
         empty.className = "calendar-day empty";
         grid.appendChild(empty);
     }
     
-    // Jours du mois
     for (let d = 1; d <= lastDay.getDate(); d++) {
         const dateStr = `${year}-${String(month + 1).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
         const tournoisDuJour = visibles.filter(t => {
@@ -395,14 +455,15 @@ function refreshCalendar() {
         div.className = "calendar-day";
         if (tournoisDuJour.length > 0) div.classList.add("has-tournois");
         if (selectedDay === dateStr) div.classList.add("selected");
+        if (dateStr === todayStr) div.classList.add("today");
         
-        // Badges (max 2 categories distinctes)
+        // Badges colorés selon la catégorie
         const cats = new Set();
         tournoisDuJour.forEach(t => t.categories.forEach(c => cats.add(c)));
-        const catsArr = Array.from(cats).slice(0, 2);
+        const catsArr = Array.from(cats).sort((a, b) => parseInt(a.slice(1)) - parseInt(b.slice(1))).slice(0, 3);
         
-        let badgesHtml = catsArr.map(c => `<span class="day-badge">${c}</span>`).join("");
-        if (cats.size > 2) badgesHtml += `<span class="day-badge">+${cats.size - 2}</span>`;
+        let badgesHtml = catsArr.map(c => `<span class="day-badge cat-${c}">${c}</span>`).join("");
+        if (cats.size > 3) badgesHtml += `<span class="day-badge" style="background:#ddd;color:#444;">+${cats.size - 3}</span>`;
         
         div.innerHTML = `<span class="day-number">${d}</span><div class="day-badges">${badgesHtml}</div>`;
         
@@ -429,7 +490,7 @@ function showDayDetails(dateStr, tournoisDuJour) {
     list.innerHTML = tournoisDuJour.map(t => `
         <div class="day-tournoi">
             <div class="day-tournoi-titre">${t.nom}</div>
-            <div class="day-tournoi-info"><span class="badge">${t.categories_str}</span> ${t.epreuves || ""}</div>
+            <div class="day-tournoi-info"><span class="badge cat-${t.categories[0] || 'P25'}">${t.categories_str}</span> ${t.epreuves || ""}</div>
             <div class="day-tournoi-info">📍 ${t.ville} — ${t.club}</div>
             <div class="day-tournoi-info">⚖️ ${t.juge}</div>
             ${t.tel ? `<div class="day-tournoi-info">📞 ${t.tel}</div>` : ""}
@@ -447,7 +508,6 @@ document.getElementById("next-month").addEventListener("click", () => {
     refreshCalendar();
 });
 
-// ----- TOGGLE VUE -----
 document.querySelectorAll(".view-btn").forEach(btn => {
     btn.addEventListener("click", () => {
         document.querySelectorAll(".view-btn").forEach(b => b.classList.remove("active"));
@@ -465,7 +525,6 @@ document.querySelectorAll(".view-btn").forEach(btn => {
     });
 });
 
-// ----- FILTRES -----
 document.querySelectorAll(".filter-btn").forEach(btn => {
     btn.addEventListener("click", () => {
         const type = btn.dataset.type;
@@ -477,7 +536,6 @@ document.querySelectorAll(".filter-btn").forEach(btn => {
     });
 });
 
-// Init
 refreshMap();
 </script>
 </body>
