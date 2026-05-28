@@ -11,6 +11,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "MONTPELLIER",
     "juge": "Thibault SANCHEZ",
     "tel": "06 50 69 25 98",
@@ -29,6 +35,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "MONTPELLIER",
     "juge": "Thibault SANCHEZ",
     "tel": "06 50 69 25 98",
@@ -47,6 +59,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "MONTPELLIER",
     "juge": "Thibault SANCHEZ",
     "tel": "06 50 69 25 98",
@@ -65,6 +83,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "MONTPELLIER",
     "juge": "Thibault SANCHEZ",
     "tel": "06 50 69 25 98",
@@ -83,6 +107,12 @@
       "P25"
     ],
     "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "MONTPELLIER",
     "juge": "Thibault SANCHEZ",
     "tel": "06 50 69 25 98",
@@ -101,6 +131,12 @@
       "P50"
     ],
     "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "MONTPELLIER",
     "juge": "Thibault SANCHEZ",
     "tel": "06 50 69 25 98",
@@ -119,6 +155,12 @@
       "P50"
     ],
     "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Dames"
+      }
+    ],
     "ville": "MONTPELLIER",
     "juge": "Thibault SANCHEZ",
     "tel": "06 50 69 25 98",
@@ -137,6 +179,12 @@
       "P250"
     ],
     "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "MONTPELLIER",
     "juge": "Yannis PELE",
     "tel": "06 78 58 60 72",
@@ -153,6 +201,12 @@
     "date_fin_iso": "2026-06-08",
     "categories": [],
     "categories_str": "Non precisee",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "CASTELNAU LE LEZ",
     "juge": "Enjie BLOTIERRE",
     "tel": "04 67 69 93 27",
@@ -169,6 +223,12 @@
     "date_fin_iso": "2026-06-01",
     "categories": [],
     "categories_str": "Non precisee",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "CASTELNAU LE LEZ",
     "juge": "Franck LEPRETTE",
     "tel": "04 67 69 93 27",
@@ -187,6 +247,16 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      },
+      {
+        "categorie": "P100",
+        "genre": "Dames"
+      }
+    ],
     "ville": "LATTES",
     "juge": "Thibaut VOL",
     "tel": "06 85 47 93 26",
@@ -205,6 +275,12 @@
       "P50"
     ],
     "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LATTES",
     "juge": "Non precise",
     "tel": "06 85 47 93 26",
@@ -223,6 +299,12 @@
       "P250"
     ],
     "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Mixte"
+      }
+    ],
     "ville": "LATTES",
     "juge": "Non precise",
     "tel": "06 85 47 93 26",
@@ -241,6 +323,12 @@
       "P25"
     ],
     "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LATTES",
     "juge": "Thibaut VOL",
     "tel": "06 85 47 93 26",
@@ -259,6 +347,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LATTES",
     "juge": "Thibaut VOL",
     "tel": "06 85 47 93 26",
@@ -277,6 +371,12 @@
       "P25"
     ],
     "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LATTES",
     "juge": "Thibaut VOL",
     "tel": "06 85 47 93 26",
@@ -295,6 +395,12 @@
       "P250"
     ],
     "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "GRABELS",
     "juge": "Catherine FOURAGE",
     "tel": "04 67 54 45 24",
@@ -313,6 +419,12 @@
       "P250"
     ],
     "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "SAINT GEORGES D'ORQUES",
     "juge": "Jean Louis DARLAY",
     "tel": "26 06 88 21 40",
@@ -332,6 +444,7 @@
       "P500"
     ],
     "categories_str": "P25 / P500",
+    "epreuves_detail": [],
     "ville": "LATTES",
     "juge": "François LORENZO",
     "tel": "04 72 89 74 59",
@@ -351,6 +464,16 @@
       "P250"
     ],
     "categories_str": "P25 / P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      },
+      {
+        "categorie": "P250",
+        "genre": "Mixte"
+      }
+    ],
     "ville": "LATTES",
     "juge": "François LORENZO",
     "tel": "04 72 89 74 59",
@@ -370,6 +493,16 @@
       "P250"
     ],
     "categories_str": "P100 / P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      },
+      {
+        "categorie": "P250",
+        "genre": "Dames"
+      }
+    ],
     "ville": "LATTES",
     "juge": "François LORENZO",
     "tel": "04 72 89 74 59",
@@ -388,6 +521,12 @@
       "P500"
     ],
     "categories_str": "P500",
+    "epreuves_detail": [
+      {
+        "categorie": "P500",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LATTES",
     "juge": "François LORENZO",
     "tel": "04 72 89 74 59",
@@ -406,6 +545,16 @@
       "P50"
     ],
     "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      },
+      {
+        "categorie": "P50",
+        "genre": "Mixte"
+      }
+    ],
     "ville": "LATTES",
     "juge": "François LORENZO",
     "tel": "04 72 89 74 59",
@@ -424,6 +573,16 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Dames"
+      },
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LATTES",
     "juge": "François LORENZO",
     "tel": "04 72 89 74 59",
@@ -442,6 +601,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LATTES",
     "juge": "François LORENZO",
     "tel": "04 72 89 74 59",
@@ -461,6 +626,16 @@
       "P100"
     ],
     "categories_str": "P50 / P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      },
+      {
+        "categorie": "P100",
+        "genre": "Mixte"
+      }
+    ],
     "ville": "LATTES",
     "juge": "François LORENZO",
     "tel": "04 72 89 74 59",
@@ -479,6 +654,12 @@
       "P25"
     ],
     "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LATTES",
     "juge": "François LORENZO",
     "tel": "04 72 89 74 59",
@@ -499,6 +680,20 @@
       "P250"
     ],
     "categories_str": "P25 / P100 / P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Dames"
+      },
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      },
+      {
+        "categorie": "P250",
+        "genre": "Mixte"
+      }
+    ],
     "ville": "LATTES",
     "juge": "François LORENZO 34970 LATTES Senior Double Mixte",
     "tel": "04 72 89 74 59",
@@ -518,6 +713,16 @@
       "P250"
     ],
     "categories_str": "P100 / P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Dames"
+      },
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LATTES",
     "juge": "François LORENZO",
     "tel": "04 72 89 74 59",
@@ -536,6 +741,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LATTES",
     "juge": "François LORENZO",
     "tel": "04 72 89 74 59",
@@ -555,6 +766,16 @@
       "P500"
     ],
     "categories_str": "P100 / P500",
+    "epreuves_detail": [
+      {
+        "categorie": "P500",
+        "genre": "Dames"
+      },
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LATTES",
     "juge": "François LORENZO",
     "tel": "04 72 89 74 59",
@@ -574,6 +795,16 @@
       "P250"
     ],
     "categories_str": "P50 / P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Dames"
+      },
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LATTES",
     "juge": "François LORENZO",
     "tel": "04 72 89 74 59",
@@ -592,6 +823,12 @@
       "P250"
     ],
     "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LATTES",
     "juge": "François LORENZO",
     "tel": "04 72 89 74 59",
@@ -611,6 +848,16 @@
       "P100"
     ],
     "categories_str": "P25 / P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      },
+      {
+        "categorie": "P25",
+        "genre": "Mixte"
+      }
+    ],
     "ville": "LATTES",
     "juge": "François LORENZO",
     "tel": "04 72 89 74 59",
@@ -629,6 +876,12 @@
       "P50"
     ],
     "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "PALAVAS LES FLOTS",
     "juge": "Alexandre GUTKNECHT",
     "tel": "09 77 38 54 82",
@@ -647,6 +900,12 @@
       "P50"
     ],
     "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Mixte"
+      }
+    ],
     "ville": "PALAVAS LES FLOTS",
     "juge": "François LORENZO",
     "tel": "09 77 38 54 82",
@@ -665,6 +924,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "PALAVAS LES FLOTS",
     "juge": "François LORENZO",
     "tel": "09 77 38 54 82",
@@ -683,6 +948,12 @@
       "P50"
     ],
     "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "PALAVAS LES FLOTS",
     "juge": "Alexandre GUTKNECHT",
     "tel": "09 77 38 54 82",
@@ -701,6 +972,12 @@
       "P250"
     ],
     "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "PALAVAS LES FLOTS",
     "juge": "François LORENZO",
     "tel": "09 77 38 54 82",
@@ -719,6 +996,12 @@
       "P500"
     ],
     "categories_str": "P500",
+    "epreuves_detail": [
+      {
+        "categorie": "P500",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "PALAVAS LES FLOTS",
     "juge": "François LORENZO",
     "tel": "09 77 38 54 82",
@@ -737,6 +1020,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Dames"
+      }
+    ],
     "ville": "PALAVAS LES FLOTS",
     "juge": "François LORENZO",
     "tel": "09 77 38 54 82",
@@ -755,6 +1044,12 @@
       "P25"
     ],
     "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "PALAVAS LES FLOTS",
     "juge": "Alexandre GUTKNECHT",
     "tel": "09 77 38 54 82",
@@ -773,6 +1068,12 @@
       "P50"
     ],
     "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "PALAVAS LES FLOTS",
     "juge": "François LORENZO",
     "tel": "09 77 38 54 82",
@@ -791,6 +1092,12 @@
       "P25"
     ],
     "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "PALAVAS LES FLOTS",
     "juge": "Alexandre GUTKNECHT",
     "tel": "09 77 38 54 82",
@@ -809,6 +1116,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Dames"
+      }
+    ],
     "ville": "PALAVAS LES FLOTS",
     "juge": "François LORENZO",
     "tel": "09 77 38 54 82",
@@ -827,6 +1140,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Mixte"
+      }
+    ],
     "ville": "PALAVAS LES FLOTS",
     "juge": "François LORENZO",
     "tel": "09 77 38 54 82",
@@ -845,6 +1164,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "PALAVAS LES FLOTS",
     "juge": "Alexandre GUTKNECHT",
     "tel": "09 77 38 54 82",
@@ -863,6 +1188,12 @@
       "P25"
     ],
     "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Mixte"
+      }
+    ],
     "ville": "PALAVAS LES FLOTS",
     "juge": "François LORENZO",
     "tel": "09 77 38 54 82",
@@ -881,6 +1212,12 @@
       "P25"
     ],
     "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "PALAVAS LES FLOTS",
     "juge": "François LORENZO",
     "tel": "09 77 38 54 82",
@@ -899,6 +1236,12 @@
       "P250"
     ],
     "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "PALAVAS LES FLOTS",
     "juge": "François LORENZO",
     "tel": "09 77 38 54 82",
@@ -917,6 +1260,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "PALAVAS LES FLOTS",
     "juge": "Alexandre GUTKNECHT",
     "tel": "09 77 38 54 82",
@@ -935,6 +1284,12 @@
       "P50"
     ],
     "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "PALAVAS LES FLOTS",
     "juge": "Alexandre GUTKNECHT",
     "tel": "09 77 38 54 82",
@@ -953,6 +1308,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "PALAVAS LES FLOTS",
     "juge": "François LORENZO",
     "tel": "09 77 38 54 82",
@@ -971,6 +1332,12 @@
       "P250"
     ],
     "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Dames"
+      }
+    ],
     "ville": "PALAVAS LES FLOTS",
     "juge": "François LORENZO",
     "tel": "09 77 38 54 82",
@@ -989,6 +1356,16 @@
       "P25"
     ],
     "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      },
+      {
+        "categorie": "P100",
+        "genre": "Dames"
+      }
+    ],
     "ville": "VAILHAUQUES",
     "juge": "Non precise",
     "tel": "09 67 05 92 81",
@@ -1007,6 +1384,12 @@
       "P1000"
     ],
     "categories_str": "P1000",
+    "epreuves_detail": [
+      {
+        "categorie": "P1000",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "VAILHAUQUES",
     "juge": "Non precise",
     "tel": "09 67 05 92 81",
@@ -1025,6 +1408,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "VAILHAUQUES",
     "juge": "Non precise",
     "tel": "09 67 05 92 81",
@@ -1044,6 +1433,16 @@
       "P250"
     ],
     "categories_str": "P25 / P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      },
+      {
+        "categorie": "P25",
+        "genre": "Mixte"
+      }
+    ],
     "ville": "VAILHAUQUES",
     "juge": "Non precise",
     "tel": "09 67 05 92 81",
@@ -1062,6 +1461,12 @@
       "P50"
     ],
     "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "VAILHAUQUES",
     "juge": "Non precise",
     "tel": "09 67 05 92 81",
@@ -1080,6 +1485,12 @@
       "P250"
     ],
     "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "VAILHAUQUES",
     "juge": "Non precise",
     "tel": "09 67 05 92 81",
@@ -1098,6 +1509,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "VAILHAUQUES",
     "juge": "Non precise",
     "tel": "09 67 05 92 81",
@@ -1116,6 +1533,16 @@
       "P500"
     ],
     "categories_str": "P500",
+    "epreuves_detail": [
+      {
+        "categorie": "P500",
+        "genre": "Messieurs"
+      },
+      {
+        "categorie": "P100",
+        "genre": "Dames"
+      }
+    ],
     "ville": "VAILHAUQUES",
     "juge": "Non precise",
     "tel": "09 67 05 92 81",
@@ -1135,6 +1562,16 @@
       "P250"
     ],
     "categories_str": "P25 / P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      },
+      {
+        "categorie": "P25",
+        "genre": "Mixte"
+      }
+    ],
     "ville": "VAILHAUQUES",
     "juge": "Non precise",
     "tel": "09 67 05 92 81",
@@ -1153,6 +1590,16 @@
       "P250"
     ],
     "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      },
+      {
+        "categorie": "P25",
+        "genre": "Dames"
+      }
+    ],
     "ville": "VAILHAUQUES",
     "juge": "Non precise",
     "tel": "09 67 05 92 81",
@@ -1172,6 +1619,16 @@
       "P500"
     ],
     "categories_str": "P100 / P500",
+    "epreuves_detail": [
+      {
+        "categorie": "P500",
+        "genre": "Messieurs"
+      },
+      {
+        "categorie": "P100",
+        "genre": "Mixte"
+      }
+    ],
     "ville": "VAILHAUQUES",
     "juge": "Non precise",
     "tel": "09 67 05 92 81",
@@ -1190,6 +1647,12 @@
       "P25"
     ],
     "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "VAILHAUQUES",
     "juge": "Non precise",
     "tel": "09 67 05 92 81",
@@ -1208,6 +1671,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "VAILHAUQUES",
     "juge": "Non precise",
     "tel": "09 67 05 92 81",
@@ -1226,6 +1695,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "VAILHAUQUES",
     "juge": "Non precise",
     "tel": "09 67 05 92 81",
@@ -1244,6 +1719,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "VAILHAUQUES",
     "juge": "Tangui MAURICE",
     "tel": "09 67 05 92 81",
@@ -1262,6 +1743,12 @@
       "P25"
     ],
     "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "VAILHAUQUES",
     "juge": "Tangui MAURICE",
     "tel": "09 67 05 92 81",
@@ -1280,6 +1767,12 @@
       "P50"
     ],
     "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "VAILHAUQUES",
     "juge": "Non precise",
     "tel": "09 67 05 92 81",
@@ -1298,6 +1791,12 @@
       "P50"
     ],
     "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "VAILHAUQUES",
     "juge": "Non precise",
     "tel": "09 67 05 92 81",
@@ -1316,6 +1815,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "VAILHAUQUES",
     "juge": "Non precise",
     "tel": "09 67 05 92 81",
@@ -1334,6 +1839,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "VAILHAUQUES",
     "juge": "Non precise",
     "tel": "09 67 05 92 81",
@@ -1352,6 +1863,12 @@
       "P1000"
     ],
     "categories_str": "P1000",
+    "epreuves_detail": [
+      {
+        "categorie": "P1000",
+        "genre": "Dames"
+      }
+    ],
     "ville": "MAUGUIO",
     "juge": "Franck LEPRETTE",
     "tel": "06 25 29 52 43",
@@ -1370,6 +1887,12 @@
       "P250"
     ],
     "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Dames"
+      }
+    ],
     "ville": "MAUGUIO",
     "juge": "Patrick PINON",
     "tel": "06 25 29 52 43",
@@ -1388,6 +1911,12 @@
       "P50"
     ],
     "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "MAUGUIO",
     "juge": "Thibaut DALLERY",
     "tel": "06 25 29 52 43",
@@ -1406,6 +1935,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Mixte"
+      }
+    ],
     "ville": "MAUGUIO",
     "juge": "Thibaut DALLERY",
     "tel": "06 25 29 52 43",
@@ -1424,6 +1959,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "MAUGUIO",
     "juge": "Ludovic ARS",
     "tel": "06 25 29 52 43",
@@ -1442,6 +1983,12 @@
       "P250"
     ],
     "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "MAUGUIO",
     "juge": "Patrick PINON",
     "tel": "06 25 29 52 43",
@@ -1458,6 +2005,7 @@
     "date_fin_iso": "2026-08-29",
     "categories": [],
     "categories_str": "Non precisee",
+    "epreuves_detail": [],
     "ville": "BAILLARGUES",
     "juge": "Jean François PLANCHAIS 04 67 87 10 50 Senior Double Messieurs",
     "tel": "04 67 87 10 50",
@@ -1476,6 +2024,12 @@
       "P1000"
     ],
     "categories_str": "P1000",
+    "epreuves_detail": [
+      {
+        "categorie": "P1000",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "BAILLARGUES",
     "juge": "Non precise",
     "tel": "04 67 87 10 50",
@@ -1494,6 +2048,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Dames"
+      }
+    ],
     "ville": "BAILLARGUES",
     "juge": "Jean Bernard BLANCA",
     "tel": "04 67 87 10 50",
@@ -1512,6 +2072,12 @@
       "P25"
     ],
     "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "BAILLARGUES",
     "juge": "KEVIN GENESTE",
     "tel": "04 67 87 10 50",
@@ -1530,6 +2096,12 @@
       "P25"
     ],
     "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Dames"
+      }
+    ],
     "ville": "BAILLARGUES",
     "juge": "Nicolas BRU",
     "tel": "04 67 87 10 50",
@@ -1548,6 +2120,12 @@
       "P250"
     ],
     "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Mixte"
+      }
+    ],
     "ville": "BAILLARGUES",
     "juge": "Jean François PLANCHAIS",
     "tel": "04 67 87 10 50",
@@ -1564,6 +2142,7 @@
     "date_fin_iso": "2026-06-13",
     "categories": [],
     "categories_str": "Non precisee",
+    "epreuves_detail": [],
     "ville": "BAILLARGUES",
     "juge": "fabien LESME",
     "tel": "04 67 87 10 50",
@@ -1582,6 +2161,12 @@
       "P500"
     ],
     "categories_str": "P500",
+    "epreuves_detail": [
+      {
+        "categorie": "P500",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "BAILLARGUES",
     "juge": "LOIC VOSSIER",
     "tel": "04 67 87 10 50",
@@ -1600,6 +2185,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Dames"
+      }
+    ],
     "ville": "BAILLARGUES",
     "juge": "Jean François PLANCHAIS",
     "tel": "04 67 87 10 50",
@@ -1618,6 +2209,12 @@
       "P250"
     ],
     "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "BAILLARGUES",
     "juge": "Jean François PLANCHAIS",
     "tel": "04 67 87 10 50",
@@ -1636,6 +2233,20 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      },
+      {
+        "categorie": "P100",
+        "genre": "Dames"
+      },
+      {
+        "categorie": "P100",
+        "genre": "Mixte"
+      }
+    ],
     "ville": "CASTRIES",
     "juge": "Guillaume GRASSER 04 67 87 35 10 Senior Double Mixte",
     "tel": "04 67 87 35 10",
@@ -1654,6 +2265,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "CASTRIES",
     "juge": "Nathan RIBAULT",
     "tel": "06 26 86 53 23",
@@ -1672,6 +2289,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Mixte"
+      }
+    ],
     "ville": "CASTRIES",
     "juge": "Yannis PELE",
     "tel": "06 78 58 60 72",
@@ -1690,6 +2313,12 @@
       "P500"
     ],
     "categories_str": "P500",
+    "epreuves_detail": [
+      {
+        "categorie": "P500",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "CASTRIES",
     "juge": "Yannis PELE",
     "tel": "26 06 77 99 29",
@@ -1708,6 +2337,16 @@
       "P25"
     ],
     "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      },
+      {
+        "categorie": "P25",
+        "genre": "Dames"
+      }
+    ],
     "ville": "VIC LA GARDIOLE",
     "juge": "Axel SABALETE 06 81 01 09 94 45 Double Messieurs",
     "tel": "06 81 01 09 94",
@@ -1726,6 +2365,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Dames"
+      }
+    ],
     "ville": "RESTINCLIERES",
     "juge": "Yannis PELE",
     "tel": "06 78 58 60 72",
@@ -1744,6 +2389,12 @@
       "P25"
     ],
     "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Dames"
+      }
+    ],
     "ville": "RESTINCLIERES",
     "juge": "Yannis PELE",
     "tel": "06 78 58 60 72",
@@ -1762,6 +2413,12 @@
       "P50"
     ],
     "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "RESTINCLIERES",
     "juge": "Yannis PELE",
     "tel": "06 78 58 60 72",
@@ -1780,6 +2437,12 @@
       "P250"
     ],
     "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "RESTINCLIERES",
     "juge": "Yannis PELE",
     "tel": "06 78 58 60 72",
@@ -1798,6 +2461,12 @@
       "P250"
     ],
     "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "RESTINCLIERES",
     "juge": "Yannis PELE",
     "tel": "06 78 58 60 72",
@@ -1817,6 +2486,16 @@
       "P250"
     ],
     "categories_str": "P100 / P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      },
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "RESTINCLIERES",
     "juge": "Yannis PELE",
     "tel": "06 78 58 60 72",
@@ -1835,6 +2514,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Mixte"
+      }
+    ],
     "ville": "LUNEL VIEL",
     "juge": "Thibaut ROUVIERE",
     "tel": "04 34 11 16 50",
@@ -1853,6 +2538,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LUNEL VIEL",
     "juge": "Christophe BRUNET",
     "tel": "04 34 11 16 50",
@@ -1871,6 +2562,12 @@
       "P25"
     ],
     "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LUNEL VIEL",
     "juge": "Christophe BRUNET",
     "tel": "04 34 11 16 50",
@@ -1889,6 +2586,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LUNEL VIEL",
     "juge": "Christophe BRUNET",
     "tel": "04 34 11 16 50",
@@ -1907,6 +2610,12 @@
       "P50"
     ],
     "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LUNEL VIEL",
     "juge": "Christophe BRUNET",
     "tel": "04 34 11 16 50",
@@ -1925,6 +2634,12 @@
       "P50"
     ],
     "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LUNEL VIEL",
     "juge": "Sebastien MAURIN",
     "tel": "04 34 11 16 50",
@@ -1943,6 +2658,12 @@
       "P250"
     ],
     "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LUNEL VIEL",
     "juge": "Yannis PELE",
     "tel": "04 34 11 16 50",
@@ -1961,6 +2682,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Dames"
+      }
+    ],
     "ville": "LUNEL VIEL",
     "juge": "Christophe BRUNET",
     "tel": "04 34 11 16 50",
@@ -1979,6 +2706,12 @@
       "P25"
     ],
     "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LUNEL VIEL",
     "juge": "Christophe BRUNET",
     "tel": "04 34 11 16 50",
@@ -1997,6 +2730,12 @@
       "P250"
     ],
     "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LUNEL VIEL",
     "juge": "Thibaut ROUVIERE",
     "tel": "04 34 11 16 50",
@@ -2015,6 +2754,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LUNEL VIEL",
     "juge": "Sebastien MAURIN",
     "tel": "04 34 11 16 50",
@@ -2033,6 +2778,12 @@
       "P50"
     ],
     "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LUNEL VIEL",
     "juge": "Christophe BRUNET",
     "tel": "04 34 11 16 50",
@@ -2051,6 +2802,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LA GRANDE MOTTE",
     "juge": "Alexandre GUTKNECHT",
     "tel": "06 83 93 43 25",
@@ -2069,6 +2826,12 @@
       "P50"
     ],
     "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LA GRANDE MOTTE",
     "juge": "Alexandre GUTKNECHT",
     "tel": "06 83 93 43 25",
@@ -2087,6 +2850,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Mixte"
+      }
+    ],
     "ville": "LA GRANDE MOTTE",
     "juge": "Christophe PERROT",
     "tel": "06 83 93 43 25",
@@ -2105,6 +2874,12 @@
       "P100"
     ],
     "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LA GRANDE MOTTE",
     "juge": "Alexandre GUTKNECHT",
     "tel": "06 83 93 43 25",
@@ -2123,6 +2898,12 @@
       "P50"
     ],
     "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LA GRANDE MOTTE",
     "juge": "Alexandre GUTKNECHT",
     "tel": "06 83 93 43 25",
@@ -2141,6 +2922,12 @@
       "P250"
     ],
     "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LA GRANDE MOTTE",
     "juge": "François LORENZO",
     "tel": "06 83 93 43 25",
@@ -2159,6 +2946,12 @@
       "P25"
     ],
     "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "LA GRANDE MOTTE",
     "juge": "Alexandre GUTKNECHT",
     "tel": "06 83 93 43 25",
@@ -2177,6 +2970,12 @@
       "P1500"
     ],
     "categories_str": "P1500",
+    "epreuves_detail": [
+      {
+        "categorie": "P1500",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "SETE",
     "juge": "François Xavier CONINCK",
     "tel": "09 85 02 96 74",
@@ -2196,6 +2995,16 @@
       "P100"
     ],
     "categories_str": "P25 / P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Dames"
+      },
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "SETE",
     "juge": "Guillaume LARY",
     "tel": "09 85 02 96 74",
@@ -2215,6 +3024,16 @@
       "P1000"
     ],
     "categories_str": "P500 / P1000",
+    "epreuves_detail": [
+      {
+        "categorie": "P1000",
+        "genre": "Dames"
+      },
+      {
+        "categorie": "P500",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "SETE",
     "juge": "Mathilde LARY",
     "tel": "09 85 02 96 74",
@@ -2233,6 +3052,12 @@
       "P25"
     ],
     "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Dames"
+      }
+    ],
     "ville": "SETE",
     "juge": "Guillaume LARY",
     "tel": "09 85 02 96 74",
@@ -2252,6 +3077,16 @@
       "P100"
     ],
     "categories_str": "P50 / P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Mixte"
+      },
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "SETE",
     "juge": "Guillaume LARY",
     "tel": "09 85 02 96 74",
@@ -2271,6 +3106,16 @@
       "P250"
     ],
     "categories_str": "P100 / P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Dames"
+      },
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "SETE",
     "juge": "Guillaume LARY",
     "tel": "09 85 02 96 74",
@@ -2289,6 +3134,12 @@
       "P50"
     ],
     "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "SETE",
     "juge": "Guillaume LARY",
     "tel": "09 85 02 96 74",
@@ -2307,6 +3158,12 @@
       "P25"
     ],
     "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "SETE",
     "juge": "Guillaume LARY",
     "tel": "09 85 02 96 74",
@@ -2325,6 +3182,12 @@
       "P250"
     ],
     "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "SETE",
     "juge": "Guillaume LARY",
     "tel": "09 85 02 96 74",
@@ -2343,6 +3206,12 @@
       "P500"
     ],
     "categories_str": "P500",
+    "epreuves_detail": [
+      {
+        "categorie": "P500",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "SETE",
     "juge": "Mathilde LARY",
     "tel": "09 85 02 96 74",
@@ -2362,6 +3231,16 @@
       "P100"
     ],
     "categories_str": "P50 / P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Mixte"
+      },
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "SETE",
     "juge": "Fabien DUGRIP",
     "tel": "09 85 02 96 74",

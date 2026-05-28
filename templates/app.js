@@ -1,6 +1,3 @@
-// =============================================================
-// CHARGEMENT DES DONNEES
-// =============================================================
 let tournois = [];
 let filtres = { cat: "all", genre: "all", dateFrom: "", dateTo: "" };
 let markers = [];
@@ -16,7 +13,21 @@ function formatDateISO(d) {
     return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 }
 
-// Charger les données puis initialiser
+// Genere les badges multi-couleurs depuis epreuves_detail (source riche)
+function badgesHtml(t) {
+    const paires = t.epreuves_detail || [];
+    if (paires.length === 0) {
+        // Fallback : on utilise categories si epreuves_detail vide
+        if (!t.categories || t.categories.length === 0) {
+            return '<span class="badge cat-P25">?</span>';
+        }
+        return t.categories.map(c => '<span class="badge cat-' + c + '">' + c + '</span>').join(" ");
+    }
+    // Extraire les catégories uniques depuis les paires
+    const cats = [...new Set(paires.map(p => p.categorie))].sort((a, b) => parseInt(a.slice(1)) - parseInt(b.slice(1)));
+    return cats.map(c => '<span class="badge cat-' + c + '">' + c + '</span>').join(" ");
+}
+
 fetch("tournois.json")
     .then(r => r.json())
     .then(data => {
@@ -25,9 +36,6 @@ fetch("tournois.json")
         refreshMap();
     });
 
-// =============================================================
-// CARTE
-// =============================================================
 function initMap() {
     const avgLat = tournois.reduce((s, t) => s + t.lat, 0) / tournois.length;
     const avgLon = tournois.reduce((s, t) => s + t.lon, 0) / tournois.length;
@@ -49,7 +57,7 @@ function initMap() {
 function popupHtml(t) {
     return '<div class="popup-tournoi">' +
         '<h3>' + t.nom + '</h3>' +
-        '<div class="info"><span class="badge cat-' + (t.categories[0] || 'P25') + '">' + t.categories_str + '</span></div>' +
+        '<div class="info">' + badgesHtml(t) + '</div>' +
         '<div class="info"><span class="label">Club</span><br>' + t.club + '</div>' +
         '<div class="info"><span class="label">Lieu</span><br>' + t.ville + '</div>' +
         '<div class="info"><span class="label">Dates</span><br>' + t.dates + '</div>' +
@@ -60,16 +68,21 @@ function popupHtml(t) {
         '</div>';
 }
 
-// =============================================================
-// FILTRAGE
-// =============================================================
 function filtrer() {
     return tournois.filter(t => {
-        if (filtres.cat !== "all" && !t.categories.includes(filtres.cat)) return false;
-        if (filtres.genre !== "all" && !t.epreuves.includes(filtres.genre)) return false;
         if (filtres.dateFrom && t.date_fin_iso < filtres.dateFrom) return false;
         if (filtres.dateTo && t.date_debut_iso > filtres.dateTo) return false;
-        return true;
+        
+        if (filtres.cat === "all" && filtres.genre === "all") return true;
+        
+        const paires = t.epreuves_detail || [];
+        if (paires.length === 0) return false;
+        
+        return paires.some(p => {
+            if (filtres.cat !== "all" && p.categorie !== filtres.cat) return false;
+            if (filtres.genre !== "all" && p.genre !== filtres.genre) return false;
+            return true;
+        });
     });
 }
 
@@ -86,9 +99,6 @@ function refreshMap() {
     document.getElementById("count").textContent = visibles.length + " tournois";
 }
 
-// =============================================================
-// CALENDRIER
-// =============================================================
 function refreshCalendar() {
     const visibles = filtrer();
     const year = currentMonth.getFullYear();
@@ -113,9 +123,7 @@ function refreshCalendar() {
 
     for (let d = 1; d <= lastDay.getDate(); d++) {
         const dateStr = `${year}-${String(month + 1).padStart(2, "0")}-${String(d).padStart(2, "0")}`;
-        const tournoisDuJour = visibles.filter(t => {
-            return t.date_debut_iso <= dateStr && dateStr <= t.date_fin_iso;
-        });
+        const tournoisDuJour = visibles.filter(t => t.date_debut_iso <= dateStr && dateStr <= t.date_fin_iso);
 
         const div = document.createElement("div");
         div.className = "calendar-day";
@@ -131,15 +139,21 @@ function refreshCalendar() {
             }
         }
 
-        const cats = new Set();
-        tournoisDuJour.forEach(t => t.categories.forEach(c => cats.add(c)));
-        const catsFiltrees = filtres.cat === "all" ? Array.from(cats) : Array.from(cats).filter(c => c === filtres.cat);
-        const catsArr = catsFiltrees.sort((a, b) => parseInt(a.slice(1)) - parseInt(b.slice(1))).slice(0, 3);
+        const catsTrouvees = new Set();
+        tournoisDuJour.forEach(t => {
+            const paires = t.epreuves_detail || [];
+            paires.forEach(p => {
+                if (filtres.cat !== "all" && p.categorie !== filtres.cat) return;
+                if (filtres.genre !== "all" && p.genre !== filtres.genre) return;
+                catsTrouvees.add(p.categorie);
+            });
+        });
+        
+        const catsArr = Array.from(catsTrouvees).sort((a, b) => parseInt(a.slice(1)) - parseInt(b.slice(1))).slice(0, 3);
+        let html = catsArr.map(c => '<span class="day-badge cat-' + c + '">' + c + '</span>').join("");
+        if (catsTrouvees.size > 3) html += '<span class="day-badge" style="background:#ddd;color:#444;">+' + (catsTrouvees.size - 3) + '</span>';
 
-        let badgesHtml = catsArr.map(c => `<span class="day-badge cat-${c}">${c}</span>`).join("");
-        if (catsFiltrees.length > 3) badgesHtml += `<span class="day-badge" style="background:#ddd;color:#444;">+${catsFiltrees.length - 3}</span>`;
-
-        div.innerHTML = `<span class="day-number">${d}</span><div class="day-badges">${badgesHtml}</div>`;
+        div.innerHTML = '<span class="day-number">' + d + '</span><div class="day-badges">' + html + '</div>';
 
         div.addEventListener("click", () => {
             selectedDay = dateStr;
@@ -153,7 +167,7 @@ function refreshCalendar() {
 
 function showDayDetails(dateStr, tournoisDuJour) {
     const [y, m, d] = dateStr.split("-");
-    document.getElementById("day-title").textContent = `${d}/${m}/${y} — ${tournoisDuJour.length} tournoi${tournoisDuJour.length > 1 ? "s" : ""}`;
+    document.getElementById("day-title").textContent = d + "/" + m + "/" + y + " — " + tournoisDuJour.length + " tournoi" + (tournoisDuJour.length > 1 ? "s" : "");
 
     const list = document.getElementById("day-list");
     if (tournoisDuJour.length === 0) {
@@ -161,21 +175,18 @@ function showDayDetails(dateStr, tournoisDuJour) {
         return;
     }
 
-    list.innerHTML = tournoisDuJour.map(t => `
-        <div class="day-tournoi">
-            <div class="day-tournoi-titre">${t.nom}</div>
-            <div class="day-tournoi-info"><span class="badge cat-${t.categories[0] || 'P25'}">${t.categories_str}</span> ${t.epreuves || ""}</div>
-            <div class="day-tournoi-info">📍 ${t.ville} — ${t.club}</div>
-            <div class="day-tournoi-info">⚖️ ${t.juge}</div>
-            ${t.tel ? `<div class="day-tournoi-info">📞 ${t.tel}</div>` : ""}
-            ${t.email ? `<div class="day-tournoi-info">✉️ <a href="mailto:${t.email}">${t.email}</a></div>` : ""}
-        </div>
-    `).join("");
+    list.innerHTML = tournoisDuJour.map(t => 
+        '<div class="day-tournoi">' +
+            '<div class="day-tournoi-titre">' + t.nom + '</div>' +
+            '<div class="day-tournoi-info">' + badgesHtml(t) + ' ' + (t.epreuves || "") + '</div>' +
+            '<div class="day-tournoi-info">📍 ' + t.ville + ' — ' + t.club + '</div>' +
+            '<div class="day-tournoi-info">⚖️ ' + t.juge + '</div>' +
+            (t.tel ? '<div class="day-tournoi-info">📞 ' + t.tel + '</div>' : "") +
+            (t.email ? '<div class="day-tournoi-info">✉️ <a href="mailto:' + t.email + '">' + t.email + '</a></div>' : "") +
+        '</div>'
+    ).join("");
 }
 
-// =============================================================
-// EVENEMENTS
-// =============================================================
 document.getElementById("prev-month").addEventListener("click", () => {
     currentMonth.setMonth(currentMonth.getMonth() - 1);
     refreshCalendar();
@@ -206,7 +217,7 @@ document.querySelectorAll(".view-btn").forEach(btn => {
 document.querySelectorAll(".filter-btn").forEach(btn => {
     btn.addEventListener("click", () => {
         const type = btn.dataset.type;
-        document.querySelectorAll(`.filter-btn[data-type="${type}"]`).forEach(b => b.classList.remove("active"));
+        document.querySelectorAll(".filter-btn[data-type=\"" + type + "\"]").forEach(b => b.classList.remove("active"));
         btn.classList.add("active");
         filtres[type] = btn.dataset.value;
         refreshMap();
