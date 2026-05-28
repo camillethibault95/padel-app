@@ -49,7 +49,6 @@ html_template = '''<!DOCTYPE html>
 * { box-sizing: border-box; }
 body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f5f6fa; }
 
-/* Couleurs par catégorie - utilisées partout */
 .cat-P25   { background: #e5f5ff; color: #0066a1; }
 .cat-P50   { background: #d4ecff; color: #00528a; }
 .cat-P100  { background: #c6f6d5; color: #1d6f3a; }
@@ -137,7 +136,6 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sa
     color: white;
     border-color: #1a2554;
 }
-/* Pastille de couleur dans les boutons de filtre */
 .filter-btn[data-value^="P"]::before {
     content: "";
     display: inline-block;
@@ -154,11 +152,32 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sa
 .filter-btn[data-value="P500"]::before  { background: #9a3412; }
 .filter-btn[data-value="P1000"]::before { background: #9d174d; }
 
-#map { height: calc(100vh - 215px); }
+.date-input {
+    padding: 6px 10px;
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    font-size: 13px;
+    font-family: inherit;
+    color: #333;
+    cursor: pointer;
+}
+.date-input:focus { outline: none; border-color: #1a2554; }
+.date-separator { color: #888; font-size: 13px; }
+.reset-btn {
+    padding: 6px 12px;
+    border: none;
+    background: transparent;
+    color: #1a2554;
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+#map { height: calc(100vh - 245px); }
 
 #calendar-view {
     display: none;
-    height: calc(100vh - 215px);
+    height: calc(100vh - 245px);
     grid-template-columns: 1fr 380px;
     gap: 16px;
     padding: 16px;
@@ -220,7 +239,10 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sa
     background: #fafafa;
     font-weight: 500;
 }
-/* Jour AUJOURD'HUI : bordure vive */
+.calendar-day.in-range {
+    background: #fffbe5;
+    border-color: #d4ff00;
+}
 .calendar-day.today {
     border-color: #d4ff00;
     box-shadow: 0 0 0 1px #1a2554 inset;
@@ -239,6 +261,9 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sa
 .calendar-day.selected {
     background: #1a2554;
     color: white;
+}
+.calendar-day.out-of-range {
+    opacity: 0.3;
 }
 .day-number {
     font-size: 14px;
@@ -295,7 +320,6 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sa
     margin-right: 4px;
 }
 
-/* Légende couleurs */
 #legend {
     display: flex;
     flex-wrap: wrap;
@@ -361,6 +385,14 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sa
         <button class="filter-btn" data-type="genre" data-value="Dames">Dames</button>
         <button class="filter-btn" data-type="genre" data-value="Mixte">Mixte</button>
     </div>
+    <div class="filter-row">
+        <span class="filter-label">Periode :</span>
+        <span style="font-size:13px;color:#555;">Du</span>
+        <input type="date" id="date-from" class="date-input">
+        <span class="date-separator">au</span>
+        <input type="date" id="date-to" class="date-input">
+        <button class="reset-btn" id="reset-dates">Reinitialiser</button>
+    </div>
 </div>
 
 <div id="map"></div>
@@ -401,7 +433,7 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sa
 
 <script>
 const tournois = __DATA__;
-let filtres = { cat: "all", genre: "all" };
+let filtres = { cat: "all", genre: "all", dateFrom: "", dateTo: "" };
 let markers = [];
 let currentView = "map";
 const today = new Date();
@@ -444,6 +476,9 @@ function filtrer() {
     return tournois.filter(t => {
         if (filtres.cat !== "all" && !t.categories.includes(filtres.cat)) return false;
         if (filtres.genre !== "all" && !t.epreuves.includes(filtres.genre)) return false;
+        // Filtre par plage : on garde si le tournoi chevauche la plage
+        if (filtres.dateFrom && t.date_fin_iso < filtres.dateFrom) return false;
+        if (filtres.dateTo && t.date_debut_iso > filtres.dateTo) return false;
         return true;
     });
 }
@@ -496,13 +531,22 @@ function refreshCalendar() {
         if (selectedDay === dateStr) div.classList.add("selected");
         if (dateStr === todayStr) div.classList.add("today");
         
-        // Badges colorés selon la catégorie
+        // Plage active : on highlight les jours dans la plage
+        if (filtres.dateFrom && filtres.dateTo) {
+            if (dateStr >= filtres.dateFrom && dateStr <= filtres.dateTo) {
+                div.classList.add("in-range");
+            } else {
+                div.classList.add("out-of-range");
+            }
+        }
+        
         const cats = new Set();
         tournoisDuJour.forEach(t => t.categories.forEach(c => cats.add(c)));
-        const catsArr = Array.from(cats).sort((a, b) => parseInt(a.slice(1)) - parseInt(b.slice(1))).slice(0, 3);
+        const catsFiltrees = filtres.cat === "all" ? Array.from(cats) : Array.from(cats).filter(c => c === filtres.cat);
+        const catsArr = catsFiltrees.sort((a, b) => parseInt(a.slice(1)) - parseInt(b.slice(1))).slice(0, 3);
         
         let badgesHtml = catsArr.map(c => `<span class="day-badge cat-${c}">${c}</span>`).join("");
-        if (cats.size > 3) badgesHtml += `<span class="day-badge" style="background:#ddd;color:#444;">+${cats.size - 3}</span>`;
+        if (catsFiltrees.length > 3) badgesHtml += `<span class="day-badge" style="background:#ddd;color:#444;">+${catsFiltrees.length - 3}</span>`;
         
         div.innerHTML = `<span class="day-number">${d}</span><div class="day-badges">${badgesHtml}</div>`;
         
@@ -573,6 +617,36 @@ document.querySelectorAll(".filter-btn").forEach(btn => {
         refreshMap();
         if (currentView === "calendar") refreshCalendar();
     });
+});
+
+// Filtres dates
+const dateFromInput = document.getElementById("date-from");
+const dateToInput = document.getElementById("date-to");
+
+function appliquerDates() {
+    filtres.dateFrom = dateFromInput.value;
+    filtres.dateTo = dateToInput.value;
+    
+    // Si une date "Du" est choisie, on saute au mois correspondant
+    if (filtres.dateFrom) {
+        const d = new Date(filtres.dateFrom);
+        currentMonth = new Date(d.getFullYear(), d.getMonth(), 1);
+    }
+    
+    refreshMap();
+    if (currentView === "calendar") refreshCalendar();
+}
+
+dateFromInput.addEventListener("change", appliquerDates);
+dateToInput.addEventListener("change", appliquerDates);
+
+document.getElementById("reset-dates").addEventListener("click", () => {
+    dateFromInput.value = "";
+    dateToInput.value = "";
+    filtres.dateFrom = "";
+    filtres.dateTo = "";
+    refreshMap();
+    if (currentView === "calendar") refreshCalendar();
 });
 
 refreshMap();
