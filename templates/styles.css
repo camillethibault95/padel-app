@@ -1,0 +1,317 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; background: #f5f6fa; }
+
+/* Couleurs par catégorie */
+.cat-P25   { background: #e5f5ff; color: #0066a1; }
+.cat-P50   { background: #d4ecff; color: #00528a; }
+.cat-P100  { background: #c6f6d5; color: #1d6f3a; }
+.cat-P250  { background: #fef3c7; color: #92400e; }
+.cat-P500  { background: #fed7aa; color: #9a3412; }
+.cat-P1000 { background: #fbcfe8; color: #9d174d; }
+.cat-P1500 { background: #ddd6fe; color: #5b21b6; }
+.cat-P2000 { background: #fecaca; color: #991b1b; }
+
+/* Header */
+#header {
+    background: #1a2554;
+    color: white;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+#header h1 { margin: 0; font-size: 18px; }
+#count {
+    background: #d4ff00;
+    color: #1a2554;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+/* Toggle vues */
+#view-toggle {
+    background: #2a3568;
+    padding: 8px 20px;
+    display: flex;
+    gap: 8px;
+}
+.view-btn {
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    background: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    color: rgba(255,255,255,0.7);
+    font-weight: 500;
+}
+.view-btn.active {
+    background: white;
+    color: #1a2554;
+}
+
+/* Filtres */
+#filters {
+    background: white;
+    padding: 12px 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.filter-row {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 8px;
+}
+.filter-row:last-child { margin-bottom: 0; }
+.filter-label {
+    font-size: 12px;
+    color: #888;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 4px;
+    min-width: 80px;
+}
+.filter-btn {
+    padding: 6px 14px;
+    border: 1px solid #d0d0d0;
+    background: white;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 500;
+    color: #555;
+    transition: all 0.15s;
+}
+.filter-btn:hover { border-color: #1a2554; }
+.filter-btn.active {
+    background: #1a2554;
+    color: white;
+    border-color: #1a2554;
+}
+.filter-btn[data-value^="P"]::before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+.filter-btn[data-value="P25"]::before   { background: #0066a1; }
+.filter-btn[data-value="P50"]::before   { background: #00528a; }
+.filter-btn[data-value="P100"]::before  { background: #1d6f3a; }
+.filter-btn[data-value="P250"]::before  { background: #92400e; }
+.filter-btn[data-value="P500"]::before  { background: #9a3412; }
+.filter-btn[data-value="P1000"]::before { background: #9d174d; }
+
+/* Inputs dates */
+.date-input {
+    padding: 6px 10px;
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    font-size: 13px;
+    font-family: inherit;
+    color: #333;
+    cursor: pointer;
+}
+.date-input:focus { outline: none; border-color: #1a2554; }
+.date-separator { color: #888; font-size: 13px; }
+.reset-btn {
+    padding: 6px 12px;
+    border: none;
+    background: transparent;
+    color: #1a2554;
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+/* Carte */
+#map { height: calc(100vh - 245px); }
+
+/* Calendrier */
+#calendar-view {
+    display: none;
+    height: calc(100vh - 245px);
+    grid-template-columns: 1fr 380px;
+    gap: 16px;
+    padding: 16px;
+}
+#calendar {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    overflow-y: auto;
+}
+#calendar-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 16px;
+}
+#calendar-nav h2 { margin: 0; color: #1a2554; font-size: 20px; text-transform: capitalize; }
+.nav-btn {
+    background: #1a2554;
+    color: white;
+    border: none;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 18px;
+}
+.calendar-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 4px;
+}
+.calendar-header {
+    text-align: center;
+    font-weight: 600;
+    color: #888;
+    font-size: 12px;
+    padding: 8px 0;
+    text-transform: uppercase;
+}
+.calendar-day {
+    aspect-ratio: 1;
+    padding: 6px;
+    border-radius: 6px;
+    background: #f5f6fa;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    transition: all 0.15s;
+    min-height: 60px;
+    border: 2px solid transparent;
+}
+.calendar-day:hover { background: #e5eafd; }
+.calendar-day.empty {
+    background: transparent;
+    cursor: default;
+}
+.calendar-day.has-tournois {
+    background: #fafafa;
+    font-weight: 500;
+}
+.calendar-day.in-range {
+    background: #fffbe5;
+    border-color: #d4ff00;
+}
+.calendar-day.today {
+    border-color: #d4ff00;
+    box-shadow: 0 0 0 1px #1a2554 inset;
+}
+.calendar-day.today .day-number {
+    background: #1a2554;
+    color: #d4ff00;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.calendar-day.selected {
+    background: #1a2554;
+    color: white;
+}
+.calendar-day.out-of-range {
+    opacity: 0.3;
+}
+.day-number {
+    font-size: 14px;
+    margin-bottom: 4px;
+}
+.day-badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+}
+.day-badge {
+    font-size: 9px;
+    padding: 1px 5px;
+    border-radius: 3px;
+    font-weight: 700;
+}
+
+/* Détails jour */
+#day-details {
+    background: white;
+    border-radius: 8px;
+    padding: 20px;
+    overflow-y: auto;
+}
+#day-details h3 { margin: 0 0 12px; color: #1a2554; }
+.day-empty {
+    color: #888;
+    font-style: italic;
+    padding: 20px 0;
+    text-align: center;
+}
+.day-tournoi {
+    border: 1px solid #e5e5e5;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 10px;
+}
+.day-tournoi-titre {
+    font-weight: 600;
+    color: #1a2554;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+.day-tournoi-info {
+    font-size: 12px;
+    color: #666;
+    margin: 2px 0;
+}
+.day-tournoi .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 3px;
+    font-weight: bold;
+    font-size: 10px;
+    margin-right: 4px;
+}
+
+/* Légende */
+#legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 16px;
+    padding-top: 16px;
+    border-top: 1px solid #e5e5e5;
+}
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 11px;
+    color: #666;
+}
+.legend-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+/* Popup carte */
+.popup-tournoi { font-size: 13px; line-height: 1.5; }
+.popup-tournoi h3 { margin: 0 0 8px; color: #1a2554; }
+.popup-tournoi .badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: bold;
+    font-size: 11px;
+    margin-right: 4px;
+}
+.popup-tournoi .info { margin: 4px 0; color: #444; }
+.popup-tournoi .label { color: #888; font-size: 11px; text-transform: uppercase; }

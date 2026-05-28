@@ -3,38 +3,21 @@ venv/
 __pycache__/
 *.pyc
 
-# Fichiers générés
+# Fichiers generes (sauf exceptions ci-dessous)
 *.pdf
-*.html
 *.png
 pdf_texte.txt
+tournois.csv
 
 # Exceptions : on garde
 !docs/*.png
 !index.html
-!tournois.pdf
-
-# OS
-.DS_Store
-
-# IDE
-.vscode/
-YAMLEOF
-cat > .gitignore << 'EOF'
-# Environnement Python
-venv/
-__pycache__/
-*.pyc
-
-# Fichiers générés
-*.pdf
-*.html
-*.png
-pdf_texte.txt
-
-# Exceptions : on garde
-!docs/*.png
-!index.html
+!styles.css
+!app.js
+!tournois.json
+!templates/*.html
+!templates/*.css
+!templates/*.js
 !tournois.pdf
 
 # OS
