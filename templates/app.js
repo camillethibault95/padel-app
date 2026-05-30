@@ -480,3 +480,32 @@ showDayDetails = function(dateStr, tournoisDuJour) {
         dayDetailsPanel.classList.add("mobile-open");
     }
 };
+
+// ----- MOBILE : Bouton "Voir les tournois" (mise à jour temps réel) -----
+const mobileFiltersApply = document.getElementById("mobile-filters-apply");
+
+if (mobileFiltersApply) {
+    // Au clic : fermer le panneau filtres
+    mobileFiltersApply.addEventListener("click", () => {
+        filtersPanel.classList.remove("mobile-open");
+    });
+    
+    // Mettre à jour le texte avec le nombre de résultats
+    const updateApplyButton = () => {
+        const visibles = filtrer();
+        mobileFiltersApply.textContent = "Voir les " + visibles.length + " tournois";
+    };
+    
+    // Mettre à jour quand un filtre change
+    document.querySelectorAll(".filter-btn[data-type]").forEach(btn => {
+        btn.addEventListener("click", updateApplyButton);
+    });
+    document.getElementById("date-from").addEventListener("change", updateApplyButton);
+    document.getElementById("date-to").addEventListener("change", updateApplyButton);
+    document.getElementById("rayon-select").addEventListener("change", updateApplyButton);
+    document.getElementById("reset-dates").addEventListener("click", () => setTimeout(updateApplyButton, 50));
+    document.getElementById("reset-geoloc").addEventListener("click", () => setTimeout(updateApplyButton, 50));
+    
+    // Initialiser après chargement
+    setTimeout(updateApplyButton, 500);
+}
