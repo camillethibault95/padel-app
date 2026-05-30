@@ -315,3 +315,54 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sa
 }
 .popup-tournoi .info { margin: 4px 0; color: #444; }
 .popup-tournoi .label { color: #888; font-size: 11px; text-transform: uppercase; }
+
+/* Marqueur position utilisateur */
+.user-location-marker {
+    background: #1a73e8;
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    box-shadow: 0 0 0 4px rgba(26, 115, 232, 0.3);
+}
+
+#geoloc-btn.active {
+    background: #1a73e8;
+    color: white;
+    border-color: #1a73e8;
+}
+
+/* Autocomplétion adresse */
+#address-wrapper {
+    position: relative;
+    display: inline-block;
+}
+#address-suggestions {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #d0d0d0;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    z-index: 1001;
+    max-height: 300px;
+    overflow-y: auto;
+    display: none;
+}
+.suggestion-item {
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 13px;
+    border-bottom: 1px solid #f0f0f0;
+}
+.suggestion-item:last-child { border-bottom: none; }
+.suggestion-item:hover {
+    background: #f5f6fa;
+}
+.suggestion-item .city {
+    color: #888;
+    font-size: 11px;
+}

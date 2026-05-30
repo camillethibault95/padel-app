@@ -1,5 +1,8 @@
 let tournois = [];
 let filtres = { cat: "all", genre: "all", dateFrom: "", dateTo: "" };
+let userPosition = null;
+let rayonKm = 10;
+let userMarker = null;
 let markers = [];
 let currentView = "map";
 const today = new Date();
@@ -8,22 +11,31 @@ let currentMonth = new Date(today.getFullYear(), today.getMonth(), 1);
 let selectedDay = null;
 let map;
 let padelIcon;
+let suggestionsTimeout = null;
 
 function formatDateISO(d) {
     return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 }
 
-// Genere les badges multi-couleurs depuis epreuves_detail (source riche)
+function distanceKm(lat1, lon1, lat2, lon2) {
+    const R = 6371;
+    const toRad = x => x * Math.PI / 180;
+    const dLat = toRad(lat2 - lat1);
+    const dLon = toRad(lon2 - lon1);
+    const a = Math.sin(dLat/2) ** 2 +
+              Math.cos(toRad(lat1)) * Math.cos(toRad(lat2)) *
+              Math.sin(dLon/2) ** 2;
+    return 2 * R * Math.asin(Math.sqrt(a));
+}
+
 function badgesHtml(t) {
     const paires = t.epreuves_detail || [];
     if (paires.length === 0) {
-        // Fallback : on utilise categories si epreuves_detail vide
         if (!t.categories || t.categories.length === 0) {
             return '<span class="badge cat-P25">?</span>';
         }
         return t.categories.map(c => '<span class="badge cat-' + c + '">' + c + '</span>').join(" ");
     }
-    // Extraire les catégories uniques depuis les paires
     const cats = [...new Set(paires.map(p => p.categorie))].sort((a, b) => parseInt(a.slice(1)) - parseInt(b.slice(1)));
     return cats.map(c => '<span class="badge cat-' + c + '">' + c + '</span>').join(" ");
 }
@@ -55,11 +67,17 @@ function initMap() {
 }
 
 function popupHtml(t) {
+    let distanceInfo = "";
+    if (userPosition) {
+        const d = distanceKm(userPosition.lat, userPosition.lon, t.lat, t.lon);
+        distanceInfo = '<div class="info"><span class="label">Distance</span><br>📍 ' + d.toFixed(1) + ' km</div>';
+    }
     return '<div class="popup-tournoi">' +
         '<h3>' + t.nom + '</h3>' +
         '<div class="info">' + badgesHtml(t) + '</div>' +
         '<div class="info"><span class="label">Club</span><br>' + t.club + '</div>' +
         '<div class="info"><span class="label">Lieu</span><br>' + t.ville + '</div>' +
+        distanceInfo +
         '<div class="info"><span class="label">Dates</span><br>' + t.dates + '</div>' +
         '<div class="info"><span class="label">Epreuves</span><br>' + (t.epreuves || "Non précisée") + '</div>' +
         '<div class="info"><span class="label">Juge-arbitre</span><br>' + t.juge + '</div>' +
@@ -72,6 +90,11 @@ function filtrer() {
     return tournois.filter(t => {
         if (filtres.dateFrom && t.date_fin_iso < filtres.dateFrom) return false;
         if (filtres.dateTo && t.date_debut_iso > filtres.dateTo) return false;
+        
+        if (userPosition) {
+            const d = distanceKm(userPosition.lat, userPosition.lon, t.lat, t.lon);
+            if (d > rayonKm) return false;
+        }
         
         if (filtres.cat === "all" && filtres.genre === "all") return true;
         
@@ -90,6 +113,15 @@ function refreshMap() {
     markers.forEach(m => map.removeLayer(m));
     markers = [];
     const visibles = filtrer();
+    
+    if (userPosition) {
+        visibles.sort((a, b) => {
+            const dA = distanceKm(userPosition.lat, userPosition.lon, a.lat, a.lon);
+            const dB = distanceKm(userPosition.lat, userPosition.lon, b.lat, b.lon);
+            return dA - dB;
+        });
+    }
+    
     visibles.forEach(t => {
         const marker = L.marker([t.lat, t.lon], { icon: padelIcon })
             .addTo(map)
@@ -175,18 +207,180 @@ function showDayDetails(dateStr, tournoisDuJour) {
         return;
     }
 
-    list.innerHTML = tournoisDuJour.map(t => 
-        '<div class="day-tournoi">' +
+    list.innerHTML = tournoisDuJour.map(t => {
+        let distanceInfo = "";
+        if (userPosition) {
+            const d2 = distanceKm(userPosition.lat, userPosition.lon, t.lat, t.lon);
+            distanceInfo = ' • 📍 ' + d2.toFixed(1) + ' km';
+        }
+        return '<div class="day-tournoi">' +
             '<div class="day-tournoi-titre">' + t.nom + '</div>' +
             '<div class="day-tournoi-info">' + badgesHtml(t) + ' ' + (t.epreuves || "") + '</div>' +
-            '<div class="day-tournoi-info">📍 ' + t.ville + ' — ' + t.club + '</div>' +
+            '<div class="day-tournoi-info">📍 ' + t.ville + ' — ' + t.club + distanceInfo + '</div>' +
             '<div class="day-tournoi-info">⚖️ ' + t.juge + '</div>' +
             (t.tel ? '<div class="day-tournoi-info">📞 ' + t.tel + '</div>' : "") +
             (t.email ? '<div class="day-tournoi-info">✉️ <a href="mailto:' + t.email + '">' + t.email + '</a></div>' : "") +
-        '</div>'
-    ).join("");
+        '</div>';
+    }).join("");
 }
 
+// ----- POSITION (geoloc OU adresse avec autocomplete) -----
+const geolocBtn = document.getElementById("geoloc-btn");
+const addressInput = document.getElementById("address-input");
+const addressSuggestions = document.getElementById("address-suggestions");
+const resetGeolocBtn = document.getElementById("reset-geoloc");
+const geolocStatus = document.getElementById("geoloc-status");
+const rayonSelect = document.getElementById("rayon-select");
+
+function setUserPosition(lat, lon, label) {
+    userPosition = { lat: lat, lon: lon };
+    
+    if (userMarker) map.removeLayer(userMarker);
+    const userIcon = L.divIcon({
+        html: '<div class="user-location-marker"></div>',
+        className: "",
+        iconSize: [18, 18],
+        iconAnchor: [9, 9]
+    });
+    userMarker = L.marker([lat, lon], { icon: userIcon })
+        .addTo(map)
+        .bindPopup(label || "Ta position");
+    
+    map.setView([lat, lon], 12);
+    resetGeolocBtn.style.display = "inline-block";
+    refreshMap();
+    if (currentView === "calendar") refreshCalendar();
+}
+
+// Géolocalisation navigateur
+geolocBtn.addEventListener("click", () => {
+    if (!navigator.geolocation) {
+        geolocStatus.textContent = "Géolocalisation non supportée";
+        return;
+    }
+    geolocStatus.textContent = "Recherche de ta position...";
+    
+    navigator.geolocation.getCurrentPosition(
+        (pos) => {
+            geolocBtn.classList.add("active");
+            geolocStatus.textContent = "📍 Position trouvée";
+            setUserPosition(pos.coords.latitude, pos.coords.longitude, "Ta position");
+        },
+        (err) => {
+            if (err.code === 1) {
+                geolocStatus.textContent = "⚠️ Tu as refusé la géoloc — utilise plutôt ton adresse";
+            } else {
+                geolocStatus.textContent = "⚠️ Erreur géoloc — utilise plutôt ton adresse";
+            }
+        },
+        { enableHighAccuracy: true, timeout: 10000 }
+    );
+});
+
+// AUTOCOMPLETE adresse
+function chercherSuggestions(query) {
+    if (!query || query.length < 3) {
+        addressSuggestions.style.display = "none";
+        return;
+    }
+    
+    const url = "https://api-adresse.data.gouv.fr/search/?q=" + encodeURIComponent(query) + "&limit=5";
+    
+    fetch(url)
+        .then(r => r.json())
+        .then(data => {
+            if (!data.features || data.features.length === 0) {
+                addressSuggestions.style.display = "none";
+                return;
+            }
+            
+            addressSuggestions.innerHTML = data.features.map((f, i) => {
+                const label = f.properties.label;
+                const city = f.properties.city || f.properties.name || "";
+                return '<div class="suggestion-item" data-index="' + i + '">' +
+                    '<div>' + label + '</div>' +
+                    '</div>';
+            }).join("");
+            
+            // Stocker les résultats pour pouvoir les utiliser au clic
+            addressSuggestions.dataset.results = JSON.stringify(data.features.map(f => ({
+                lat: f.geometry.coordinates[1],
+                lon: f.geometry.coordinates[0],
+                label: f.properties.label
+            })));
+            
+            addressSuggestions.style.display = "block";
+            
+            // Ajouter les clics sur les suggestions
+            addressSuggestions.querySelectorAll(".suggestion-item").forEach(item => {
+                item.addEventListener("click", () => {
+                    const idx = parseInt(item.dataset.index);
+                    const results = JSON.parse(addressSuggestions.dataset.results);
+                    const sel = results[idx];
+                    
+                    addressInput.value = sel.label;
+                    addressSuggestions.style.display = "none";
+                    geolocBtn.classList.remove("active");
+                    geolocStatus.textContent = "📍 " + sel.label;
+                    setUserPosition(sel.lat, sel.lon, sel.label);
+                });
+            });
+        })
+        .catch(err => {
+            console.error("Erreur autocomplete:", err);
+            addressSuggestions.style.display = "none";
+        });
+}
+
+// Debounce : on attend 300ms après la dernière frappe avant d'appeler l'API
+addressInput.addEventListener("input", () => {
+    clearTimeout(suggestionsTimeout);
+    const query = addressInput.value.trim();
+    suggestionsTimeout = setTimeout(() => chercherSuggestions(query), 300);
+});
+
+// Cacher les suggestions si on clique ailleurs
+document.addEventListener("click", (e) => {
+    if (!e.target.closest("#address-wrapper")) {
+        addressSuggestions.style.display = "none";
+    }
+});
+
+// Si on appuie sur Entrée, on prend la première suggestion
+addressInput.addEventListener("keydown", (e) => {
+    if (e.key === "Enter") {
+        e.preventDefault();
+        const firstSuggestion = addressSuggestions.querySelector(".suggestion-item");
+        if (firstSuggestion) firstSuggestion.click();
+    } else if (e.key === "Escape") {
+        addressSuggestions.style.display = "none";
+    }
+});
+
+// Désactiver position
+resetGeolocBtn.addEventListener("click", () => {
+    userPosition = null;
+    if (userMarker) {
+        map.removeLayer(userMarker);
+        userMarker = null;
+    }
+    geolocBtn.classList.remove("active");
+    addressInput.value = "";
+    resetGeolocBtn.style.display = "none";
+    geolocStatus.textContent = "";
+    refreshMap();
+    if (currentView === "calendar") refreshCalendar();
+});
+
+rayonSelect.addEventListener("change", () => {
+    rayonKm = parseInt(rayonSelect.value);
+    if (userPosition) {
+        refreshMap();
+        if (currentView === "calendar") refreshCalendar();
+    }
+});
+
+// ----- AUTRES EVENEMENTS -----
 document.getElementById("prev-month").addEventListener("click", () => {
     currentMonth.setMonth(currentMonth.getMonth() - 1);
     refreshCalendar();
@@ -214,7 +408,7 @@ document.querySelectorAll(".view-btn").forEach(btn => {
     });
 });
 
-document.querySelectorAll(".filter-btn").forEach(btn => {
+document.querySelectorAll(".filter-btn[data-type]").forEach(btn => {
     btn.addEventListener("click", () => {
         const type = btn.dataset.type;
         document.querySelectorAll(".filter-btn[data-type=\"" + type + "\"]").forEach(b => b.classList.remove("active"));
