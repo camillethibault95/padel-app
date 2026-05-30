@@ -366,3 +366,167 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sa
     color: #888;
     font-size: 11px;
 }
+
+/* ============================================================ */
+/* MOBILE (< 768px)                                              */
+/* ============================================================ */
+
+/* Bouton "Filtres" (mobile only) */
+#mobile-filters-toggle {
+    display: none;
+    padding: 8px 14px;
+    background: white;
+    color: #1a2554;
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: auto;
+}
+
+/* Bouton de fermeture du panneau */
+#mobile-filters-close {
+    display: none;
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+    color: #1a2554;
+    padding: 0;
+    line-height: 1;
+}
+
+@media (max-width: 768px) {
+    #header h1 { font-size: 15px; }
+    #header { padding: 10px 14px; }
+    #count { font-size: 12px; padding: 3px 8px; }
+    
+    #view-toggle {
+        padding: 6px 14px;
+        gap: 6px;
+    }
+    .view-btn { padding: 8px 12px; font-size: 13px; }
+    
+    #mobile-filters-toggle { display: block; }
+    
+    /* Panneau de filtres en mode "drawer" */
+    #filters {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 2000;
+        overflow-y: auto;
+        padding: 20px;
+    }
+    #filters.mobile-open {
+        display: block;
+    }
+    #mobile-filters-close {
+        display: block;
+        position: absolute;
+        top: 16px;
+        right: 16px;
+    }
+    /* Petit titre dans le panneau mobile */
+    #filters::before {
+        content: "Filtres";
+        display: block;
+        font-size: 20px;
+        font-weight: bold;
+        color: #1a2554;
+        margin-bottom: 20px;
+    }
+    
+    .filter-row {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 6px;
+        margin-bottom: 16px;
+    }
+    .filter-label {
+        margin-right: 0;
+        margin-bottom: 4px;
+    }
+    .filter-row > .filter-btn,
+    .filter-row > .date-input,
+    .filter-row > #address-wrapper {
+        margin: 0;
+    }
+    
+    /* Boutons filtres alignés en row à l'intérieur */
+    .filter-row {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .filter-row > span.filter-label {
+        flex-basis: 100%;
+    }
+    
+    .filter-btn { padding: 10px 14px; font-size: 14px; }
+    .date-input { padding: 10px; font-size: 14px; }
+    
+    /* Champ adresse plein largeur sur mobile */
+    #address-wrapper { flex: 1; }
+    #address-input { width: 100% !important; }
+    
+    /* Carte plus grande sur mobile */
+    #map { height: calc(100vh - 110px); }
+    
+    /* Calendrier : 1 colonne sur mobile */
+    #calendar-view {
+        grid-template-columns: 1fr;
+        height: calc(100vh - 110px);
+        padding: 10px;
+        gap: 10px;
+    }
+    #calendar { padding: 14px; }
+    #calendar-nav h2 { font-size: 16px; }
+    .nav-btn { width: 32px; height: 32px; }
+    .calendar-header { font-size: 10px; padding: 4px 0; }
+    .calendar-day {
+        min-height: 50px;
+        padding: 4px;
+    }
+    .day-number { font-size: 12px; }
+    .day-badge { font-size: 8px; padding: 1px 3px; }
+    
+    /* Détails du jour en bottom-sheet sur mobile */
+    #day-details {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        max-height: 70vh;
+        overflow-y: auto;
+        z-index: 1500;
+        border-radius: 16px 16px 0 0;
+        box-shadow: 0 -4px 20px rgba(0,0,0,0.15);
+        display: none;
+        padding-bottom: 30px;
+    }
+    #day-details.mobile-open {
+        display: block;
+    }
+    /* Croix de fermeture du bottom-sheet */
+    #day-details-close {
+        position: absolute;
+        top: 16px;
+        right: 16px;
+        background: transparent;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        color: #1a2554;
+        z-index: 10;
+    }
+    
+    /* Popups Leaflet plus gros sur mobile */
+    .leaflet-popup-content {
+        margin: 14px 16px;
+        font-size: 14px;
+    }
+}

@@ -18,9 +18,11 @@
 <div id="view-toggle">
     <button class="view-btn active" data-view="map">🗺️ Carte</button>
     <button class="view-btn" data-view="calendar">📅 Calendrier</button>
+    <button id="mobile-filters-toggle">⚙️ Filtres</button>
 </div>
 
 <div id="filters">
+    <button id="mobile-filters-close" aria-label="Fermer">×</button>
     <div class="filter-row">
         <span class="filter-label">Catégorie :</span>
         <button class="filter-btn active" data-type="cat" data-value="all">Toutes</button>
@@ -95,6 +97,7 @@
         </div>
     </div>
     <div id="day-details">
+        <button id="day-details-close" aria-label="Fermer">×</button>
         <h3 id="day-title">Sélectionne un jour</h3>
         <div id="day-list">
             <div class="day-empty">Clique sur une date du calendrier pour voir les tournois.</div>

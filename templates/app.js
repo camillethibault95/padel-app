@@ -444,3 +444,39 @@ document.getElementById("reset-dates").addEventListener("click", () => {
     refreshMap();
     if (currentView === "calendar") refreshCalendar();
 });
+
+// ----- MOBILE : OUVRIR/FERMER LE PANNEAU FILTRES -----
+const mobileFiltersToggle = document.getElementById("mobile-filters-toggle");
+const mobileFiltersClose = document.getElementById("mobile-filters-close");
+const filtersPanel = document.getElementById("filters");
+
+if (mobileFiltersToggle) {
+    mobileFiltersToggle.addEventListener("click", () => {
+        filtersPanel.classList.add("mobile-open");
+    });
+}
+
+if (mobileFiltersClose) {
+    mobileFiltersClose.addEventListener("click", () => {
+        filtersPanel.classList.remove("mobile-open");
+    });
+}
+
+// ----- MOBILE : DETAILS DU JOUR EN BOTTOM-SHEET -----
+const dayDetailsClose = document.getElementById("day-details-close");
+const dayDetailsPanel = document.getElementById("day-details");
+
+if (dayDetailsClose) {
+    dayDetailsClose.addEventListener("click", () => {
+        dayDetailsPanel.classList.remove("mobile-open");
+    });
+}
+
+// Quand on clique sur un jour avec tournois, ouvrir le bottom-sheet
+const originalShowDayDetails = showDayDetails;
+showDayDetails = function(dateStr, tournoisDuJour) {
+    originalShowDayDetails(dateStr, tournoisDuJour);
+    if (window.innerWidth <= 768 && tournoisDuJour.length > 0) {
+        dayDetailsPanel.classList.add("mobile-open");
+    }
+};

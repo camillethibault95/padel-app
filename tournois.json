@@ -408,6 +408,54 @@
     "epreuves": "Double Messieurs"
   },
   {
+    "lat": 43.650807,
+    "lon": 3.830681,
+    "club": "ASCH MONTPELLIER",
+    "nom": "P1000 H ASCH Domaine Damartin",
+    "dates": "13/06/2026 -> 14/06/2026",
+    "date_debut_iso": "2026-06-13",
+    "date_fin_iso": "2026-06-14",
+    "categories": [
+      "P1000"
+    ],
+    "categories_str": "P1000",
+    "epreuves_detail": [
+      {
+        "categorie": "P1000",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "GRABELS",
+    "juge": "Catherine FOURAGE",
+    "tel": "06 61 52 16 32",
+    "email": "aschtennis@wanadoo.fr",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.606634,
+    "lon": 3.784893,
+    "club": "TENNIS PADEL CLUB ST GEORGES D'ORQUES",
+    "nom": "P50 Messieurs",
+    "dates": "29/05/2026 -> 29/05/2026",
+    "date_debut_iso": "2026-05-29",
+    "date_fin_iso": "2026-05-29",
+    "categories": [
+      "P50"
+    ],
+    "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "SAINT GEORGES D'ORQUES",
+    "juge": "Adrien ASSELIN",
+    "tel": "26 06 18 91 11",
+    "email": "adrien.asselin@sfr.fr",
+    "epreuves": "Double Messieurs"
+  },
+  {
     "lat": 43.606634,
     "lon": 3.784893,
     "club": "TENNIS PADEL CLUB ST GEORGES D'ORQUES",
