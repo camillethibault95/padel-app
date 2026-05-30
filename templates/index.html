@@ -16,14 +16,14 @@
 </div>
 
 <div id="view-toggle">
-    <button class="view-btn active" data-view="map">🗺️ Carte</button>
     <button class="view-btn" data-view="calendar">📅 Calendrier</button>
+    <button class="view-btn active" data-view="list">📋 Liste</button>
+    <button class="view-btn" data-view="map">🗺️ Carte</button>
     <button id="mobile-filters-toggle">⚙️ Filtres</button>
 </div>
 
 <div id="filters">
     <button id="mobile-filters-close" aria-label="Fermer">×</button>
-    <button id="mobile-filters-apply">Voir les tournois</button>
     <div class="filter-row">
         <span class="filter-label">Catégorie :</span>
         <button class="filter-btn active" data-type="cat" data-value="all">Toutes</button>
@@ -67,9 +67,12 @@
         <button class="reset-btn" id="reset-geoloc" style="display:none;">Désactiver</button>
         <span id="geoloc-status" style="font-size:12px;color:#888;"></span>
     </div>
+    <button id="mobile-filters-apply">Voir les tournois</button>
 </div>
 
 <div id="map"></div>
+
+<div id="list-view"></div>
 
 <div id="calendar-view">
     <div id="calendar">

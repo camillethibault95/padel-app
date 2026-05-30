@@ -4,7 +4,7 @@ let userPosition = null;
 let rayonKm = 10;
 let userMarker = null;
 let markers = [];
-let currentView = "map";
+let currentView = "list";
 const today = new Date();
 const todayStr = formatDateISO(today);
 let currentMonth = new Date(today.getFullYear(), today.getMonth(), 1);
@@ -45,7 +45,7 @@ fetch("tournois.json")
     .then(data => {
         tournois = data;
         initMap();
-        refreshMap();
+        refreshAll();
     });
 
 function initMap() {
@@ -88,6 +88,7 @@ function popupHtml(t) {
 
 function filtrer() {
     return tournois.filter(t => {
+        if (t.date_fin_iso && t.date_fin_iso < todayStr) return false;
         if (filtres.dateFrom && t.date_fin_iso < filtres.dateFrom) return false;
         if (filtres.dateTo && t.date_debut_iso > filtres.dateTo) return false;
         
@@ -109,6 +110,16 @@ function filtrer() {
     });
 }
 
+function refreshAll() {
+    if (currentView === "map") refreshMap();
+    else if (currentView === "calendar") refreshCalendar();
+    else if (currentView === "list") refreshList();
+    
+    // Toujours mettre à jour le compteur global
+    const visibles = filtrer();
+    document.getElementById("count").textContent = visibles.length + " tournois";
+}
+
 function refreshMap() {
     markers.forEach(m => map.removeLayer(m));
     markers = [];
@@ -128,7 +139,61 @@ function refreshMap() {
             .bindPopup(popupHtml(t));
         markers.push(marker);
     });
-    document.getElementById("count").textContent = visibles.length + " tournois";
+}
+
+// ----- VUE LISTE -----
+function refreshList() {
+    const listEl = document.getElementById("list-view");
+    let visibles = filtrer();
+    
+    // Tri : par date d'abord, puis par distance si géoloc active
+    visibles.sort((a, b) => {
+        // Tri principal : date début croissante
+        if (a.date_debut_iso !== b.date_debut_iso) {
+            return a.date_debut_iso.localeCompare(b.date_debut_iso);
+        }
+        // Tri secondaire : distance si géoloc
+        if (userPosition) {
+            const dA = distanceKm(userPosition.lat, userPosition.lon, a.lat, a.lon);
+            const dB = distanceKm(userPosition.lat, userPosition.lon, b.lat, b.lon);
+            return dA - dB;
+        }
+        return 0;
+    });
+    
+    if (visibles.length === 0) {
+        listEl.innerHTML = '<div class="list-empty">Aucun tournoi ne correspond aux filtres.</div>';
+        return;
+    }
+    
+    listEl.innerHTML = visibles.map(t => {
+        let distanceInfo = "";
+        if (userPosition) {
+            const d = distanceKm(userPosition.lat, userPosition.lon, t.lat, t.lon);
+            distanceInfo = '<span class="distance">📍 ' + d.toFixed(1) + ' km</span>';
+        }
+        return '<div class="list-tournoi">' +
+            '<div class="list-tournoi-date">' +
+                '<span class="date">' + t.date_debut + '</span>' +
+                distanceInfo +
+            '</div>' +
+            '<h3>' + t.nom + '</h3>' +
+            '<div class="list-tournoi-badges">' + badgesHtml(t) + '</div>' +
+            '<div class="list-tournoi-info">📍 ' + t.ville + ' — ' + t.club + '</div>' +
+            '<div class="list-tournoi-info">🎾 ' + (t.epreuves || "Épreuves non précisées") + '</div>' +
+            '<div class="list-tournoi-info">⚖️ ' + t.juge + '</div>' +
+            (t.tel ? '<div class="list-tournoi-info">📞 ' + t.tel + '</div>' : '') +
+            (t.email ? '<div class="list-tournoi-info">✉️ <a href="mailto:' + t.email + '">' + t.email + '</a></div>' : '') +
+        '</div>';
+    }).join("");
+}
+
+// Petit ajout : on rajoute date_debut comme champ JSON aussi (pas seulement date_debut_iso)
+// Pour cela il faudrait modifier generer_carte.py, mais on a déjà "dates" qui contient "JJ/MM/AAAA -> JJ/MM/AAAA"
+// On va extraire la date debut depuis cette chaîne en JS
+function getDateDebut(t) {
+    if (t.dates) return t.dates.split(" ")[0];
+    return "";
 }
 
 function refreshCalendar() {
@@ -222,6 +287,10 @@ function showDayDetails(dateStr, tournoisDuJour) {
             (t.email ? '<div class="day-tournoi-info">✉️ <a href="mailto:' + t.email + '">' + t.email + '</a></div>' : "") +
         '</div>';
     }).join("");
+    
+    if (window.innerWidth <= 768 && tournoisDuJour.length > 0) {
+        document.getElementById("day-details").classList.add("mobile-open");
+    }
 }
 
 // ----- POSITION (geoloc OU adresse avec autocomplete) -----
@@ -248,11 +317,9 @@ function setUserPosition(lat, lon, label) {
     
     map.setView([lat, lon], 12);
     resetGeolocBtn.style.display = "inline-block";
-    refreshMap();
-    if (currentView === "calendar") refreshCalendar();
+    refreshAll();
 }
 
-// Géolocalisation navigateur
 geolocBtn.addEventListener("click", () => {
     if (!navigator.geolocation) {
         geolocStatus.textContent = "Géolocalisation non supportée";
@@ -277,7 +344,6 @@ geolocBtn.addEventListener("click", () => {
     );
 });
 
-// AUTOCOMPLETE adresse
 function chercherSuggestions(query) {
     if (!query || query.length < 3) {
         addressSuggestions.style.display = "none";
@@ -294,15 +360,10 @@ function chercherSuggestions(query) {
                 return;
             }
             
-            addressSuggestions.innerHTML = data.features.map((f, i) => {
-                const label = f.properties.label;
-                const city = f.properties.city || f.properties.name || "";
-                return '<div class="suggestion-item" data-index="' + i + '">' +
-                    '<div>' + label + '</div>' +
-                    '</div>';
-            }).join("");
+            addressSuggestions.innerHTML = data.features.map((f, i) => 
+                '<div class="suggestion-item" data-index="' + i + '"><div>' + f.properties.label + '</div></div>'
+            ).join("");
             
-            // Stocker les résultats pour pouvoir les utiliser au clic
             addressSuggestions.dataset.results = JSON.stringify(data.features.map(f => ({
                 lat: f.geometry.coordinates[1],
                 lon: f.geometry.coordinates[0],
@@ -311,7 +372,6 @@ function chercherSuggestions(query) {
             
             addressSuggestions.style.display = "block";
             
-            // Ajouter les clics sur les suggestions
             addressSuggestions.querySelectorAll(".suggestion-item").forEach(item => {
                 item.addEventListener("click", () => {
                     const idx = parseInt(item.dataset.index);
@@ -332,21 +392,18 @@ function chercherSuggestions(query) {
         });
 }
 
-// Debounce : on attend 300ms après la dernière frappe avant d'appeler l'API
 addressInput.addEventListener("input", () => {
     clearTimeout(suggestionsTimeout);
     const query = addressInput.value.trim();
     suggestionsTimeout = setTimeout(() => chercherSuggestions(query), 300);
 });
 
-// Cacher les suggestions si on clique ailleurs
 document.addEventListener("click", (e) => {
     if (!e.target.closest("#address-wrapper")) {
         addressSuggestions.style.display = "none";
     }
 });
 
-// Si on appuie sur Entrée, on prend la première suggestion
 addressInput.addEventListener("keydown", (e) => {
     if (e.key === "Enter") {
         e.preventDefault();
@@ -357,7 +414,6 @@ addressInput.addEventListener("keydown", (e) => {
     }
 });
 
-// Désactiver position
 resetGeolocBtn.addEventListener("click", () => {
     userPosition = null;
     if (userMarker) {
@@ -368,54 +424,54 @@ resetGeolocBtn.addEventListener("click", () => {
     addressInput.value = "";
     resetGeolocBtn.style.display = "none";
     geolocStatus.textContent = "";
-    refreshMap();
-    if (currentView === "calendar") refreshCalendar();
+    refreshAll();
 });
 
 rayonSelect.addEventListener("change", () => {
     rayonKm = parseInt(rayonSelect.value);
-    if (userPosition) {
-        refreshMap();
-        if (currentView === "calendar") refreshCalendar();
-    }
+    if (userPosition) refreshAll();
 });
 
-// ----- AUTRES EVENEMENTS -----
-document.getElementById("prev-month").addEventListener("click", () => {
-    currentMonth.setMonth(currentMonth.getMonth() - 1);
-    refreshCalendar();
-});
-
-document.getElementById("next-month").addEventListener("click", () => {
-    currentMonth.setMonth(currentMonth.getMonth() + 1);
-    refreshCalendar();
-});
-
+// ----- TOGGLE VUES (CALENDRIER / LISTE / CARTE) -----
 document.querySelectorAll(".view-btn").forEach(btn => {
     btn.addEventListener("click", () => {
         document.querySelectorAll(".view-btn").forEach(b => b.classList.remove("active"));
         btn.classList.add("active");
         currentView = btn.dataset.view;
+        
+        // Cacher toutes les vues
+        document.getElementById("map").style.display = "none";
+        document.getElementById("calendar-view").style.display = "none";
+        document.getElementById("list-view").style.display = "none";
+        
+        // Afficher la bonne
         if (currentView === "map") {
             document.getElementById("map").style.display = "block";
-            document.getElementById("calendar-view").style.display = "none";
             map.invalidateSize();
-        } else {
-            document.getElementById("map").style.display = "none";
+            refreshMap();
+        } else if (currentView === "calendar") {
             document.getElementById("calendar-view").style.display = "grid";
             refreshCalendar();
+        } else if (currentView === "list") {
+            document.getElementById("list-view").style.display = "block";
+            refreshList();
         }
     });
 });
 
+// Au chargement, on cache map et calendar
+document.getElementById("map").style.display = "none";
+document.getElementById("calendar-view").style.display = "none";
+document.getElementById("list-view").style.display = "block";
+
+// ----- FILTRES -----
 document.querySelectorAll(".filter-btn[data-type]").forEach(btn => {
     btn.addEventListener("click", () => {
         const type = btn.dataset.type;
         document.querySelectorAll(".filter-btn[data-type=\"" + type + "\"]").forEach(b => b.classList.remove("active"));
         btn.classList.add("active");
         filtres[type] = btn.dataset.value;
-        refreshMap();
-        if (currentView === "calendar") refreshCalendar();
+        refreshAll();
     });
 });
 
@@ -429,8 +485,7 @@ function appliquerDates() {
         const d = new Date(filtres.dateFrom);
         currentMonth = new Date(d.getFullYear(), d.getMonth(), 1);
     }
-    refreshMap();
-    if (currentView === "calendar") refreshCalendar();
+    refreshAll();
 }
 
 dateFromInput.addEventListener("change", appliquerDates);
@@ -441,11 +496,20 @@ document.getElementById("reset-dates").addEventListener("click", () => {
     dateToInput.value = "";
     filtres.dateFrom = "";
     filtres.dateTo = "";
-    refreshMap();
-    if (currentView === "calendar") refreshCalendar();
+    refreshAll();
 });
 
-// ----- MOBILE : OUVRIR/FERMER LE PANNEAU FILTRES -----
+document.getElementById("prev-month").addEventListener("click", () => {
+    currentMonth.setMonth(currentMonth.getMonth() - 1);
+    refreshCalendar();
+});
+
+document.getElementById("next-month").addEventListener("click", () => {
+    currentMonth.setMonth(currentMonth.getMonth() + 1);
+    refreshCalendar();
+});
+
+// ----- MOBILE : filtres et bottom-sheet -----
 const mobileFiltersToggle = document.getElementById("mobile-filters-toggle");
 const mobileFiltersClose = document.getElementById("mobile-filters-close");
 const filtersPanel = document.getElementById("filters");
@@ -462,7 +526,6 @@ if (mobileFiltersClose) {
     });
 }
 
-// ----- MOBILE : DETAILS DU JOUR EN BOTTOM-SHEET -----
 const dayDetailsClose = document.getElementById("day-details-close");
 const dayDetailsPanel = document.getElementById("day-details");
 
@@ -472,31 +535,18 @@ if (dayDetailsClose) {
     });
 }
 
-// Quand on clique sur un jour avec tournois, ouvrir le bottom-sheet
-const originalShowDayDetails = showDayDetails;
-showDayDetails = function(dateStr, tournoisDuJour) {
-    originalShowDayDetails(dateStr, tournoisDuJour);
-    if (window.innerWidth <= 768 && tournoisDuJour.length > 0) {
-        dayDetailsPanel.classList.add("mobile-open");
-    }
-};
-
-// ----- MOBILE : Bouton "Voir les tournois" (mise à jour temps réel) -----
 const mobileFiltersApply = document.getElementById("mobile-filters-apply");
 
 if (mobileFiltersApply) {
-    // Au clic : fermer le panneau filtres
     mobileFiltersApply.addEventListener("click", () => {
         filtersPanel.classList.remove("mobile-open");
     });
     
-    // Mettre à jour le texte avec le nombre de résultats
     const updateApplyButton = () => {
         const visibles = filtrer();
         mobileFiltersApply.textContent = "Voir les " + visibles.length + " tournois";
     };
     
-    // Mettre à jour quand un filtre change
     document.querySelectorAll(".filter-btn[data-type]").forEach(btn => {
         btn.addEventListener("click", updateApplyButton);
     });
@@ -506,6 +556,5 @@ if (mobileFiltersApply) {
     document.getElementById("reset-dates").addEventListener("click", () => setTimeout(updateApplyButton, 50));
     document.getElementById("reset-geoloc").addEventListener("click", () => setTimeout(updateApplyButton, 50));
     
-    // Initialiser après chargement
     setTimeout(updateApplyButton, 500);
 }

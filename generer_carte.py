@@ -89,6 +89,8 @@ def construire_points(tournois):
             "club": t["club"],
             "nom": nom,
             "dates": t["date_debut"] + " -> " + t["date_fin"],
+            "date_debut": t["date_debut"],
+            "date_fin": t["date_fin"],
             "date_debut_iso": date_iso(t["date_debut"]),
             "date_fin_iso": date_iso(t["date_fin"]),
             "categories": cats_list,

@@ -5,6 +5,8 @@
     "club": "AMICALE HERAULT",
     "nom": "AMICALE HERAULT P100 H 28/05/26",
     "dates": "28/05/2026 -> 28/05/2026",
+    "date_debut": "28/05/2026",
+    "date_fin": "28/05/2026",
     "date_debut_iso": "2026-05-28",
     "date_fin_iso": "2026-05-28",
     "categories": [
@@ -29,6 +31,8 @@
     "club": "AMICALE HERAULT",
     "nom": "AMICALE HERAULT P100 H 30/05/26",
     "dates": "30/05/2026 -> 30/05/2026",
+    "date_debut": "30/05/2026",
+    "date_fin": "30/05/2026",
     "date_debut_iso": "2026-05-30",
     "date_fin_iso": "2026-05-30",
     "categories": [
@@ -53,6 +57,8 @@
     "club": "AMICALE HERAULT",
     "nom": "AMICALE HERAULT P100 H 21/06",
     "dates": "21/06/2026 -> 21/06/2026",
+    "date_debut": "21/06/2026",
+    "date_fin": "21/06/2026",
     "date_debut_iso": "2026-06-21",
     "date_fin_iso": "2026-06-21",
     "categories": [
@@ -77,6 +83,8 @@
     "club": "AMICALE HERAULT",
     "nom": "AMICALE HERAULT P100 H 24/06",
     "dates": "24/06/2026 -> 24/06/2026",
+    "date_debut": "24/06/2026",
+    "date_fin": "24/06/2026",
     "date_debut_iso": "2026-06-24",
     "date_fin_iso": "2026-06-24",
     "categories": [
@@ -101,6 +109,8 @@
     "club": "AMICALE HERAULT",
     "nom": "AMICALE HERAULT P25H 17/06",
     "dates": "17/06/2026 -> 17/06/2026",
+    "date_debut": "17/06/2026",
+    "date_fin": "17/06/2026",
     "date_debut_iso": "2026-06-17",
     "date_fin_iso": "2026-06-17",
     "categories": [
@@ -125,6 +135,8 @@
     "club": "AMICALE HERAULT",
     "nom": "AMICALE HERAULT P50 H 04/06",
     "dates": "04/06/2026 -> 04/06/2026",
+    "date_debut": "04/06/2026",
+    "date_fin": "04/06/2026",
     "date_debut_iso": "2026-06-04",
     "date_fin_iso": "2026-06-04",
     "categories": [
@@ -149,6 +161,8 @@
     "club": "AMICALE HERAULT",
     "nom": "AMICALE HERAULT P50F 10/06",
     "dates": "10/06/2026 -> 10/06/2026",
+    "date_debut": "10/06/2026",
+    "date_fin": "10/06/2026",
     "date_debut_iso": "2026-06-10",
     "date_fin_iso": "2026-06-10",
     "categories": [
@@ -173,6 +187,8 @@
     "club": "AMICALE HERAULT",
     "nom": "AMICALE HERAULT P250 H 07/06",
     "dates": "07/06/2026 -> 07/06/2026",
+    "date_debut": "07/06/2026",
+    "date_fin": "07/06/2026",
     "date_debut_iso": "2026-06-07",
     "date_fin_iso": "2026-06-07",
     "categories": [
@@ -197,6 +213,8 @@
     "club": "URBAN PADEL MONTPELLIER CASTELNAU",
     "nom": "p100 messieurs",
     "dates": "08/06/2026 -> 08/06/2026",
+    "date_debut": "08/06/2026",
+    "date_fin": "08/06/2026",
     "date_debut_iso": "2026-06-08",
     "date_fin_iso": "2026-06-08",
     "categories": [],
@@ -219,6 +237,8 @@
     "club": "URBAN PADEL MONTPELLIER CASTELNAU",
     "nom": "p250 messieurs",
     "dates": "01/06/2026 -> 01/06/2026",
+    "date_debut": "01/06/2026",
+    "date_fin": "01/06/2026",
     "date_debut_iso": "2026-06-01",
     "date_fin_iso": "2026-06-01",
     "categories": [],
@@ -241,6 +261,8 @@
     "club": "LATTES PADEL ASSOCIATION",
     "nom": "P100 H/F vendredi soir",
     "dates": "29/05/2026 -> 29/05/2026",
+    "date_debut": "29/05/2026",
+    "date_fin": "29/05/2026",
     "date_debut_iso": "2026-05-29",
     "date_fin_iso": "2026-05-29",
     "categories": [
@@ -269,6 +291,8 @@
     "club": "LATTES PADEL ASSOCIATION",
     "nom": "P50H",
     "dates": "26/06/2026 -> 26/06/2026",
+    "date_debut": "26/06/2026",
+    "date_fin": "26/06/2026",
     "date_debut_iso": "2026-06-26",
     "date_fin_iso": "2026-06-26",
     "categories": [
@@ -293,6 +317,8 @@
     "club": "LATTES PADEL ASSOCIATION",
     "nom": "P250 mixte lattes padel club",
     "dates": "12/06/2026 -> 12/06/2026",
+    "date_debut": "12/06/2026",
+    "date_fin": "12/06/2026",
     "date_debut_iso": "2026-06-12",
     "date_fin_iso": "2026-06-12",
     "categories": [
@@ -317,6 +343,8 @@
     "club": "LATTES PADEL ASSOCIATION",
     "nom": "P25 H lattes padel club",
     "dates": "01/06/2026 -> 01/06/2026",
+    "date_debut": "01/06/2026",
+    "date_fin": "01/06/2026",
     "date_debut_iso": "2026-06-01",
     "date_fin_iso": "2026-06-01",
     "categories": [
@@ -341,6 +369,8 @@
     "club": "LATTES PADEL ASSOCIATION",
     "nom": "P100 H",
     "dates": "05/06/2026 -> 05/06/2026",
+    "date_debut": "05/06/2026",
+    "date_fin": "05/06/2026",
     "date_debut_iso": "2026-06-05",
     "date_fin_iso": "2026-06-05",
     "categories": [
@@ -365,6 +395,8 @@
     "club": "LATTES PADEL ASSOCIATION",
     "nom": "P25 hommes",
     "dates": "19/06/2026 -> 19/06/2026",
+    "date_debut": "19/06/2026",
+    "date_fin": "19/06/2026",
     "date_debut_iso": "2026-06-19",
     "date_fin_iso": "2026-06-19",
     "categories": [
@@ -389,6 +421,8 @@
     "club": "ASCH MONTPELLIER",
     "nom": "P250 H ASCH domaine damartin",
     "dates": "17/07/2026 -> 17/07/2026",
+    "date_debut": "17/07/2026",
+    "date_fin": "17/07/2026",
     "date_debut_iso": "2026-07-17",
     "date_fin_iso": "2026-07-17",
     "categories": [
@@ -413,6 +447,8 @@
     "club": "ASCH MONTPELLIER",
     "nom": "P1000 H ASCH Domaine Damartin",
     "dates": "13/06/2026 -> 14/06/2026",
+    "date_debut": "13/06/2026",
+    "date_fin": "14/06/2026",
     "date_debut_iso": "2026-06-13",
     "date_fin_iso": "2026-06-14",
     "categories": [
@@ -437,6 +473,8 @@
     "club": "TENNIS PADEL CLUB ST GEORGES D'ORQUES",
     "nom": "P50 Messieurs",
     "dates": "29/05/2026 -> 29/05/2026",
+    "date_debut": "29/05/2026",
+    "date_fin": "29/05/2026",
     "date_debut_iso": "2026-05-29",
     "date_fin_iso": "2026-05-29",
     "categories": [
@@ -461,6 +499,8 @@
     "club": "TENNIS PADEL CLUB ST GEORGES D'ORQUES",
     "nom": "P250 Messieurs",
     "dates": "06/06/2026 -> 06/06/2026",
+    "date_debut": "06/06/2026",
+    "date_fin": "06/06/2026",
     "date_debut_iso": "2026-06-06",
     "date_fin_iso": "2026-06-06",
     "categories": [
@@ -485,6 +525,8 @@
     "club": "MHSC PADEL - P500H 26/06 - P500F + P25 Mixte ET TENNIS DE PEROLS Senior Double Dames",
     "nom": "27/06 Route de Pérols",
     "dates": "26/06/2026 -> 27/06/2026",
+    "date_debut": "26/06/2026",
+    "date_fin": "27/06/2026",
     "date_debut_iso": "2026-06-26",
     "date_fin_iso": "2026-06-27",
     "categories": [
@@ -505,6 +547,8 @@
     "club": "MHSC PADEL ET TENNIS DE PEROLS",
     "nom": "MHSC PADEL - P25H P250M",
     "dates": "06/06/2026 -> 06/06/2026",
+    "date_debut": "06/06/2026",
+    "date_fin": "06/06/2026",
     "date_debut_iso": "2026-06-06",
     "date_fin_iso": "2026-06-06",
     "categories": [
@@ -534,6 +578,8 @@
     "club": "MHSC PADEL ET TENNIS DE PEROLS",
     "nom": "MHSC PADEL - P100H P250F",
     "dates": "07/06/2026 -> 07/06/2026",
+    "date_debut": "07/06/2026",
+    "date_fin": "07/06/2026",
     "date_debut_iso": "2026-06-07",
     "date_fin_iso": "2026-06-07",
     "categories": [
@@ -563,6 +609,8 @@
     "club": "MHSC PADEL ET TENNIS DE PEROLS",
     "nom": "MHSC PADEL - P500H",
     "dates": "12/06/2026 -> 12/06/2026",
+    "date_debut": "12/06/2026",
+    "date_fin": "12/06/2026",
     "date_debut_iso": "2026-06-12",
     "date_fin_iso": "2026-06-12",
     "categories": [
@@ -587,6 +635,8 @@
     "club": "MHSC PADEL ET TENNIS DE PEROLS",
     "nom": "MHSC PADEL - P50H P50M",
     "dates": "28/06/2026 -> 28/06/2026",
+    "date_debut": "28/06/2026",
+    "date_fin": "28/06/2026",
     "date_debut_iso": "2026-06-28",
     "date_fin_iso": "2026-06-28",
     "categories": [
@@ -615,6 +665,8 @@
     "club": "MHSC PADEL ET TENNIS DE PEROLS",
     "nom": "MHSC PADEL - P100F P100H",
     "dates": "31/05/2026 -> 31/05/2026",
+    "date_debut": "31/05/2026",
+    "date_fin": "31/05/2026",
     "date_debut_iso": "2026-05-31",
     "date_fin_iso": "2026-05-31",
     "categories": [
@@ -643,6 +695,8 @@
     "club": "MHSC PADEL ET TENNIS DE PEROLS",
     "nom": "MHSC PADEL - P100H",
     "dates": "01/06/2026 -> 01/06/2026",
+    "date_debut": "01/06/2026",
+    "date_fin": "01/06/2026",
     "date_debut_iso": "2026-06-01",
     "date_fin_iso": "2026-06-01",
     "categories": [
@@ -667,6 +721,8 @@
     "club": "MHSC PADEL ET TENNIS DE PEROLS",
     "nom": "MHSC PADEL - P50H P100M",
     "dates": "14/06/2026 -> 14/06/2026",
+    "date_debut": "14/06/2026",
+    "date_fin": "14/06/2026",
     "date_debut_iso": "2026-06-14",
     "date_fin_iso": "2026-06-14",
     "categories": [
@@ -696,6 +752,8 @@
     "club": "MHSC PADEL ET TENNIS DE PEROLS",
     "nom": "MHSC PADEL - P25H",
     "dates": "15/06/2026 -> 15/06/2026",
+    "date_debut": "15/06/2026",
+    "date_fin": "15/06/2026",
     "date_debut_iso": "2026-06-15",
     "date_fin_iso": "2026-06-15",
     "categories": [
@@ -720,6 +778,8 @@
     "club": "MHSC PADEL ET TENNIS DE PEROLS",
     "nom": "MHSC PADEL - P25F P100H P250M",
     "dates": "20/06/2026 -> 20/06/2026",
+    "date_debut": "20/06/2026",
+    "date_fin": "20/06/2026",
     "date_debut_iso": "2026-06-20",
     "date_fin_iso": "2026-06-20",
     "categories": [
@@ -754,6 +814,8 @@
     "club": "MHSC PADEL ET TENNIS DE PEROLS",
     "nom": "MHSC PADEL - P100F P250H",
     "dates": "21/06/2026 -> 21/06/2026",
+    "date_debut": "21/06/2026",
+    "date_fin": "21/06/2026",
     "date_debut_iso": "2026-06-21",
     "date_fin_iso": "2026-06-21",
     "categories": [
@@ -783,6 +845,8 @@
     "club": "MHSC PADEL ET TENNIS DE PEROLS",
     "nom": "MHSC PADEL - P100H",
     "dates": "23/06/2026 -> 23/06/2026",
+    "date_debut": "23/06/2026",
+    "date_fin": "23/06/2026",
     "date_debut_iso": "2026-06-23",
     "date_fin_iso": "2026-06-23",
     "categories": [
@@ -807,6 +871,8 @@
     "club": "MHSC PADEL ET TENNIS DE PEROLS",
     "nom": "MHSC PADEL - P500F P100H",
     "dates": "13/06/2026 -> 13/06/2026",
+    "date_debut": "13/06/2026",
+    "date_fin": "13/06/2026",
     "date_debut_iso": "2026-06-13",
     "date_fin_iso": "2026-06-13",
     "categories": [
@@ -836,6 +902,8 @@
     "club": "MHSC PADEL ET TENNIS DE PEROLS",
     "nom": "MHSC PADEL - P50F P250H",
     "dates": "29/06/2026 -> 29/06/2026",
+    "date_debut": "29/06/2026",
+    "date_fin": "29/06/2026",
     "date_debut_iso": "2026-06-29",
     "date_fin_iso": "2026-06-29",
     "categories": [
@@ -865,6 +933,8 @@
     "club": "MHSC PADEL ET TENNIS DE PEROLS",
     "nom": "MHSC PADEL - P250H",
     "dates": "08/06/2026 -> 08/06/2026",
+    "date_debut": "08/06/2026",
+    "date_fin": "08/06/2026",
     "date_debut_iso": "2026-06-08",
     "date_fin_iso": "2026-06-08",
     "categories": [
@@ -889,6 +959,8 @@
     "club": "MHSC PADEL ET TENNIS DE PEROLS",
     "nom": "MHSC PADEL - P100H P25M",
     "dates": "30/05/2026 -> 30/05/2026",
+    "date_debut": "30/05/2026",
+    "date_fin": "30/05/2026",
     "date_debut_iso": "2026-05-30",
     "date_fin_iso": "2026-05-30",
     "categories": [
@@ -918,6 +990,8 @@
     "club": "TENNIS PADEL CLUB PALAVAS",
     "nom": "P50 HOMMES Plaine des Jeux, Avenue de l'Abb",
     "dates": "29/05/2026 -> 29/05/2026",
+    "date_debut": "29/05/2026",
+    "date_fin": "29/05/2026",
     "date_debut_iso": "2026-05-29",
     "date_fin_iso": "2026-05-29",
     "categories": [
@@ -942,6 +1016,8 @@
     "club": "TENNIS PADEL CLUB PALAVAS",
     "nom": "P50 MIXTE Plaine des Jeux, Avenue de l'Abb",
     "dates": "29/05/2026 -> 29/05/2026",
+    "date_debut": "29/05/2026",
+    "date_fin": "29/05/2026",
     "date_debut_iso": "2026-05-29",
     "date_fin_iso": "2026-05-29",
     "categories": [
@@ -966,6 +1042,8 @@
     "club": "TENNIS PADEL CLUB PALAVAS",
     "nom": "P100 HOMMES Plaine des Jeux, Avenue de l'Abb",
     "dates": "29/05/2026 -> 29/05/2026",
+    "date_debut": "29/05/2026",
+    "date_fin": "29/05/2026",
     "date_debut_iso": "2026-05-29",
     "date_fin_iso": "2026-05-29",
     "categories": [
@@ -990,6 +1068,8 @@
     "club": "TENNIS PADEL CLUB PALAVAS",
     "nom": "P50 HOMMES Plaine des Jeux, Avenue de l'Abb",
     "dates": "02/06/2026 -> 02/06/2026",
+    "date_debut": "02/06/2026",
+    "date_fin": "02/06/2026",
     "date_debut_iso": "2026-06-02",
     "date_fin_iso": "2026-06-02",
     "categories": [
@@ -1014,6 +1094,8 @@
     "club": "TENNIS PADEL CLUB PALAVAS",
     "nom": "P250 HOMMES Plaine des Jeux, Avenue de l'Abb",
     "dates": "05/06/2026 -> 05/06/2026",
+    "date_debut": "05/06/2026",
+    "date_fin": "05/06/2026",
     "date_debut_iso": "2026-06-05",
     "date_fin_iso": "2026-06-05",
     "categories": [
@@ -1038,6 +1120,8 @@
     "club": "TENNIS PADEL CLUB PALAVAS",
     "nom": "P500 HOMMES Plaine des Jeux, Avenue de l'Abb",
     "dates": "06/06/2026 -> 06/06/2026",
+    "date_debut": "06/06/2026",
+    "date_fin": "06/06/2026",
     "date_debut_iso": "2026-06-06",
     "date_fin_iso": "2026-06-06",
     "categories": [
@@ -1062,6 +1146,8 @@
     "club": "TENNIS PADEL CLUB PALAVAS",
     "nom": "P100 DAMES Plaine des Jeux, Avenue de l'Abb",
     "dates": "07/06/2026 -> 07/06/2026",
+    "date_debut": "07/06/2026",
+    "date_fin": "07/06/2026",
     "date_debut_iso": "2026-06-07",
     "date_fin_iso": "2026-06-07",
     "categories": [
@@ -1086,6 +1172,8 @@
     "club": "TENNIS PADEL CLUB PALAVAS",
     "nom": "P25 HOMMES Plaine des Jeux, Avenue de l'Abb",
     "dates": "09/06/2026 -> 09/06/2026",
+    "date_debut": "09/06/2026",
+    "date_fin": "09/06/2026",
     "date_debut_iso": "2026-06-09",
     "date_fin_iso": "2026-06-09",
     "categories": [
@@ -1110,6 +1198,8 @@
     "club": "TENNIS PADEL CLUB PALAVAS",
     "nom": "P50 HOMMES Plaine des Jeux, Avenue de l'Abb",
     "dates": "12/06/2026 -> 12/06/2026",
+    "date_debut": "12/06/2026",
+    "date_fin": "12/06/2026",
     "date_debut_iso": "2026-06-12",
     "date_fin_iso": "2026-06-12",
     "categories": [
@@ -1134,6 +1224,8 @@
     "club": "TENNIS PADEL CLUB PALAVAS",
     "nom": "P25 HOMMES Plaine des Jeux, Avenue de l'Abb",
     "dates": "19/06/2026 -> 19/06/2026",
+    "date_debut": "19/06/2026",
+    "date_fin": "19/06/2026",
     "date_debut_iso": "2026-06-19",
     "date_fin_iso": "2026-06-19",
     "categories": [
@@ -1158,6 +1250,8 @@
     "club": "TENNIS PADEL CLUB PALAVAS",
     "nom": "P100 FEMMES Plaine des Jeux, Avenue de l'Abb",
     "dates": "19/06/2026 -> 19/06/2026",
+    "date_debut": "19/06/2026",
+    "date_fin": "19/06/2026",
     "date_debut_iso": "2026-06-19",
     "date_fin_iso": "2026-06-19",
     "categories": [
@@ -1182,6 +1276,8 @@
     "club": "TENNIS PADEL CLUB PALAVAS",
     "nom": "P100 MIXTE Plaine des Jeux, Avenue de l'Abb",
     "dates": "12/06/2026 -> 12/06/2026",
+    "date_debut": "12/06/2026",
+    "date_fin": "12/06/2026",
     "date_debut_iso": "2026-06-12",
     "date_fin_iso": "2026-06-12",
     "categories": [
@@ -1206,6 +1302,8 @@
     "club": "TENNIS PADEL CLUB PALAVAS",
     "nom": "P100 HOMMES Plaine des Jeux, Avenue de l'Abb",
     "dates": "05/06/2026 -> 05/06/2026",
+    "date_debut": "05/06/2026",
+    "date_fin": "05/06/2026",
     "date_debut_iso": "2026-06-05",
     "date_fin_iso": "2026-06-05",
     "categories": [
@@ -1230,6 +1328,8 @@
     "club": "TENNIS PADEL CLUB PALAVAS",
     "nom": "P25 MIXTE Plaine des Jeux, Avenue de l'Abb",
     "dates": "06/06/2026 -> 06/06/2026",
+    "date_debut": "06/06/2026",
+    "date_fin": "06/06/2026",
     "date_debut_iso": "2026-06-06",
     "date_fin_iso": "2026-06-06",
     "categories": [
@@ -1254,6 +1354,8 @@
     "club": "TENNIS PADEL CLUB PALAVAS",
     "nom": "P25 HOMMES Plaine des Jeux, Avenue de l'Abb",
     "dates": "07/06/2026 -> 07/06/2026",
+    "date_debut": "07/06/2026",
+    "date_fin": "07/06/2026",
     "date_debut_iso": "2026-06-07",
     "date_fin_iso": "2026-06-07",
     "categories": [
@@ -1278,6 +1380,8 @@
     "club": "TENNIS PADEL CLUB PALAVAS",
     "nom": "P250 HOMMES Plaine des Jeux, Avenue de l'Abb",
     "dates": "07/06/2026 -> 07/06/2026",
+    "date_debut": "07/06/2026",
+    "date_fin": "07/06/2026",
     "date_debut_iso": "2026-06-07",
     "date_fin_iso": "2026-06-07",
     "categories": [
@@ -1302,6 +1406,8 @@
     "club": "TENNIS PADEL CLUB PALAVAS",
     "nom": "P100 HOMMES Plaine des Jeux, Avenue de l'Abb",
     "dates": "12/06/2026 -> 12/06/2026",
+    "date_debut": "12/06/2026",
+    "date_fin": "12/06/2026",
     "date_debut_iso": "2026-06-12",
     "date_fin_iso": "2026-06-12",
     "categories": [
@@ -1326,6 +1432,8 @@
     "club": "TENNIS PADEL CLUB PALAVAS",
     "nom": "P50 HOMMES Plaine des Jeux, Avenue de l'Abb",
     "dates": "16/06/2026 -> 16/06/2026",
+    "date_debut": "16/06/2026",
+    "date_fin": "16/06/2026",
     "date_debut_iso": "2026-06-16",
     "date_fin_iso": "2026-06-16",
     "categories": [
@@ -1350,6 +1458,8 @@
     "club": "TENNIS PADEL CLUB PALAVAS",
     "nom": "P100 HOMMES Plaine des Jeux, Avenue de l'Abb",
     "dates": "19/06/2026 -> 19/06/2026",
+    "date_debut": "19/06/2026",
+    "date_fin": "19/06/2026",
     "date_debut_iso": "2026-06-19",
     "date_fin_iso": "2026-06-19",
     "categories": [
@@ -1374,6 +1484,8 @@
     "club": "TENNIS PADEL CLUB PALAVAS",
     "nom": "P250 FEMMES Plaine des Jeux, Avenue de l'Abb",
     "dates": "05/06/2026 -> 05/06/2026",
+    "date_debut": "05/06/2026",
+    "date_fin": "05/06/2026",
     "date_debut_iso": "2026-06-05",
     "date_fin_iso": "2026-06-05",
     "categories": [
@@ -1398,6 +1510,8 @@
     "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P25H/P100D Sud Padel",
     "dates": "15/05/2025 -> 15/10/2045",
+    "date_debut": "15/05/2025",
+    "date_fin": "15/10/2045",
     "date_debut_iso": "2025-05-15",
     "date_fin_iso": "2045-10-15",
     "categories": [
@@ -1426,6 +1540,8 @@
     "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P1000H Sud padel Ecoparc Bel Air",
     "dates": "24/07/2026 -> 26/07/2026",
+    "date_debut": "24/07/2026",
+    "date_fin": "26/07/2026",
     "date_debut_iso": "2026-07-24",
     "date_fin_iso": "2026-07-26",
     "categories": [
@@ -1450,6 +1566,8 @@
     "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P100H>55 Sud Padel Ecoparc Bel Air 55 Double Messieurs",
     "dates": "27/05/2026 -> 27/05/2026",
+    "date_debut": "27/05/2026",
+    "date_fin": "27/05/2026",
     "date_debut_iso": "2026-05-27",
     "date_fin_iso": "2026-05-27",
     "categories": [
@@ -1474,6 +1592,8 @@
     "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P250H/P25 Mixte Sud padel Ecoparc Bel Air",
     "dates": "31/05/2026 -> 31/05/2026",
+    "date_debut": "31/05/2026",
+    "date_fin": "31/05/2026",
     "date_debut_iso": "2026-05-31",
     "date_fin_iso": "2026-05-31",
     "categories": [
@@ -1503,6 +1623,8 @@
     "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P50H Sud Padel Ecoparc Bel Air",
     "dates": "29/05/2026 -> 29/05/2026",
+    "date_debut": "29/05/2026",
+    "date_fin": "29/05/2026",
     "date_debut_iso": "2026-05-29",
     "date_fin_iso": "2026-05-29",
     "categories": [
@@ -1527,6 +1649,8 @@
     "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P250 Plus 45 Sud Padel Ecoparc Bel Air 45 Double Messieurs",
     "dates": "05/06/2026 -> 05/06/2026",
+    "date_debut": "05/06/2026",
+    "date_fin": "05/06/2026",
     "date_debut_iso": "2026-06-05",
     "date_fin_iso": "2026-06-05",
     "categories": [
@@ -1551,6 +1675,8 @@
     "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P100H Sud padel Ecoparc Bel Air",
     "dates": "01/06/2026 -> 01/06/2026",
+    "date_debut": "01/06/2026",
+    "date_fin": "01/06/2026",
     "date_debut_iso": "2026-06-01",
     "date_fin_iso": "2026-06-01",
     "categories": [
@@ -1575,6 +1701,8 @@
     "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P500H/P100D Sud Padel Ecoparc Bel Air",
     "dates": "27/06/2026 -> 27/06/2026",
+    "date_debut": "27/06/2026",
+    "date_fin": "27/06/2026",
     "date_debut_iso": "2026-06-27",
     "date_fin_iso": "2026-06-27",
     "categories": [
@@ -1603,6 +1731,8 @@
     "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P250H/P25 Mixte Sud padel Ecoparc Bel Air",
     "dates": "07/06/2026 -> 07/06/2026",
+    "date_debut": "07/06/2026",
+    "date_fin": "07/06/2026",
     "date_debut_iso": "2026-06-07",
     "date_fin_iso": "2026-06-07",
     "categories": [
@@ -1632,6 +1762,8 @@
     "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P250H/P25D Sud Padel Ecoparc Bel Air",
     "dates": "13/06/2026 -> 13/06/2026",
+    "date_debut": "13/06/2026",
+    "date_fin": "13/06/2026",
     "date_debut_iso": "2026-06-13",
     "date_fin_iso": "2026-06-13",
     "categories": [
@@ -1660,6 +1792,8 @@
     "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P500H/P100 Mixte Sud Padel Ecoparc Bel Air",
     "dates": "30/05/2026 -> 30/05/2026",
+    "date_debut": "30/05/2026",
+    "date_fin": "30/05/2026",
     "date_debut_iso": "2026-05-30",
     "date_fin_iso": "2026-05-30",
     "categories": [
@@ -1689,6 +1823,8 @@
     "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P25H Sud Padel Ecoparc Bel Air",
     "dates": "27/05/2026 -> 27/05/2026",
+    "date_debut": "27/05/2026",
+    "date_fin": "27/05/2026",
     "date_debut_iso": "2026-05-27",
     "date_fin_iso": "2026-05-27",
     "categories": [
@@ -1713,6 +1849,8 @@
     "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P100H Sud padel Ecoparc Bel Air",
     "dates": "29/05/2026 -> 29/05/2026",
+    "date_debut": "29/05/2026",
+    "date_fin": "29/05/2026",
     "date_debut_iso": "2026-05-29",
     "date_fin_iso": "2026-05-29",
     "categories": [
@@ -1737,6 +1875,8 @@
     "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P100H Sud padel Ecoparc Bel Air",
     "dates": "03/06/2026 -> 03/06/2026",
+    "date_debut": "03/06/2026",
+    "date_fin": "03/06/2026",
     "date_debut_iso": "2026-06-03",
     "date_fin_iso": "2026-06-03",
     "categories": [
@@ -1761,6 +1901,8 @@
     "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P100H Sud padel matin Ecoparc Bel Air",
     "dates": "06/06/2026 -> 06/06/2026",
+    "date_debut": "06/06/2026",
+    "date_fin": "06/06/2026",
     "date_debut_iso": "2026-06-06",
     "date_fin_iso": "2026-06-06",
     "categories": [
@@ -1785,6 +1927,8 @@
     "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P25H Sud Padel Après-midi Ecoparc Bel Air",
     "dates": "14/06/2026 -> 14/06/2026",
+    "date_debut": "14/06/2026",
+    "date_fin": "14/06/2026",
     "date_debut_iso": "2026-06-14",
     "date_fin_iso": "2026-06-14",
     "categories": [
@@ -1809,6 +1953,8 @@
     "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P50H Sud Padel Ecoparc Bel Air",
     "dates": "08/06/2026 -> 08/06/2026",
+    "date_debut": "08/06/2026",
+    "date_fin": "08/06/2026",
     "date_debut_iso": "2026-06-08",
     "date_fin_iso": "2026-06-08",
     "categories": [
@@ -1833,6 +1979,8 @@
     "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P50H Sud Padel après-midi Ecoparc Bel Air",
     "dates": "06/06/2026 -> 06/06/2026",
+    "date_debut": "06/06/2026",
+    "date_fin": "06/06/2026",
     "date_debut_iso": "2026-06-06",
     "date_fin_iso": "2026-06-06",
     "categories": [
@@ -1857,6 +2005,8 @@
     "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P100H Sud padel Ecoparc Bel Air",
     "dates": "10/06/2026 -> 10/06/2026",
+    "date_debut": "10/06/2026",
+    "date_fin": "10/06/2026",
     "date_debut_iso": "2026-06-10",
     "date_fin_iso": "2026-06-10",
     "categories": [
@@ -1881,6 +2031,8 @@
     "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P100 H Sud Padel Ecoparc Bel Air",
     "dates": "05/06/2026 -> 05/06/2026",
+    "date_debut": "05/06/2026",
+    "date_fin": "05/06/2026",
     "date_debut_iso": "2026-06-05",
     "date_fin_iso": "2026-06-05",
     "categories": [
@@ -1905,6 +2057,8 @@
     "club": "TENNIS PADEL MAUGUIO",
     "nom": "P1000 DAMES",
     "dates": "17/07/2026 -> 19/07/2026",
+    "date_debut": "17/07/2026",
+    "date_fin": "19/07/2026",
     "date_debut_iso": "2026-07-17",
     "date_fin_iso": "2026-07-19",
     "categories": [
@@ -1929,6 +2083,8 @@
     "club": "TENNIS PADEL MAUGUIO",
     "nom": "P250 Dames",
     "dates": "30/05/2026 -> 30/05/2026",
+    "date_debut": "30/05/2026",
+    "date_fin": "30/05/2026",
     "date_debut_iso": "2026-05-30",
     "date_fin_iso": "2026-05-30",
     "categories": [
@@ -1953,6 +2109,8 @@
     "club": "TENNIS PADEL MAUGUIO",
     "nom": "P50 Messieurs",
     "dates": "01/06/2026 -> 01/06/2026",
+    "date_debut": "01/06/2026",
+    "date_fin": "01/06/2026",
     "date_debut_iso": "2026-06-01",
     "date_fin_iso": "2026-06-01",
     "categories": [
@@ -1977,6 +2135,8 @@
     "club": "TENNIS PADEL MAUGUIO",
     "nom": "P100 MIXTE",
     "dates": "15/06/2026 -> 15/06/2026",
+    "date_debut": "15/06/2026",
+    "date_fin": "15/06/2026",
     "date_debut_iso": "2026-06-15",
     "date_fin_iso": "2026-06-15",
     "categories": [
@@ -2001,6 +2161,8 @@
     "club": "TENNIS PADEL MAUGUIO",
     "nom": "P100 Messieurs",
     "dates": "27/06/2026 -> 27/06/2026",
+    "date_debut": "27/06/2026",
+    "date_fin": "27/06/2026",
     "date_debut_iso": "2026-06-27",
     "date_fin_iso": "2026-06-27",
     "categories": [
@@ -2025,6 +2187,8 @@
     "club": "TENNIS PADEL MAUGUIO",
     "nom": "P250 +45 Messieurs",
     "dates": "26/07/2026 -> 26/07/2026",
+    "date_debut": "26/07/2026",
+    "date_fin": "26/07/2026",
     "date_debut_iso": "2026-07-26",
     "date_fin_iso": "2026-07-26",
     "categories": [
@@ -2049,6 +2213,8 @@
     "club": "TC BAILLARGUES",
     "nom": "interne baillargues chemin du pradas",
     "dates": "14/02/2026 -> 29/08/2026",
+    "date_debut": "14/02/2026",
+    "date_fin": "29/08/2026",
     "date_debut_iso": "2026-02-14",
     "date_fin_iso": "2026-08-29",
     "categories": [],
@@ -2066,6 +2232,8 @@
     "club": "TC BAILLARGUES",
     "nom": "P1000 Hommes chemin du pradas",
     "dates": "17/07/2026 -> 19/07/2026",
+    "date_debut": "17/07/2026",
+    "date_fin": "19/07/2026",
     "date_debut_iso": "2026-07-17",
     "date_fin_iso": "2026-07-19",
     "categories": [
@@ -2090,6 +2258,8 @@
     "club": "TC BAILLARGUES",
     "nom": "P100 Femmes chemin du pradas",
     "dates": "30/05/2026 -> 30/05/2026",
+    "date_debut": "30/05/2026",
+    "date_fin": "30/05/2026",
     "date_debut_iso": "2026-05-30",
     "date_fin_iso": "2026-05-30",
     "categories": [
@@ -2114,6 +2284,8 @@
     "club": "TC BAILLARGUES",
     "nom": "P25 Hommes chemin du pradas",
     "dates": "31/05/2026 -> 31/05/2026",
+    "date_debut": "31/05/2026",
+    "date_fin": "31/05/2026",
     "date_debut_iso": "2026-05-31",
     "date_fin_iso": "2026-05-31",
     "categories": [
@@ -2138,6 +2310,8 @@
     "club": "TC BAILLARGUES",
     "nom": "P25 Dames chemin du pradas",
     "dates": "06/06/2026 -> 06/06/2026",
+    "date_debut": "06/06/2026",
+    "date_fin": "06/06/2026",
     "date_debut_iso": "2026-06-06",
     "date_fin_iso": "2026-06-06",
     "categories": [
@@ -2162,6 +2336,8 @@
     "club": "TC BAILLARGUES",
     "nom": "P250 Mixte chemin du pradas",
     "dates": "07/06/2026 -> 07/06/2026",
+    "date_debut": "07/06/2026",
+    "date_fin": "07/06/2026",
     "date_debut_iso": "2026-06-07",
     "date_fin_iso": "2026-06-07",
     "categories": [
@@ -2186,6 +2362,8 @@
     "club": "TC BAILLARGUES",
     "nom": "P Jeunes chemin du pradas 13/14 Double Messieurs",
     "dates": "13/06/2026 -> 13/06/2026",
+    "date_debut": "13/06/2026",
+    "date_fin": "13/06/2026",
     "date_debut_iso": "2026-06-13",
     "date_fin_iso": "2026-06-13",
     "categories": [],
@@ -2203,6 +2381,8 @@
     "club": "TC BAILLARGUES",
     "nom": "P500 Hommes chemin du pradas",
     "dates": "14/06/2026 -> 14/06/2026",
+    "date_debut": "14/06/2026",
+    "date_fin": "14/06/2026",
     "date_debut_iso": "2026-06-14",
     "date_fin_iso": "2026-06-14",
     "categories": [
@@ -2227,6 +2407,8 @@
     "club": "TC BAILLARGUES",
     "nom": "P100 Dames chemin du pradas",
     "dates": "05/07/2026 -> 05/07/2026",
+    "date_debut": "05/07/2026",
+    "date_fin": "05/07/2026",
     "date_debut_iso": "2026-07-05",
     "date_fin_iso": "2026-07-05",
     "categories": [
@@ -2251,6 +2433,8 @@
     "club": "TC BAILLARGUES",
     "nom": "P250 Hommes chemin du pradas",
     "dates": "22/06/2026 -> 22/06/2026",
+    "date_debut": "22/06/2026",
+    "date_fin": "22/06/2026",
     "date_debut_iso": "2026-06-22",
     "date_fin_iso": "2026-06-22",
     "categories": [
@@ -2275,6 +2459,8 @@
     "club": "TENNIS & PADEL CLUB DE CASTRIES",
     "nom": "Tournoi interne P100 DH-DD-DM TPC de Castries",
     "dates": "03/12/2025 -> 03/06/2026",
+    "date_debut": "03/12/2025",
+    "date_fin": "03/06/2026",
     "date_debut_iso": "2025-12-03",
     "date_fin_iso": "2026-06-03",
     "categories": [
@@ -2307,6 +2493,8 @@
     "club": "TENNIS & PADEL CLUB DE CASTRIES",
     "nom": "P100 Hommes",
     "dates": "14/06/2026 -> 14/06/2026",
+    "date_debut": "14/06/2026",
+    "date_fin": "14/06/2026",
     "date_debut_iso": "2026-06-14",
     "date_fin_iso": "2026-06-14",
     "categories": [
@@ -2331,6 +2519,8 @@
     "club": "TENNIS & PADEL CLUB DE CASTRIES",
     "nom": "P100 Mixte Very bad tour",
     "dates": "11/06/2026 -> 11/06/2026",
+    "date_debut": "11/06/2026",
+    "date_fin": "11/06/2026",
     "date_debut_iso": "2026-06-11",
     "date_fin_iso": "2026-06-11",
     "categories": [
@@ -2355,6 +2545,8 @@
     "club": "TENNIS & PADEL CLUB DE CASTRIES",
     "nom": "P500 Hommes du TPCC",
     "dates": "20/06/2026 -> 20/06/2026",
+    "date_debut": "20/06/2026",
+    "date_fin": "20/06/2026",
     "date_debut_iso": "2026-06-20",
     "date_fin_iso": "2026-06-20",
     "categories": [
@@ -2379,6 +2571,8 @@
     "club": "PADEL VIC",
     "nom": "P25 H/F et Mixte Vic la Gardiole Chemin d'Aiguebonne",
     "dates": "19/06/2026 -> 21/06/2026",
+    "date_debut": "19/06/2026",
+    "date_fin": "21/06/2026",
     "date_debut_iso": "2026-06-19",
     "date_fin_iso": "2026-06-21",
     "categories": [
@@ -2407,6 +2601,8 @@
     "club": "TC DE RESTINCLIERES BEAULIEU",
     "nom": "P100 F TP Restinclières",
     "dates": "31/05/2026 -> 31/05/2026",
+    "date_debut": "31/05/2026",
+    "date_fin": "31/05/2026",
     "date_debut_iso": "2026-05-31",
     "date_fin_iso": "2026-05-31",
     "categories": [
@@ -2431,6 +2627,8 @@
     "club": "TC DE RESTINCLIERES BEAULIEU",
     "nom": "P25 F TP Restinclières",
     "dates": "28/06/2026 -> 28/06/2026",
+    "date_debut": "28/06/2026",
+    "date_fin": "28/06/2026",
     "date_debut_iso": "2026-06-28",
     "date_fin_iso": "2026-06-28",
     "categories": [
@@ -2455,6 +2653,8 @@
     "club": "TC DE RESTINCLIERES BEAULIEU",
     "nom": "P50 H TP Restinclières",
     "dates": "29/06/2026 -> 29/06/2026",
+    "date_debut": "29/06/2026",
+    "date_fin": "29/06/2026",
     "date_debut_iso": "2026-06-29",
     "date_fin_iso": "2026-06-29",
     "categories": [
@@ -2479,6 +2679,8 @@
     "club": "TC DE RESTINCLIERES BEAULIEU",
     "nom": "P250 H TP Restinclières",
     "dates": "15/06/2026 -> 15/06/2026",
+    "date_debut": "15/06/2026",
+    "date_fin": "15/06/2026",
     "date_debut_iso": "2026-06-15",
     "date_fin_iso": "2026-06-15",
     "categories": [
@@ -2503,6 +2705,8 @@
     "club": "TC DE RESTINCLIERES BEAULIEU",
     "nom": "P250 H TP Restinclières",
     "dates": "08/06/2026 -> 08/06/2026",
+    "date_debut": "08/06/2026",
+    "date_fin": "08/06/2026",
     "date_debut_iso": "2026-06-08",
     "date_fin_iso": "2026-06-08",
     "categories": [
@@ -2527,6 +2731,8 @@
     "club": "TC DE RESTINCLIERES BEAULIEU",
     "nom": "P100 et P250 jeunes TP Restinclières",
     "dates": "03/06/2026 -> 03/06/2026",
+    "date_debut": "03/06/2026",
+    "date_fin": "03/06/2026",
     "date_debut_iso": "2026-06-03",
     "date_fin_iso": "2026-06-03",
     "categories": [
@@ -2556,6 +2762,8 @@
     "club": "GM PADEL LUNEL VIEL",
     "nom": "P100 MIXTE GM PADEL 7 IMPASSE DES COURRENS CHEMIN BA",
     "dates": "30/05/2026 -> 30/05/2026",
+    "date_debut": "30/05/2026",
+    "date_fin": "30/05/2026",
     "date_debut_iso": "2026-05-30",
     "date_fin_iso": "2026-05-30",
     "categories": [
@@ -2580,6 +2788,8 @@
     "club": "GM PADEL LUNEL VIEL",
     "nom": "P100 GM PADEL 7 IMPASSE DES COURRENS CHEMIN BA",
     "dates": "29/06/2026 -> 29/06/2026",
+    "date_debut": "29/06/2026",
+    "date_fin": "29/06/2026",
     "date_debut_iso": "2026-06-29",
     "date_fin_iso": "2026-06-29",
     "categories": [
@@ -2604,6 +2814,8 @@
     "club": "GM PADEL LUNEL VIEL",
     "nom": "P25 GM PADEL 7 IMPASSE DES COURRENS CHEMIN BA",
     "dates": "06/06/2026 -> 06/06/2026",
+    "date_debut": "06/06/2026",
+    "date_fin": "06/06/2026",
     "date_debut_iso": "2026-06-06",
     "date_fin_iso": "2026-06-06",
     "categories": [
@@ -2628,6 +2840,8 @@
     "club": "GM PADEL LUNEL VIEL",
     "nom": "P100 GM PADEL 7 IMPASSE DES COURRENS CHEMIN BA",
     "dates": "06/06/2026 -> 06/06/2026",
+    "date_debut": "06/06/2026",
+    "date_fin": "06/06/2026",
     "date_debut_iso": "2026-06-06",
     "date_fin_iso": "2026-06-06",
     "categories": [
@@ -2652,6 +2866,8 @@
     "club": "GM PADEL LUNEL VIEL",
     "nom": "P50 GM PADEL 7 IMPASSE DES COURRENS CHEMIN BA",
     "dates": "15/06/2026 -> 15/06/2026",
+    "date_debut": "15/06/2026",
+    "date_fin": "15/06/2026",
     "date_debut_iso": "2026-06-15",
     "date_fin_iso": "2026-06-15",
     "categories": [
@@ -2676,6 +2892,8 @@
     "club": "GM PADEL LUNEL VIEL",
     "nom": "P50 GM PADEL 7 IMPASSE DES COURRENS CHEMIN BA",
     "dates": "20/06/2026 -> 20/06/2026",
+    "date_debut": "20/06/2026",
+    "date_fin": "20/06/2026",
     "date_debut_iso": "2026-06-20",
     "date_fin_iso": "2026-06-20",
     "categories": [
@@ -2700,6 +2918,8 @@
     "club": "GM PADEL LUNEL VIEL",
     "nom": "P250 GM PADEL 7 IMPASSE DES COURRENS CHEMIN BA",
     "dates": "22/06/2026 -> 22/06/2026",
+    "date_debut": "22/06/2026",
+    "date_fin": "22/06/2026",
     "date_debut_iso": "2026-06-22",
     "date_fin_iso": "2026-06-22",
     "categories": [
@@ -2724,6 +2944,8 @@
     "club": "GM PADEL LUNEL VIEL",
     "nom": "P100 Dames GM PADEL 7 IMPASSE DES COURRENS CHEMIN BA",
     "dates": "27/06/2026 -> 27/06/2026",
+    "date_debut": "27/06/2026",
+    "date_fin": "27/06/2026",
     "date_debut_iso": "2026-06-27",
     "date_fin_iso": "2026-06-27",
     "categories": [
@@ -2748,6 +2970,8 @@
     "club": "GM PADEL LUNEL VIEL",
     "nom": "P25 H GM PADEL 7 IMPASSE DES COURRENS CHEMIN BA",
     "dates": "27/06/2026 -> 27/06/2026",
+    "date_debut": "27/06/2026",
+    "date_fin": "27/06/2026",
     "date_debut_iso": "2026-06-27",
     "date_fin_iso": "2026-06-27",
     "categories": [
@@ -2772,6 +2996,8 @@
     "club": "GM PADEL LUNEL VIEL",
     "nom": "P250 GM PADEL 7 IMPASSE DES COURRENS CHEMIN BA",
     "dates": "13/06/2026 -> 13/06/2026",
+    "date_debut": "13/06/2026",
+    "date_fin": "13/06/2026",
     "date_debut_iso": "2026-06-13",
     "date_fin_iso": "2026-06-13",
     "categories": [
@@ -2796,6 +3022,8 @@
     "club": "GM PADEL LUNEL VIEL",
     "nom": "P100 GM PADEL 7 IMPASSE DES COURRENS CHEMIN BA",
     "dates": "08/06/2026 -> 08/06/2026",
+    "date_debut": "08/06/2026",
+    "date_fin": "08/06/2026",
     "date_debut_iso": "2026-06-08",
     "date_fin_iso": "2026-06-08",
     "categories": [
@@ -2820,6 +3048,8 @@
     "club": "GM PADEL LUNEL VIEL",
     "nom": "P50 GM PADEL 7 IMPASSE DES COURRENS CHEMIN BA",
     "dates": "01/06/2026 -> 01/06/2026",
+    "date_debut": "01/06/2026",
+    "date_fin": "01/06/2026",
     "date_debut_iso": "2026-06-01",
     "date_fin_iso": "2026-06-01",
     "categories": [
@@ -2844,6 +3074,8 @@
     "club": "MY CENTER LA GRANDE MOTTE",
     "nom": "P100 HOMMES",
     "dates": "19/02/0008 -> 18/08/2026",
+    "date_debut": "19/02/0008",
+    "date_fin": "18/08/2026",
     "date_debut_iso": "0008-02-19",
     "date_fin_iso": "2026-08-18",
     "categories": [
@@ -2868,6 +3100,8 @@
     "club": "MY CENTER LA GRANDE MOTTE",
     "nom": "P50 HOMMES La plaine des Jeux",
     "dates": "28/05/2026 -> 28/05/2026",
+    "date_debut": "28/05/2026",
+    "date_fin": "28/05/2026",
     "date_debut_iso": "2026-05-28",
     "date_fin_iso": "2026-05-28",
     "categories": [
@@ -2892,6 +3126,8 @@
     "club": "MY CENTER LA GRANDE MOTTE",
     "nom": "P100 MIXTE La plaine des Jeux",
     "dates": "31/05/2026 -> 31/05/2026",
+    "date_debut": "31/05/2026",
+    "date_fin": "31/05/2026",
     "date_debut_iso": "2026-05-31",
     "date_fin_iso": "2026-05-31",
     "categories": [
@@ -2916,6 +3152,8 @@
     "club": "MY CENTER LA GRANDE MOTTE",
     "nom": "P100 HOMMES La plaine des Jeux",
     "dates": "11/06/2026 -> 11/06/2026",
+    "date_debut": "11/06/2026",
+    "date_fin": "11/06/2026",
     "date_debut_iso": "2026-06-11",
     "date_fin_iso": "2026-06-11",
     "categories": [
@@ -2940,6 +3178,8 @@
     "club": "MY CENTER LA GRANDE MOTTE",
     "nom": "P50 HOMMES La plaine des Jeux",
     "dates": "18/06/2026 -> 18/06/2026",
+    "date_debut": "18/06/2026",
+    "date_fin": "18/06/2026",
     "date_debut_iso": "2026-06-18",
     "date_fin_iso": "2026-06-18",
     "categories": [
@@ -2964,6 +3204,8 @@
     "club": "MY CENTER LA GRANDE MOTTE",
     "nom": "P250 HOMMES La plaine des Jeux",
     "dates": "14/06/2026 -> 14/06/2026",
+    "date_debut": "14/06/2026",
+    "date_fin": "14/06/2026",
     "date_debut_iso": "2026-06-14",
     "date_fin_iso": "2026-06-14",
     "categories": [
@@ -2988,6 +3230,8 @@
     "club": "MY CENTER LA GRANDE MOTTE",
     "nom": "P25 HOMMES La plaine des Jeux",
     "dates": "25/06/2026 -> 25/06/2026",
+    "date_debut": "25/06/2026",
+    "date_fin": "25/06/2026",
     "date_debut_iso": "2026-06-25",
     "date_fin_iso": "2026-06-25",
     "categories": [
@@ -3012,6 +3256,8 @@
     "club": "SETE PADEL",
     "nom": "P1500 MESSIEURS - SETE PADEL CLUB Parc Aquatechnique",
     "dates": "31/07/2026 -> 02/08/2026",
+    "date_debut": "31/07/2026",
+    "date_fin": "02/08/2026",
     "date_debut_iso": "2026-07-31",
     "date_fin_iso": "2026-08-02",
     "categories": [
@@ -3036,6 +3282,8 @@
     "club": "SETE PADEL",
     "nom": "P100F 27/05 Soirée + P25H 29/05 Aprem Parc Aquatechnique",
     "dates": "27/05/2026 -> 29/05/2026",
+    "date_debut": "27/05/2026",
+    "date_fin": "29/05/2026",
     "date_debut_iso": "2026-05-27",
     "date_fin_iso": "2026-05-29",
     "categories": [
@@ -3065,6 +3313,8 @@
     "club": "SETE PADEL",
     "nom": "P1000 F 14-16/08 & P500 H le 16/08 Parc Aquatechnique",
     "dates": "14/08/2026 -> 16/08/2026",
+    "date_debut": "14/08/2026",
+    "date_fin": "16/08/2026",
     "date_debut_iso": "2026-08-14",
     "date_fin_iso": "2026-08-16",
     "categories": [
@@ -3094,6 +3344,8 @@
     "club": "SETE PADEL",
     "nom": "P25 F Soirée Parc Aquatechnique",
     "dates": "24/06/2026 -> 24/06/2026",
+    "date_debut": "24/06/2026",
+    "date_fin": "24/06/2026",
     "date_debut_iso": "2026-06-24",
     "date_fin_iso": "2026-06-24",
     "categories": [
@@ -3118,6 +3370,8 @@
     "club": "SETE PADEL",
     "nom": "P100 Mixte 17/06 Soirée & P50 H 19/06 Soirée Parc Aquatechnique",
     "dates": "17/06/2026 -> 19/06/2026",
+    "date_debut": "17/06/2026",
+    "date_fin": "19/06/2026",
     "date_debut_iso": "2026-06-17",
     "date_fin_iso": "2026-06-19",
     "categories": [
@@ -3147,6 +3401,8 @@
     "club": "SETE PADEL",
     "nom": "P250 F 24/06 Soirée & P100 H 26/06 Soirée Parc Aquatechnique",
     "dates": "24/06/2026 -> 26/06/2026",
+    "date_debut": "24/06/2026",
+    "date_fin": "26/06/2026",
     "date_debut_iso": "2026-06-24",
     "date_fin_iso": "2026-06-26",
     "categories": [
@@ -3176,6 +3432,8 @@
     "club": "SETE PADEL",
     "nom": "P50 H Soirée Parc Aquatechnique",
     "dates": "10/06/2026 -> 10/06/2026",
+    "date_debut": "10/06/2026",
+    "date_fin": "10/06/2026",
     "date_debut_iso": "2026-06-10",
     "date_fin_iso": "2026-06-10",
     "categories": [
@@ -3200,6 +3458,8 @@
     "club": "SETE PADEL",
     "nom": "P25 H 12/06 Après-midi Parc Aquatechnique",
     "dates": "12/06/2026 -> 12/06/2026",
+    "date_debut": "12/06/2026",
+    "date_fin": "12/06/2026",
     "date_debut_iso": "2026-06-12",
     "date_fin_iso": "2026-06-12",
     "categories": [
@@ -3224,6 +3484,8 @@
     "club": "SETE PADEL",
     "nom": "P250 H 12/06 Soirée Parc Aquatechnique",
     "dates": "12/06/2026 -> 12/06/2026",
+    "date_debut": "12/06/2026",
+    "date_fin": "12/06/2026",
     "date_debut_iso": "2026-06-12",
     "date_fin_iso": "2026-06-12",
     "categories": [
@@ -3248,6 +3510,8 @@
     "club": "SETE PADEL",
     "nom": "P500 H & F Parc Aquatechnique",
     "dates": "07/06/2026 -> 07/06/2026",
+    "date_debut": "07/06/2026",
+    "date_fin": "07/06/2026",
     "date_debut_iso": "2026-06-07",
     "date_fin_iso": "2026-06-07",
     "categories": [
@@ -3272,6 +3536,8 @@
     "club": "SETE PADEL",
     "nom": "P50 Mixte 03/06 soirée & P100 H 05/06 soirée Parc Aquatechnique",
     "dates": "03/06/2026 -> 05/06/2026",
+    "date_debut": "03/06/2026",
+    "date_fin": "05/06/2026",
     "date_debut_iso": "2026-06-03",
     "date_fin_iso": "2026-06-05",
     "categories": [
