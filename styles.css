@@ -570,3 +570,13 @@ body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sa
         z-index: 500;
     }
 }
+
+/* Cacher le bouton "Voir les tournois" sur desktop */
+#mobile-filters-apply {
+    display: none;
+}
+@media (max-width: 768px) {
+    #filters.mobile-open #mobile-filters-apply {
+        display: block;
+    }
+}
