@@ -558,3 +558,37 @@ if (mobileFiltersApply) {
     
     setTimeout(updateApplyButton, 500);
 }
+
+// ----- SYNCHRONISATION VISUELLE DES FILTRES -----
+// Quand on rouvre le panneau filtres, on remet les boutons dans le bon etat
+function syncFiltresUI() {
+    // Boutons catégorie
+    document.querySelectorAll('.filter-btn[data-type="cat"]').forEach(b => {
+        b.classList.toggle("active", b.dataset.value === filtres.cat);
+    });
+    // Boutons genre
+    document.querySelectorAll('.filter-btn[data-type="genre"]').forEach(b => {
+        b.classList.toggle("active", b.dataset.value === filtres.genre);
+    });
+    // Inputs date
+    document.getElementById("date-from").value = filtres.dateFrom || "";
+    document.getElementById("date-to").value = filtres.dateTo || "";
+    // Geoloc
+    if (userPosition) {
+        document.getElementById("reset-geoloc").style.display = "inline-block";
+    }
+}
+
+// Appelée quand on ouvre le panneau mobile
+if (mobileFiltersToggle) {
+    mobileFiltersToggle.addEventListener("click", () => {
+        syncFiltresUI();
+    });
+}
+
+// Aussi appelée quand on change de vue
+document.querySelectorAll(".view-btn").forEach(btn => {
+    btn.addEventListener("click", () => {
+        syncFiltresUI();
+    });
+});
