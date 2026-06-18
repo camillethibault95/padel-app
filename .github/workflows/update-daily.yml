@@ -26,7 +26,7 @@ jobs:
       - name: Installation des dépendances
         run: |
           pip install -r requirements.txt
-          playwright install --with-deps chromium
+          playwright install chromium
       
       # 4. Lancer le pipeline complet
       - name: Lancement du pipeline
