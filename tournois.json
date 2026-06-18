@@ -3,58 +3,6 @@
     "lat": 43.617368,
     "lon": 3.839961,
     "club": "AMICALE HERAULT",
-    "nom": "AMICALE HERAULT P100 H 28/05/26",
-    "dates": "28/05/2026 -> 28/05/2026",
-    "date_debut": "28/05/2026",
-    "date_fin": "28/05/2026",
-    "date_debut_iso": "2026-05-28",
-    "date_fin_iso": "2026-05-28",
-    "categories": [
-      "P100"
-    ],
-    "categories_str": "P100",
-    "epreuves_detail": [
-      {
-        "categorie": "P100",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "MONTPELLIER",
-    "juge": "Thibault SANCHEZ",
-    "tel": "06 50 69 25 98",
-    "email": "thibaultsanchez@live.fr",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.617368,
-    "lon": 3.839961,
-    "club": "AMICALE HERAULT",
-    "nom": "AMICALE HERAULT P100 H 30/05/26",
-    "dates": "30/05/2026 -> 30/05/2026",
-    "date_debut": "30/05/2026",
-    "date_fin": "30/05/2026",
-    "date_debut_iso": "2026-05-30",
-    "date_fin_iso": "2026-05-30",
-    "categories": [
-      "P100"
-    ],
-    "categories_str": "P100",
-    "epreuves_detail": [
-      {
-        "categorie": "P100",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "MONTPELLIER",
-    "juge": "Thibault SANCHEZ",
-    "tel": "06 50 69 25 98",
-    "email": "thibaultsanchez@live.fr",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.617368,
-    "lon": 3.839961,
-    "club": "AMICALE HERAULT",
     "nom": "AMICALE HERAULT P100 H 21/06",
     "dates": "21/06/2026 -> 21/06/2026",
     "date_debut": "21/06/2026",
@@ -107,12 +55,142 @@
     "lat": 43.617368,
     "lon": 3.839961,
     "club": "AMICALE HERAULT",
-    "nom": "AMICALE HERAULT P25H 17/06",
-    "dates": "17/06/2026 -> 17/06/2026",
-    "date_debut": "17/06/2026",
-    "date_fin": "17/06/2026",
-    "date_debut_iso": "2026-06-17",
-    "date_fin_iso": "2026-06-17",
+    "nom": "AMICALE HERAULT P50H 01/07/2026",
+    "dates": "01/07/2026 -> 01/07/2026",
+    "date_debut": "01/07/2026",
+    "date_fin": "01/07/2026",
+    "date_debut_iso": "2026-07-01",
+    "date_fin_iso": "2026-07-01",
+    "categories": [
+      "P50"
+    ],
+    "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "MONTPELLIER",
+    "juge": "Thibault SANCHEZ",
+    "tel": "06 50 69 25 98",
+    "email": "thibaultsanchez@live.fr",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.617368,
+    "lon": 3.839961,
+    "club": "AMICALE HERAULT",
+    "nom": "AMICALE HERAULT P500H 04 et 05/07",
+    "dates": "04/07/2026 -> 05/07/2026",
+    "date_debut": "04/07/2026",
+    "date_fin": "05/07/2026",
+    "date_debut_iso": "2026-07-04",
+    "date_fin_iso": "2026-07-05",
+    "categories": [
+      "P500"
+    ],
+    "categories_str": "P500",
+    "epreuves_detail": [
+      {
+        "categorie": "P500",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "MONTPELLIER",
+    "juge": "Yannis PELE",
+    "tel": "06 50 69 25 98",
+    "email": "thibaultsanchez@live.fr",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.617368,
+    "lon": 3.839961,
+    "club": "AMICALE HERAULT",
+    "nom": "AMICALE HERAULT P100 Mixte 09/07/26",
+    "dates": "09/07/2026 -> 09/07/2026",
+    "date_debut": "09/07/2026",
+    "date_fin": "09/07/2026",
+    "date_debut_iso": "2026-07-09",
+    "date_fin_iso": "2026-07-09",
+    "categories": [
+      "P100"
+    ],
+    "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Mixte"
+      }
+    ],
+    "ville": "MONTPELLIER",
+    "juge": "Thibault SANCHEZ",
+    "tel": "06 50 69 25 98",
+    "email": "thibaultsanchez@live.fr",
+    "epreuves": "Double Mixte"
+  },
+  {
+    "lat": 43.617368,
+    "lon": 3.839961,
+    "club": "AMICALE HERAULT",
+    "nom": "AMICALE HERAULT P100 H 13/07/26",
+    "dates": "13/07/2026 -> 13/07/2026",
+    "date_debut": "13/07/2026",
+    "date_fin": "13/07/2026",
+    "date_debut_iso": "2026-07-13",
+    "date_fin_iso": "2026-07-13",
+    "categories": [
+      "P100"
+    ],
+    "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "MONTPELLIER",
+    "juge": "Thibault SANCHEZ",
+    "tel": "06 50 69 25 98",
+    "email": "thibaultsanchez@live.fr",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.617368,
+    "lon": 3.839961,
+    "club": "AMICALE HERAULT",
+    "nom": "AMICALE HERAULT P250 H 25/07/2026",
+    "dates": "25/07/2026 -> 25/07/2026",
+    "date_debut": "25/07/2026",
+    "date_fin": "25/07/2026",
+    "date_debut_iso": "2026-07-25",
+    "date_fin_iso": "2026-07-25",
+    "categories": [
+      "P250"
+    ],
+    "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "MONTPELLIER",
+    "juge": "Yannis PELE",
+    "tel": "06 78 58 60 72",
+    "email": "pele.yannis@gmail.com",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.617368,
+    "lon": 3.839961,
+    "club": "AMICALE HERAULT",
+    "nom": "AMICALE HERAULT P25 H 16/07/2026",
+    "dates": "16/07/2026 -> 16/07/2026",
+    "date_debut": "16/07/2026",
+    "date_fin": "16/07/2026",
+    "date_debut_iso": "2026-07-16",
+    "date_fin_iso": "2026-07-16",
     "categories": [
       "P25"
     ],
@@ -133,19 +211,19 @@
     "lat": 43.617368,
     "lon": 3.839961,
     "club": "AMICALE HERAULT",
-    "nom": "AMICALE HERAULT P50 H 04/06",
-    "dates": "04/06/2026 -> 04/06/2026",
-    "date_debut": "04/06/2026",
-    "date_fin": "04/06/2026",
-    "date_debut_iso": "2026-06-04",
-    "date_fin_iso": "2026-06-04",
+    "nom": "AMICALE HERAULT P100 H 30/07/2026",
+    "dates": "30/07/2026 -> 30/07/2026",
+    "date_debut": "30/07/2026",
+    "date_fin": "30/07/2026",
+    "date_debut_iso": "2026-07-30",
+    "date_fin_iso": "2026-07-30",
     "categories": [
-      "P50"
+      "P100"
     ],
-    "categories_str": "P50",
+    "categories_str": "P100",
     "epreuves_detail": [
       {
-        "categorie": "P50",
+        "categorie": "P100",
         "genre": "Messieurs"
       }
     ],
@@ -159,19 +237,17 @@
     "lat": 43.617368,
     "lon": 3.839961,
     "club": "AMICALE HERAULT",
-    "nom": "AMICALE HERAULT P50F 10/06",
-    "dates": "10/06/2026 -> 10/06/2026",
-    "date_debut": "10/06/2026",
-    "date_fin": "10/06/2026",
-    "date_debut_iso": "2026-06-10",
-    "date_fin_iso": "2026-06-10",
-    "categories": [
-      "P50"
-    ],
-    "categories_str": "P50",
+    "nom": "AMICALE HERAULT P100D 23/07/2026",
+    "dates": "23/07/2026 -> 23/07/2026",
+    "date_debut": "23/07/2026",
+    "date_fin": "23/07/2026",
+    "date_debut_iso": "2026-07-23",
+    "date_fin_iso": "2026-07-23",
+    "categories": [],
+    "categories_str": "Non precisee",
     "epreuves_detail": [
       {
-        "categorie": "P50",
+        "categorie": "P100",
         "genre": "Dames"
       }
     ],
@@ -182,41 +258,15 @@
     "epreuves": "Double Dames"
   },
   {
-    "lat": 43.617368,
-    "lon": 3.839961,
-    "club": "AMICALE HERAULT",
-    "nom": "AMICALE HERAULT P250 H 07/06",
-    "dates": "07/06/2026 -> 07/06/2026",
-    "date_debut": "07/06/2026",
-    "date_fin": "07/06/2026",
-    "date_debut_iso": "2026-06-07",
-    "date_fin_iso": "2026-06-07",
-    "categories": [
-      "P250"
-    ],
-    "categories_str": "P250",
-    "epreuves_detail": [
-      {
-        "categorie": "P250",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "MONTPELLIER",
-    "juge": "Yannis PELE",
-    "tel": "06 78 58 60 72",
-    "email": "pele.yannis@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
     "lat": 43.637422,
     "lon": 3.910191,
     "club": "URBAN PADEL MONTPELLIER CASTELNAU",
     "nom": "p100 messieurs",
-    "dates": "08/06/2026 -> 08/06/2026",
-    "date_debut": "08/06/2026",
-    "date_fin": "08/06/2026",
-    "date_debut_iso": "2026-06-08",
-    "date_fin_iso": "2026-06-08",
+    "dates": "19/06/2026 -> 19/06/2026",
+    "date_debut": "19/06/2026",
+    "date_fin": "19/06/2026",
+    "date_debut_iso": "2026-06-19",
+    "date_fin_iso": "2026-06-19",
     "categories": [],
     "categories_str": "Non precisee",
     "epreuves_detail": [
@@ -232,62 +282,8 @@
     "epreuves": "Double Messieurs"
   },
   {
-    "lat": 43.637422,
-    "lon": 3.910191,
-    "club": "URBAN PADEL MONTPELLIER CASTELNAU",
-    "nom": "p250 messieurs",
-    "dates": "01/06/2026 -> 01/06/2026",
-    "date_debut": "01/06/2026",
-    "date_fin": "01/06/2026",
-    "date_debut_iso": "2026-06-01",
-    "date_fin_iso": "2026-06-01",
-    "categories": [],
-    "categories_str": "Non precisee",
-    "epreuves_detail": [
-      {
-        "categorie": "P250",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "CASTELNAU LE LEZ",
-    "juge": "Franck LEPRETTE",
-    "tel": "04 67 69 93 27",
-    "email": "enjie.blotierre@urbanpadel.fr",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.559986,
-    "lon": 3.897354,
-    "club": "LATTES PADEL ASSOCIATION",
-    "nom": "P100 H/F vendredi soir",
-    "dates": "29/05/2026 -> 29/05/2026",
-    "date_debut": "29/05/2026",
-    "date_fin": "29/05/2026",
-    "date_debut_iso": "2026-05-29",
-    "date_fin_iso": "2026-05-29",
-    "categories": [
-      "P100"
-    ],
-    "categories_str": "P100",
-    "epreuves_detail": [
-      {
-        "categorie": "P100",
-        "genre": "Messieurs"
-      },
-      {
-        "categorie": "P100",
-        "genre": "Dames"
-      }
-    ],
-    "ville": "LATTES",
-    "juge": "Thibaut VOL",
-    "tel": "06 85 47 93 26",
-    "email": "padel.lattes@gmail.com",
-    "epreuves": "Double Dames / Double Messieurs"
-  },
-  {
-    "lat": 43.559986,
-    "lon": 3.897354,
+    "lat": 43.559922,
+    "lon": 3.897723,
     "club": "LATTES PADEL ASSOCIATION",
     "nom": "P50H",
     "dates": "26/06/2026 -> 26/06/2026",
@@ -312,86 +308,8 @@
     "epreuves": "Double Messieurs"
   },
   {
-    "lat": 43.559986,
-    "lon": 3.897354,
-    "club": "LATTES PADEL ASSOCIATION",
-    "nom": "P250 mixte lattes padel club",
-    "dates": "12/06/2026 -> 12/06/2026",
-    "date_debut": "12/06/2026",
-    "date_fin": "12/06/2026",
-    "date_debut_iso": "2026-06-12",
-    "date_fin_iso": "2026-06-12",
-    "categories": [
-      "P250"
-    ],
-    "categories_str": "P250",
-    "epreuves_detail": [
-      {
-        "categorie": "P250",
-        "genre": "Mixte"
-      }
-    ],
-    "ville": "LATTES",
-    "juge": "Non precise",
-    "tel": "06 85 47 93 26",
-    "email": "padel.lattes@gmail.com",
-    "epreuves": "Double Mixte"
-  },
-  {
-    "lat": 43.559986,
-    "lon": 3.897354,
-    "club": "LATTES PADEL ASSOCIATION",
-    "nom": "P25 H lattes padel club",
-    "dates": "01/06/2026 -> 01/06/2026",
-    "date_debut": "01/06/2026",
-    "date_fin": "01/06/2026",
-    "date_debut_iso": "2026-06-01",
-    "date_fin_iso": "2026-06-01",
-    "categories": [
-      "P25"
-    ],
-    "categories_str": "P25",
-    "epreuves_detail": [
-      {
-        "categorie": "P25",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "LATTES",
-    "juge": "Thibaut VOL",
-    "tel": "06 85 47 93 26",
-    "email": "padel.lattes@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.559986,
-    "lon": 3.897354,
-    "club": "LATTES PADEL ASSOCIATION",
-    "nom": "P100 H",
-    "dates": "05/06/2026 -> 05/06/2026",
-    "date_debut": "05/06/2026",
-    "date_fin": "05/06/2026",
-    "date_debut_iso": "2026-06-05",
-    "date_fin_iso": "2026-06-05",
-    "categories": [
-      "P100"
-    ],
-    "categories_str": "P100",
-    "epreuves_detail": [
-      {
-        "categorie": "P100",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "LATTES",
-    "juge": "Thibaut VOL",
-    "tel": "06 85 47 93 26",
-    "email": "padel.lattes@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.559986,
-    "lon": 3.897354,
+    "lat": 43.559922,
+    "lon": 3.897723,
     "club": "LATTES PADEL ASSOCIATION",
     "nom": "P25 hommes",
     "dates": "19/06/2026 -> 19/06/2026",
@@ -416,7 +334,254 @@
     "epreuves": "Double Messieurs"
   },
   {
-    "lat": 43.650807,
+    "lat": 43.559922,
+    "lon": 3.897723,
+    "club": "LATTES PADEL ASSOCIATION",
+    "nom": "P100H + P25 Mixte",
+    "dates": "03/07/2026 -> 03/07/2026",
+    "date_debut": "03/07/2026",
+    "date_fin": "03/07/2026",
+    "date_debut_iso": "2026-07-03",
+    "date_fin_iso": "2026-07-03",
+    "categories": [
+      "P25",
+      "P100"
+    ],
+    "categories_str": "P25 / P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      },
+      {
+        "categorie": "P25",
+        "genre": "Mixte"
+      }
+    ],
+    "ville": "LATTES",
+    "juge": "Thibaut VOL",
+    "tel": "06 85 47 93 26",
+    "email": "padel.lattes@gmail.com",
+    "epreuves": "Double Messieurs / Double Mixte"
+  },
+  {
+    "lat": 43.559922,
+    "lon": 3.897723,
+    "club": "LATTES PADEL ASSOCIATION",
+    "nom": "P50 H matin",
+    "dates": "06/07/2026 -> 06/07/2026",
+    "date_debut": "06/07/2026",
+    "date_fin": "06/07/2026",
+    "date_debut_iso": "2026-07-06",
+    "date_fin_iso": "2026-07-06",
+    "categories": [
+      "P50"
+    ],
+    "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "LATTES",
+    "juge": "Thibaut VOL",
+    "tel": "06 85 47 93 26",
+    "email": "padel.lattes@gmail.com",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.559922,
+    "lon": 3.897723,
+    "club": "LATTES PADEL ASSOCIATION",
+    "nom": "P100 H + P100 F soirée",
+    "dates": "10/07/2026 -> 10/07/2026",
+    "date_debut": "10/07/2026",
+    "date_fin": "10/07/2026",
+    "date_debut_iso": "2026-07-10",
+    "date_fin_iso": "2026-07-10",
+    "categories": [
+      "P100"
+    ],
+    "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      },
+      {
+        "categorie": "P100",
+        "genre": "Dames"
+      }
+    ],
+    "ville": "LATTES",
+    "juge": "Thibaut VOL",
+    "tel": "06 85 47 93 26",
+    "email": "padel.lattes@gmail.com",
+    "epreuves": "Double Dames / Double Messieurs"
+  },
+  {
+    "lat": 43.559922,
+    "lon": 3.897723,
+    "club": "LATTES PADEL ASSOCIATION",
+    "nom": "P25 H Matin",
+    "dates": "20/07/2026 -> 20/07/2026",
+    "date_debut": "20/07/2026",
+    "date_fin": "20/07/2026",
+    "date_debut_iso": "2026-07-20",
+    "date_fin_iso": "2026-07-20",
+    "categories": [
+      "P25"
+    ],
+    "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "LATTES",
+    "juge": "Thibaut VOL",
+    "tel": "06 85 47 93 26",
+    "email": "padel.lattes@gmail.com",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.559922,
+    "lon": 3.897723,
+    "club": "LATTES PADEL ASSOCIATION",
+    "nom": "P250 H journée",
+    "dates": "22/07/2026 -> 22/07/2026",
+    "date_debut": "22/07/2026",
+    "date_fin": "22/07/2026",
+    "date_debut_iso": "2026-07-22",
+    "date_fin_iso": "2026-07-22",
+    "categories": [
+      "P250"
+    ],
+    "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "LATTES",
+    "juge": "Non precise",
+    "tel": "06 85 47 93 26",
+    "email": "padel.lattes@gmail.com",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.559922,
+    "lon": 3.897723,
+    "club": "LATTES PADEL ASSOCIATION",
+    "nom": "P100 Mixte journée",
+    "dates": "15/07/2026 -> 15/07/2026",
+    "date_debut": "15/07/2026",
+    "date_fin": "15/07/2026",
+    "date_debut_iso": "2026-07-15",
+    "date_fin_iso": "2026-07-15",
+    "categories": [
+      "P100"
+    ],
+    "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Mixte"
+      }
+    ],
+    "ville": "LATTES",
+    "juge": "Thibaut VOL",
+    "tel": "06 85 47 93 26",
+    "email": "padel.lattes@gmail.com",
+    "epreuves": "Double Mixte"
+  },
+  {
+    "lat": 43.559922,
+    "lon": 3.897723,
+    "club": "LATTES PADEL ASSOCIATION",
+    "nom": "P100 H soirée",
+    "dates": "17/07/2026 -> 17/07/2026",
+    "date_debut": "17/07/2026",
+    "date_fin": "17/07/2026",
+    "date_debut_iso": "2026-07-17",
+    "date_fin_iso": "2026-07-17",
+    "categories": [
+      "P100"
+    ],
+    "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "LATTES",
+    "juge": "Thibaut VOL",
+    "tel": "06 85 47 93 26",
+    "email": "padel.lattes@gmail.com",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.559922,
+    "lon": 3.897723,
+    "club": "LATTES PADEL ASSOCIATION",
+    "nom": "P50 H journée",
+    "dates": "29/07/2026 -> 29/07/2026",
+    "date_debut": "29/07/2026",
+    "date_fin": "29/07/2026",
+    "date_debut_iso": "2026-07-29",
+    "date_fin_iso": "2026-07-29",
+    "categories": [
+      "P50"
+    ],
+    "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "LATTES",
+    "juge": "Thibaut VOL",
+    "tel": "06 85 47 93 26",
+    "email": "padel.lattes@gmail.com",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.559922,
+    "lon": 3.897723,
+    "club": "LATTES PADEL ASSOCIATION",
+    "nom": "P50 H + P50 M soirée",
+    "dates": "31/07/2026 -> 31/07/2026",
+    "date_debut": "31/07/2026",
+    "date_fin": "31/07/2026",
+    "date_debut_iso": "2026-07-31",
+    "date_fin_iso": "2026-07-31",
+    "categories": [
+      "P50"
+    ],
+    "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      },
+      {
+        "categorie": "P50",
+        "genre": "Mixte"
+      }
+    ],
+    "ville": "LATTES",
+    "juge": "Thibaut VOL",
+    "tel": "06 85 47 93 26",
+    "email": "padel.lattes@gmail.com",
+    "epreuves": "Double Messieurs / Double Mixte"
+  },
+  {
+    "lat": 43.650806,
     "lon": 3.830681,
     "club": "ASCH MONTPELLIER",
     "nom": "P250 H ASCH domaine damartin",
@@ -442,41 +607,15 @@
     "epreuves": "Double Messieurs"
   },
   {
-    "lat": 43.650807,
+    "lat": 43.650806,
     "lon": 3.830681,
     "club": "ASCH MONTPELLIER",
-    "nom": "P1000 H ASCH Domaine Damartin",
-    "dates": "13/06/2026 -> 14/06/2026",
-    "date_debut": "13/06/2026",
-    "date_fin": "14/06/2026",
-    "date_debut_iso": "2026-06-13",
-    "date_fin_iso": "2026-06-14",
-    "categories": [
-      "P1000"
-    ],
-    "categories_str": "P1000",
-    "epreuves_detail": [
-      {
-        "categorie": "P1000",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "GRABELS",
-    "juge": "Catherine FOURAGE",
-    "tel": "06 61 52 16 32",
-    "email": "aschtennis@wanadoo.fr",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.606634,
-    "lon": 3.784893,
-    "club": "TENNIS PADEL CLUB ST GEORGES D'ORQUES",
-    "nom": "P50 Messieurs",
-    "dates": "29/05/2026 -> 29/05/2026",
-    "date_debut": "29/05/2026",
-    "date_fin": "29/05/2026",
-    "date_debut_iso": "2026-05-29",
-    "date_fin_iso": "2026-05-29",
+    "nom": "P50H ASCH app 53 res l'arbre blanc",
+    "dates": "06/07/2026 -> 06/07/2026",
+    "date_debut": "06/07/2026",
+    "date_fin": "06/07/2026",
+    "date_debut_iso": "2026-07-06",
+    "date_fin_iso": "2026-07-06",
     "categories": [
       "P50"
     ],
@@ -484,6 +623,118 @@
     "epreuves_detail": [
       {
         "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "GRABELS",
+    "juge": "Kevin FOURAGE",
+    "tel": "06 61 52 16 32",
+    "email": "kevin.fourage34@gmail.com",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.650806,
+    "lon": 3.830681,
+    "club": "ASCH MONTPELLIER",
+    "nom": "P100 F + P100 H ASCH app 53 res l'arbre blanc",
+    "dates": "18/07/2026 -> 18/07/2026",
+    "date_debut": "18/07/2026",
+    "date_fin": "18/07/2026",
+    "date_debut_iso": "2026-07-18",
+    "date_fin_iso": "2026-07-18",
+    "categories": [
+      "P100"
+    ],
+    "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Dames"
+      },
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "GRABELS",
+    "juge": "Kevin FOURAGE",
+    "tel": "06 61 52 16 32",
+    "email": "kevin.fourage34@gmail.com",
+    "epreuves": "Double Dames / Double Messieurs"
+  },
+  {
+    "lat": 43.650806,
+    "lon": 3.830681,
+    "club": "ASCH MONTPELLIER",
+    "nom": "P500H P500F ASCH domaine damartin",
+    "dates": "19/07/2026 -> 19/07/2026",
+    "date_debut": "19/07/2026",
+    "date_fin": "19/07/2026",
+    "date_debut_iso": "2026-07-19",
+    "date_fin_iso": "2026-07-19",
+    "categories": [
+      "P500"
+    ],
+    "categories_str": "P500",
+    "epreuves_detail": [
+      {
+        "categorie": "P500",
+        "genre": "Messieurs"
+      },
+      {
+        "categorie": "P500",
+        "genre": "Dames"
+      }
+    ],
+    "ville": "GRABELS",
+    "juge": "Catherine FOURAGE",
+    "tel": "04 67 54 45 24",
+    "email": "aschtennis@wanadoo.fr",
+    "epreuves": "Double Dames / Double Messieurs"
+  },
+  {
+    "lat": 43.651135,
+    "lon": 3.808403,
+    "club": "ASCH MONTPELLIER",
+    "nom": "P50H ASCH Rue Antoine - Jérôme BALARD",
+    "dates": "27/07/2026 -> 27/07/2026",
+    "date_debut": "27/07/2026",
+    "date_fin": "27/07/2026",
+    "date_debut_iso": "2026-07-27",
+    "date_fin_iso": "2026-07-27",
+    "categories": [
+      "P50"
+    ],
+    "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "GRABELS",
+    "juge": "Kevin FOURAGE",
+    "tel": "04 67 54 45 24",
+    "email": "aschtennis@wanadoo.fr",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.606634,
+    "lon": 3.784893,
+    "club": "TENNIS PADEL CLUB ST GEORGES D'ORQUES",
+    "nom": "P100 Messieurs",
+    "dates": "19/06/2026 -> 19/06/2026",
+    "date_debut": "19/06/2026",
+    "date_fin": "19/06/2026",
+    "date_debut_iso": "2026-06-19",
+    "date_fin_iso": "2026-06-19",
+    "categories": [
+      "P100"
+    ],
+    "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
         "genre": "Messieurs"
       }
     ],
@@ -497,148 +748,12 @@
     "lat": 43.606634,
     "lon": 3.784893,
     "club": "TENNIS PADEL CLUB ST GEORGES D'ORQUES",
-    "nom": "P250 Messieurs",
-    "dates": "06/06/2026 -> 06/06/2026",
-    "date_debut": "06/06/2026",
-    "date_fin": "06/06/2026",
-    "date_debut_iso": "2026-06-06",
-    "date_fin_iso": "2026-06-06",
-    "categories": [
-      "P250"
-    ],
-    "categories_str": "P250",
-    "epreuves_detail": [
-      {
-        "categorie": "P250",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "SAINT GEORGES D'ORQUES",
-    "juge": "Jean Louis DARLAY",
-    "tel": "26 06 88 21 40",
-    "email": "jean-louis.darlay@fft.fr",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.559986,
-    "lon": 3.897354,
-    "club": "MHSC PADEL - P500H 26/06 - P500F + P25 Mixte ET TENNIS DE PEROLS Senior Double Dames",
-    "nom": "27/06 Route de Pérols",
-    "dates": "26/06/2026 -> 27/06/2026",
-    "date_debut": "26/06/2026",
-    "date_fin": "27/06/2026",
-    "date_debut_iso": "2026-06-26",
-    "date_fin_iso": "2026-06-27",
-    "categories": [
-      "P25",
-      "P500"
-    ],
-    "categories_str": "P25 / P500",
-    "epreuves_detail": [],
-    "ville": "LATTES",
-    "juge": "François LORENZO",
-    "tel": "04 72 89 74 59",
-    "email": "contact@mhsc-padeltennis.com",
-    "epreuves": "Double Dames / Double Messieurs / Double Mixte"
-  },
-  {
-    "lat": 43.565835,
-    "lon": 3.912104,
-    "club": "MHSC PADEL ET TENNIS DE PEROLS",
-    "nom": "MHSC PADEL - P25H P250M",
-    "dates": "06/06/2026 -> 06/06/2026",
-    "date_debut": "06/06/2026",
-    "date_fin": "06/06/2026",
-    "date_debut_iso": "2026-06-06",
-    "date_fin_iso": "2026-06-06",
-    "categories": [
-      "P25",
-      "P250"
-    ],
-    "categories_str": "P25 / P250",
-    "epreuves_detail": [
-      {
-        "categorie": "P25",
-        "genre": "Messieurs"
-      },
-      {
-        "categorie": "P250",
-        "genre": "Mixte"
-      }
-    ],
-    "ville": "LATTES",
-    "juge": "François LORENZO",
-    "tel": "04 72 89 74 59",
-    "email": "contact@mhsc-padeltennis.com",
-    "epreuves": "Double Messieurs / Double Mixte"
-  },
-  {
-    "lat": 43.565835,
-    "lon": 3.912104,
-    "club": "MHSC PADEL ET TENNIS DE PEROLS",
-    "nom": "MHSC PADEL - P100H P250F",
-    "dates": "07/06/2026 -> 07/06/2026",
-    "date_debut": "07/06/2026",
-    "date_fin": "07/06/2026",
-    "date_debut_iso": "2026-06-07",
-    "date_fin_iso": "2026-06-07",
-    "categories": [
-      "P100",
-      "P250"
-    ],
-    "categories_str": "P100 / P250",
-    "epreuves_detail": [
-      {
-        "categorie": "P100",
-        "genre": "Messieurs"
-      },
-      {
-        "categorie": "P250",
-        "genre": "Dames"
-      }
-    ],
-    "ville": "LATTES",
-    "juge": "François LORENZO",
-    "tel": "04 72 89 74 59",
-    "email": "contact@mhsc-padeltennis.com",
-    "epreuves": "Double Dames / Double Messieurs"
-  },
-  {
-    "lat": 43.565835,
-    "lon": 3.912104,
-    "club": "MHSC PADEL ET TENNIS DE PEROLS",
-    "nom": "MHSC PADEL - P500H",
-    "dates": "12/06/2026 -> 12/06/2026",
-    "date_debut": "12/06/2026",
-    "date_fin": "12/06/2026",
-    "date_debut_iso": "2026-06-12",
-    "date_fin_iso": "2026-06-12",
-    "categories": [
-      "P500"
-    ],
-    "categories_str": "P500",
-    "epreuves_detail": [
-      {
-        "categorie": "P500",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "LATTES",
-    "juge": "François LORENZO",
-    "tel": "04 72 89 74 59",
-    "email": "contact@mhsc-padeltennis.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.565835,
-    "lon": 3.912104,
-    "club": "MHSC PADEL ET TENNIS DE PEROLS",
-    "nom": "MHSC PADEL - P50H P50M",
-    "dates": "28/06/2026 -> 28/06/2026",
-    "date_debut": "28/06/2026",
-    "date_fin": "28/06/2026",
-    "date_debut_iso": "2026-06-28",
-    "date_fin_iso": "2026-06-28",
+    "nom": "P50 Dames",
+    "dates": "02/07/2026 -> 02/07/2026",
+    "date_debut": "02/07/2026",
+    "date_fin": "02/07/2026",
+    "date_debut_iso": "2026-07-02",
+    "date_fin_iso": "2026-07-02",
     "categories": [
       "P50"
     ],
@@ -646,59 +761,25 @@
     "epreuves_detail": [
       {
         "categorie": "P50",
-        "genre": "Messieurs"
-      },
-      {
-        "categorie": "P50",
-        "genre": "Mixte"
-      }
-    ],
-    "ville": "LATTES",
-    "juge": "François LORENZO",
-    "tel": "04 72 89 74 59",
-    "email": "contact@mhsc-padeltennis.com",
-    "epreuves": "Double Messieurs / Double Mixte"
-  },
-  {
-    "lat": 43.565835,
-    "lon": 3.912104,
-    "club": "MHSC PADEL ET TENNIS DE PEROLS",
-    "nom": "MHSC PADEL - P100F P100H",
-    "dates": "31/05/2026 -> 31/05/2026",
-    "date_debut": "31/05/2026",
-    "date_fin": "31/05/2026",
-    "date_debut_iso": "2026-05-31",
-    "date_fin_iso": "2026-05-31",
-    "categories": [
-      "P100"
-    ],
-    "categories_str": "P100",
-    "epreuves_detail": [
-      {
-        "categorie": "P100",
         "genre": "Dames"
-      },
-      {
-        "categorie": "P100",
-        "genre": "Messieurs"
       }
     ],
-    "ville": "LATTES",
-    "juge": "François LORENZO",
-    "tel": "04 72 89 74 59",
-    "email": "contact@mhsc-padeltennis.com",
-    "epreuves": "Double Dames / Double Messieurs"
+    "ville": "SAINT GEORGES D'ORQUES",
+    "juge": "Sebastien MAURIN",
+    "tel": "26 06 37 94 31",
+    "email": "s.maurin.padel@gmail.com",
+    "epreuves": "Double Dames"
   },
   {
-    "lat": 43.565835,
-    "lon": 3.912104,
-    "club": "MHSC PADEL ET TENNIS DE PEROLS",
-    "nom": "MHSC PADEL - P100H",
-    "dates": "01/06/2026 -> 01/06/2026",
-    "date_debut": "01/06/2026",
-    "date_fin": "01/06/2026",
-    "date_debut_iso": "2026-06-01",
-    "date_fin_iso": "2026-06-01",
+    "lat": 43.606634,
+    "lon": 3.784893,
+    "club": "TENNIS PADEL CLUB ST GEORGES D'ORQUES",
+    "nom": "P100 Hommes",
+    "dates": "09/07/2026 -> 09/07/2026",
+    "date_debut": "09/07/2026",
+    "date_fin": "09/07/2026",
+    "date_debut_iso": "2026-07-09",
+    "date_fin_iso": "2026-07-09",
     "categories": [
       "P100"
     ],
@@ -709,72 +790,41 @@
         "genre": "Messieurs"
       }
     ],
-    "ville": "LATTES",
-    "juge": "François LORENZO",
-    "tel": "04 72 89 74 59",
-    "email": "contact@mhsc-padeltennis.com",
+    "ville": "SAINT GEORGES D'ORQUES",
+    "juge": "Sebastien MAURIN",
+    "tel": "26 06 37 94 31",
+    "email": "s.maurin.padel@gmail.com",
     "epreuves": "Double Messieurs"
   },
   {
-    "lat": 43.565835,
-    "lon": 3.912104,
-    "club": "MHSC PADEL ET TENNIS DE PEROLS",
-    "nom": "MHSC PADEL - P50H P100M",
-    "dates": "14/06/2026 -> 14/06/2026",
-    "date_debut": "14/06/2026",
-    "date_fin": "14/06/2026",
-    "date_debut_iso": "2026-06-14",
-    "date_fin_iso": "2026-06-14",
+    "lat": 43.606634,
+    "lon": 3.784893,
+    "club": "TENNIS PADEL CLUB ST GEORGES D'ORQUES",
+    "nom": "P50 Mixte",
+    "dates": "16/07/2026 -> 16/07/2026",
+    "date_debut": "16/07/2026",
+    "date_fin": "16/07/2026",
+    "date_debut_iso": "2026-07-16",
+    "date_fin_iso": "2026-07-16",
     "categories": [
-      "P50",
-      "P100"
+      "P50"
     ],
-    "categories_str": "P50 / P100",
+    "categories_str": "P50",
     "epreuves_detail": [
       {
         "categorie": "P50",
-        "genre": "Messieurs"
-      },
-      {
-        "categorie": "P100",
         "genre": "Mixte"
       }
     ],
-    "ville": "LATTES",
-    "juge": "François LORENZO",
-    "tel": "04 72 89 74 59",
-    "email": "contact@mhsc-padeltennis.com",
-    "epreuves": "Double Messieurs / Double Mixte"
+    "ville": "SAINT GEORGES D'ORQUES",
+    "juge": "Sebastien MAURIN",
+    "tel": "26 06 37 94 31",
+    "email": "s.maurin.padel@gmail.com",
+    "epreuves": "Double Mixte"
   },
   {
-    "lat": 43.565835,
-    "lon": 3.912104,
-    "club": "MHSC PADEL ET TENNIS DE PEROLS",
-    "nom": "MHSC PADEL - P25H",
-    "dates": "15/06/2026 -> 15/06/2026",
-    "date_debut": "15/06/2026",
-    "date_fin": "15/06/2026",
-    "date_debut_iso": "2026-06-15",
-    "date_fin_iso": "2026-06-15",
-    "categories": [
-      "P25"
-    ],
-    "categories_str": "P25",
-    "epreuves_detail": [
-      {
-        "categorie": "P25",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "LATTES",
-    "juge": "François LORENZO",
-    "tel": "04 72 89 74 59",
-    "email": "contact@mhsc-padeltennis.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.565835,
-    "lon": 3.912104,
+    "lat": 43.564476,
+    "lon": 3.91931,
     "club": "MHSC PADEL ET TENNIS DE PEROLS",
     "nom": "MHSC PADEL - P25F P100H P250M",
     "dates": "20/06/2026 -> 20/06/2026",
@@ -809,8 +859,8 @@
     "epreuves": "Double Dames / Double Messieurs / Double Mixte"
   },
   {
-    "lat": 43.565835,
-    "lon": 3.912104,
+    "lat": 43.564476,
+    "lon": 3.91931,
     "club": "MHSC PADEL ET TENNIS DE PEROLS",
     "nom": "MHSC PADEL - P100F P250H",
     "dates": "21/06/2026 -> 21/06/2026",
@@ -840,8 +890,8 @@
     "epreuves": "Double Dames / Double Messieurs"
   },
   {
-    "lat": 43.565835,
-    "lon": 3.912104,
+    "lat": 43.564476,
+    "lon": 3.91931,
     "club": "MHSC PADEL ET TENNIS DE PEROLS",
     "nom": "MHSC PADEL - P100H",
     "dates": "23/06/2026 -> 23/06/2026",
@@ -866,39 +916,38 @@
     "epreuves": "Double Messieurs"
   },
   {
-    "lat": 43.565835,
-    "lon": 3.912104,
+    "lat": 43.564476,
+    "lon": 3.91931,
     "club": "MHSC PADEL ET TENNIS DE PEROLS",
-    "nom": "MHSC PADEL - P500F P100H",
-    "dates": "13/06/2026 -> 13/06/2026",
-    "date_debut": "13/06/2026",
-    "date_fin": "13/06/2026",
-    "date_debut_iso": "2026-06-13",
-    "date_fin_iso": "2026-06-13",
+    "nom": "MHSC PADEL - P50H P50M",
+    "dates": "28/06/2026 -> 28/06/2026",
+    "date_debut": "28/06/2026",
+    "date_fin": "28/06/2026",
+    "date_debut_iso": "2026-06-28",
+    "date_fin_iso": "2026-06-28",
     "categories": [
-      "P100",
-      "P500"
+      "P50"
     ],
-    "categories_str": "P100 / P500",
+    "categories_str": "P50",
     "epreuves_detail": [
       {
-        "categorie": "P500",
-        "genre": "Dames"
+        "categorie": "P50",
+        "genre": "Messieurs"
       },
       {
-        "categorie": "P100",
-        "genre": "Messieurs"
+        "categorie": "P50",
+        "genre": "Mixte"
       }
     ],
     "ville": "LATTES",
     "juge": "François LORENZO",
     "tel": "04 72 89 74 59",
     "email": "contact@mhsc-padeltennis.com",
-    "epreuves": "Double Dames / Double Messieurs"
+    "epreuves": "Double Messieurs / Double Mixte"
   },
   {
-    "lat": 43.565835,
-    "lon": 3.912104,
+    "lat": 43.564476,
+    "lon": 3.91931,
     "club": "MHSC PADEL ET TENNIS DE PEROLS",
     "nom": "MHSC PADEL - P50F P250H",
     "dates": "29/06/2026 -> 29/06/2026",
@@ -928,22 +977,44 @@
     "epreuves": "Double Dames / Double Messieurs"
   },
   {
-    "lat": 43.565835,
-    "lon": 3.912104,
-    "club": "MHSC PADEL ET TENNIS DE PEROLS",
-    "nom": "MHSC PADEL - P250H",
-    "dates": "08/06/2026 -> 08/06/2026",
-    "date_debut": "08/06/2026",
-    "date_fin": "08/06/2026",
-    "date_debut_iso": "2026-06-08",
-    "date_fin_iso": "2026-06-08",
+    "lat": 43.559922,
+    "lon": 3.897723,
+    "club": "MHSC PADEL - P500H 26/06 - P500F + P25 Mixte ET TENNIS DE PEROLS Senior Double Dames",
+    "nom": "27/06 Route de Pérols",
+    "dates": "26/06/2026 -> 27/06/2026",
+    "date_debut": "26/06/2026",
+    "date_fin": "27/06/2026",
+    "date_debut_iso": "2026-06-26",
+    "date_fin_iso": "2026-06-27",
     "categories": [
-      "P250"
+      "P25",
+      "P500"
     ],
-    "categories_str": "P250",
+    "categories_str": "P25 / P500",
+    "epreuves_detail": [],
+    "ville": "LATTES",
+    "juge": "François LORENZO",
+    "tel": "04 72 89 74 59",
+    "email": "contact@mhsc-padeltennis.com",
+    "epreuves": "Double Dames / Double Messieurs / Double Mixte"
+  },
+  {
+    "lat": 43.564476,
+    "lon": 3.91931,
+    "club": "MHSC PADEL ET TENNIS DE PEROLS",
+    "nom": "MHSC PADEL - P100H",
+    "dates": "05/07/2026 -> 05/07/2026",
+    "date_debut": "05/07/2026",
+    "date_fin": "05/07/2026",
+    "date_debut_iso": "2026-07-05",
+    "date_fin_iso": "2026-07-05",
+    "categories": [
+      "P100"
+    ],
+    "categories_str": "P100",
     "epreuves_detail": [
       {
-        "categorie": "P250",
+        "categorie": "P100",
         "genre": "Messieurs"
       }
     ],
@@ -954,15 +1025,137 @@
     "epreuves": "Double Messieurs"
   },
   {
-    "lat": 43.565835,
-    "lon": 3.912104,
+    "lat": 43.564476,
+    "lon": 3.91931,
     "club": "MHSC PADEL ET TENNIS DE PEROLS",
-    "nom": "MHSC PADEL - P100H P25M",
-    "dates": "30/05/2026 -> 30/05/2026",
-    "date_debut": "30/05/2026",
-    "date_fin": "30/05/2026",
-    "date_debut_iso": "2026-05-30",
-    "date_fin_iso": "2026-05-30",
+    "nom": "MHSC PADEL - P100F et P250H+45",
+    "dates": "11/07/2026 -> 11/07/2026",
+    "date_debut": "11/07/2026",
+    "date_fin": "11/07/2026",
+    "date_debut_iso": "2026-07-11",
+    "date_fin_iso": "2026-07-11",
+    "categories": [
+      "P100",
+      "P250"
+    ],
+    "categories_str": "P100 / P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Dames"
+      },
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "LATTES",
+    "juge": "François LORENZO",
+    "tel": "04 72 89 74 59",
+    "email": "contact@mhsc-padeltennis.com",
+    "epreuves": "Double Dames / Double Messieurs"
+  },
+  {
+    "lat": 43.564476,
+    "lon": 3.91931,
+    "club": "MHSC PADEL ET TENNIS DE PEROLS",
+    "nom": "MHSC PADEL - P100F P100M P250H",
+    "dates": "03/07/2026 -> 04/07/2026",
+    "date_debut": "03/07/2026",
+    "date_fin": "04/07/2026",
+    "date_debut_iso": "2026-07-03",
+    "date_fin_iso": "2026-07-04",
+    "categories": [
+      "P100",
+      "P250"
+    ],
+    "categories_str": "P100 / P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Dames"
+      },
+      {
+        "categorie": "P100",
+        "genre": "Mixte"
+      },
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "LATTES",
+    "juge": "François LORENZO 34970 LATTES Senior Double Mixte",
+    "tel": "04 72 89 74 59",
+    "email": "contact@mhsc-padeltennis.com",
+    "epreuves": "Double Dames / Double Messieurs / Double Mixte"
+  },
+  {
+    "lat": 43.564476,
+    "lon": 3.91931,
+    "club": "MHSC PADEL ET TENNIS DE PEROLS",
+    "nom": "MHSC PADEL - P250H P250F",
+    "dates": "13/07/2026 -> 14/07/2026",
+    "date_debut": "13/07/2026",
+    "date_fin": "14/07/2026",
+    "date_debut_iso": "2026-07-13",
+    "date_fin_iso": "2026-07-14",
+    "categories": [
+      "P250"
+    ],
+    "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      },
+      {
+        "categorie": "P250",
+        "genre": "Dames"
+      }
+    ],
+    "ville": "LATTES",
+    "juge": "François LORENZO",
+    "tel": "04 72 89 74 59",
+    "email": "contact@mhsc-padeltennis.com",
+    "epreuves": "Double Dames / Double Messieurs"
+  },
+  {
+    "lat": 43.564476,
+    "lon": 3.91931,
+    "club": "MHSC PADEL ET TENNIS DE PEROLS",
+    "nom": "MHSC PADEL - P500H",
+    "dates": "21/07/2026 -> 21/07/2026",
+    "date_debut": "21/07/2026",
+    "date_fin": "21/07/2026",
+    "date_debut_iso": "2026-07-21",
+    "date_fin_iso": "2026-07-21",
+    "categories": [
+      "P500"
+    ],
+    "categories_str": "P500",
+    "epreuves_detail": [
+      {
+        "categorie": "P500",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "LATTES",
+    "juge": "François LORENZO",
+    "tel": "04 72 89 74 59",
+    "email": "contact@mhsc-padeltennis.com",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.564476,
+    "lon": 3.91931,
+    "club": "MHSC PADEL ET TENNIS DE PEROLS",
+    "nom": "MHSC PADEL - P25F P100H",
+    "dates": "19/07/2026 -> 19/07/2026",
+    "date_debut": "19/07/2026",
+    "date_fin": "19/07/2026",
+    "date_debut_iso": "2026-07-19",
+    "date_fin_iso": "2026-07-19",
     "categories": [
       "P25",
       "P100"
@@ -970,8 +1163,65 @@
     "categories_str": "P25 / P100",
     "epreuves_detail": [
       {
+        "categorie": "P25",
+        "genre": "Dames"
+      },
+      {
         "categorie": "P100",
         "genre": "Messieurs"
+      }
+    ],
+    "ville": "LATTES",
+    "juge": "François LORENZO",
+    "tel": "04 72 89 74 59",
+    "email": "contact@mhsc-padeltennis.com",
+    "epreuves": "Double Dames / Double Messieurs"
+  },
+  {
+    "lat": 43.564476,
+    "lon": 3.91931,
+    "club": "MHSC PADEL ET TENNIS DE PEROLS",
+    "nom": "MHSC PADEL - P50H",
+    "dates": "20/07/2026 -> 20/07/2026",
+    "date_debut": "20/07/2026",
+    "date_fin": "20/07/2026",
+    "date_debut_iso": "2026-07-20",
+    "date_fin_iso": "2026-07-20",
+    "categories": [
+      "P50"
+    ],
+    "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "LATTES",
+    "juge": "François LORENZO",
+    "tel": "04 72 89 74 59",
+    "email": "contact@mhsc-padeltennis.com",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.559922,
+    "lon": 3.897723,
+    "club": "MHSC PADEL ET TENNIS DE PEROLS",
+    "nom": "MHSC PADEL - P250M P25M",
+    "dates": "18/07/2026 -> 18/07/2026",
+    "date_debut": "18/07/2026",
+    "date_fin": "18/07/2026",
+    "date_debut_iso": "2026-07-18",
+    "date_fin_iso": "2026-07-18",
+    "categories": [
+      "P25",
+      "P250"
+    ],
+    "categories_str": "P25 / P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Mixte"
       },
       {
         "categorie": "P25",
@@ -985,67 +1235,46 @@
     "epreuves": "Double Messieurs / Double Mixte"
   },
   {
-    "lat": 43.530717,
-    "lon": 3.928689,
-    "club": "TENNIS PADEL CLUB PALAVAS",
-    "nom": "P50 HOMMES Plaine des Jeux, Avenue de l'Abb",
-    "dates": "29/05/2026 -> 29/05/2026",
-    "date_debut": "29/05/2026",
-    "date_fin": "29/05/2026",
-    "date_debut_iso": "2026-05-29",
-    "date_fin_iso": "2026-05-29",
+    "lat": 43.564476,
+    "lon": 3.91931,
+    "club": "MHSC PADEL ET TENNIS DE PEROLS",
+    "nom": "MHSC PADEL - P100F P50H",
+    "dates": "24/07/2026 -> 24/07/2026",
+    "date_debut": "24/07/2026",
+    "date_fin": "24/07/2026",
+    "date_debut_iso": "2026-07-24",
+    "date_fin_iso": "2026-07-24",
     "categories": [
-      "P50"
+      "P50",
+      "P100"
     ],
-    "categories_str": "P50",
+    "categories_str": "P50 / P100",
     "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Dames"
+      },
       {
         "categorie": "P50",
         "genre": "Messieurs"
       }
     ],
-    "ville": "PALAVAS LES FLOTS",
-    "juge": "Alexandre GUTKNECHT",
-    "tel": "09 77 38 54 82",
-    "email": "tennis.padel.club.palavas@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.530717,
-    "lon": 3.928689,
-    "club": "TENNIS PADEL CLUB PALAVAS",
-    "nom": "P50 MIXTE Plaine des Jeux, Avenue de l'Abb",
-    "dates": "29/05/2026 -> 29/05/2026",
-    "date_debut": "29/05/2026",
-    "date_fin": "29/05/2026",
-    "date_debut_iso": "2026-05-29",
-    "date_fin_iso": "2026-05-29",
-    "categories": [
-      "P50"
-    ],
-    "categories_str": "P50",
-    "epreuves_detail": [
-      {
-        "categorie": "P50",
-        "genre": "Mixte"
-      }
-    ],
-    "ville": "PALAVAS LES FLOTS",
+    "ville": "LATTES",
     "juge": "François LORENZO",
-    "tel": "09 77 38 54 82",
-    "email": "tennis.padel.club.palavas@gmail.com",
-    "epreuves": "Double Mixte"
+    "tel": "04 72 89 74 59",
+    "email": "contact@mhsc-padeltennis.com",
+    "epreuves": "Double Dames / Double Messieurs"
   },
   {
-    "lat": 43.530717,
-    "lon": 3.928689,
-    "club": "TENNIS PADEL CLUB PALAVAS",
-    "nom": "P100 HOMMES Plaine des Jeux, Avenue de l'Abb",
-    "dates": "29/05/2026 -> 29/05/2026",
-    "date_debut": "29/05/2026",
-    "date_fin": "29/05/2026",
-    "date_debut_iso": "2026-05-29",
-    "date_fin_iso": "2026-05-29",
+    "lat": 43.564476,
+    "lon": 3.91931,
+    "club": "MHSC PADEL ET TENNIS DE PEROLS",
+    "nom": "MHSC PADEL - P100H",
+    "dates": "25/07/2026 -> 25/07/2026",
+    "date_debut": "25/07/2026",
+    "date_fin": "25/07/2026",
+    "date_debut_iso": "2026-07-25",
+    "date_fin_iso": "2026-07-25",
     "categories": [
       "P100"
     ],
@@ -1056,346 +1285,70 @@
         "genre": "Messieurs"
       }
     ],
-    "ville": "PALAVAS LES FLOTS",
+    "ville": "LATTES",
     "juge": "François LORENZO",
-    "tel": "09 77 38 54 82",
-    "email": "tennis.padel.club.palavas@gmail.com",
+    "tel": "04 72 89 74 59",
+    "email": "contact@mhsc-padeltennis.com",
     "epreuves": "Double Messieurs"
   },
   {
-    "lat": 43.530717,
-    "lon": 3.928689,
-    "club": "TENNIS PADEL CLUB PALAVAS",
-    "nom": "P50 HOMMES Plaine des Jeux, Avenue de l'Abb",
-    "dates": "02/06/2026 -> 02/06/2026",
-    "date_debut": "02/06/2026",
-    "date_fin": "02/06/2026",
-    "date_debut_iso": "2026-06-02",
-    "date_fin_iso": "2026-06-02",
+    "lat": 43.564476,
+    "lon": 3.91931,
+    "club": "MHSC PADEL ET TENNIS DE PEROLS",
+    "nom": "MHSC PADEL - P500F P100M P250H",
+    "dates": "26/07/2026 -> 27/07/2026",
+    "date_debut": "26/07/2026",
+    "date_fin": "27/07/2026",
+    "date_debut_iso": "2026-07-26",
+    "date_fin_iso": "2026-07-27",
     "categories": [
-      "P50"
-    ],
-    "categories_str": "P50",
-    "epreuves_detail": [
-      {
-        "categorie": "P50",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "PALAVAS LES FLOTS",
-    "juge": "Alexandre GUTKNECHT",
-    "tel": "09 77 38 54 82",
-    "email": "tennis.padel.club.palavas@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.530717,
-    "lon": 3.928689,
-    "club": "TENNIS PADEL CLUB PALAVAS",
-    "nom": "P250 HOMMES Plaine des Jeux, Avenue de l'Abb",
-    "dates": "05/06/2026 -> 05/06/2026",
-    "date_debut": "05/06/2026",
-    "date_fin": "05/06/2026",
-    "date_debut_iso": "2026-06-05",
-    "date_fin_iso": "2026-06-05",
-    "categories": [
-      "P250"
-    ],
-    "categories_str": "P250",
-    "epreuves_detail": [
-      {
-        "categorie": "P250",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "PALAVAS LES FLOTS",
-    "juge": "François LORENZO",
-    "tel": "09 77 38 54 82",
-    "email": "tennis.padel.club.palavas@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.530717,
-    "lon": 3.928689,
-    "club": "TENNIS PADEL CLUB PALAVAS",
-    "nom": "P500 HOMMES Plaine des Jeux, Avenue de l'Abb",
-    "dates": "06/06/2026 -> 06/06/2026",
-    "date_debut": "06/06/2026",
-    "date_fin": "06/06/2026",
-    "date_debut_iso": "2026-06-06",
-    "date_fin_iso": "2026-06-06",
-    "categories": [
+      "P100",
+      "P250",
       "P500"
     ],
-    "categories_str": "P500",
+    "categories_str": "P100 / P250 / P500",
     "epreuves_detail": [
       {
         "categorie": "P500",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "PALAVAS LES FLOTS",
-    "juge": "François LORENZO",
-    "tel": "09 77 38 54 82",
-    "email": "tennis.padel.club.palavas@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.530717,
-    "lon": 3.928689,
-    "club": "TENNIS PADEL CLUB PALAVAS",
-    "nom": "P100 DAMES Plaine des Jeux, Avenue de l'Abb",
-    "dates": "07/06/2026 -> 07/06/2026",
-    "date_debut": "07/06/2026",
-    "date_fin": "07/06/2026",
-    "date_debut_iso": "2026-06-07",
-    "date_fin_iso": "2026-06-07",
-    "categories": [
-      "P100"
-    ],
-    "categories_str": "P100",
-    "epreuves_detail": [
-      {
-        "categorie": "P100",
         "genre": "Dames"
-      }
-    ],
-    "ville": "PALAVAS LES FLOTS",
-    "juge": "François LORENZO",
-    "tel": "09 77 38 54 82",
-    "email": "tennis.padel.club.palavas@gmail.com",
-    "epreuves": "Double Dames"
-  },
-  {
-    "lat": 43.530717,
-    "lon": 3.928689,
-    "club": "TENNIS PADEL CLUB PALAVAS",
-    "nom": "P25 HOMMES Plaine des Jeux, Avenue de l'Abb",
-    "dates": "09/06/2026 -> 09/06/2026",
-    "date_debut": "09/06/2026",
-    "date_fin": "09/06/2026",
-    "date_debut_iso": "2026-06-09",
-    "date_fin_iso": "2026-06-09",
-    "categories": [
-      "P25"
-    ],
-    "categories_str": "P25",
-    "epreuves_detail": [
-      {
-        "categorie": "P25",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "PALAVAS LES FLOTS",
-    "juge": "Alexandre GUTKNECHT",
-    "tel": "09 77 38 54 82",
-    "email": "tennis.padel.club.palavas@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.530717,
-    "lon": 3.928689,
-    "club": "TENNIS PADEL CLUB PALAVAS",
-    "nom": "P50 HOMMES Plaine des Jeux, Avenue de l'Abb",
-    "dates": "12/06/2026 -> 12/06/2026",
-    "date_debut": "12/06/2026",
-    "date_fin": "12/06/2026",
-    "date_debut_iso": "2026-06-12",
-    "date_fin_iso": "2026-06-12",
-    "categories": [
-      "P50"
-    ],
-    "categories_str": "P50",
-    "epreuves_detail": [
-      {
-        "categorie": "P50",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "PALAVAS LES FLOTS",
-    "juge": "François LORENZO",
-    "tel": "09 77 38 54 82",
-    "email": "tennis.padel.club.palavas@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.530717,
-    "lon": 3.928689,
-    "club": "TENNIS PADEL CLUB PALAVAS",
-    "nom": "P25 HOMMES Plaine des Jeux, Avenue de l'Abb",
-    "dates": "19/06/2026 -> 19/06/2026",
-    "date_debut": "19/06/2026",
-    "date_fin": "19/06/2026",
-    "date_debut_iso": "2026-06-19",
-    "date_fin_iso": "2026-06-19",
-    "categories": [
-      "P25"
-    ],
-    "categories_str": "P25",
-    "epreuves_detail": [
-      {
-        "categorie": "P25",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "PALAVAS LES FLOTS",
-    "juge": "Alexandre GUTKNECHT",
-    "tel": "09 77 38 54 82",
-    "email": "tennis.padel.club.palavas@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.530717,
-    "lon": 3.928689,
-    "club": "TENNIS PADEL CLUB PALAVAS",
-    "nom": "P100 FEMMES Plaine des Jeux, Avenue de l'Abb",
-    "dates": "19/06/2026 -> 19/06/2026",
-    "date_debut": "19/06/2026",
-    "date_fin": "19/06/2026",
-    "date_debut_iso": "2026-06-19",
-    "date_fin_iso": "2026-06-19",
-    "categories": [
-      "P100"
-    ],
-    "categories_str": "P100",
-    "epreuves_detail": [
-      {
-        "categorie": "P100",
-        "genre": "Dames"
-      }
-    ],
-    "ville": "PALAVAS LES FLOTS",
-    "juge": "François LORENZO",
-    "tel": "09 77 38 54 82",
-    "email": "tennis.padel.club.palavas@gmail.com",
-    "epreuves": "Double Dames"
-  },
-  {
-    "lat": 43.530717,
-    "lon": 3.928689,
-    "club": "TENNIS PADEL CLUB PALAVAS",
-    "nom": "P100 MIXTE Plaine des Jeux, Avenue de l'Abb",
-    "dates": "12/06/2026 -> 12/06/2026",
-    "date_debut": "12/06/2026",
-    "date_fin": "12/06/2026",
-    "date_debut_iso": "2026-06-12",
-    "date_fin_iso": "2026-06-12",
-    "categories": [
-      "P100"
-    ],
-    "categories_str": "P100",
-    "epreuves_detail": [
+      },
       {
         "categorie": "P100",
         "genre": "Mixte"
-      }
-    ],
-    "ville": "PALAVAS LES FLOTS",
-    "juge": "François LORENZO",
-    "tel": "09 77 38 54 82",
-    "email": "tennis.padel.club.palavas@gmail.com",
-    "epreuves": "Double Mixte"
-  },
-  {
-    "lat": 43.530717,
-    "lon": 3.928689,
-    "club": "TENNIS PADEL CLUB PALAVAS",
-    "nom": "P100 HOMMES Plaine des Jeux, Avenue de l'Abb",
-    "dates": "05/06/2026 -> 05/06/2026",
-    "date_debut": "05/06/2026",
-    "date_fin": "05/06/2026",
-    "date_debut_iso": "2026-06-05",
-    "date_fin_iso": "2026-06-05",
-    "categories": [
-      "P100"
-    ],
-    "categories_str": "P100",
-    "epreuves_detail": [
-      {
-        "categorie": "P100",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "PALAVAS LES FLOTS",
-    "juge": "Alexandre GUTKNECHT",
-    "tel": "09 77 38 54 82",
-    "email": "tennis.padel.club.palavas@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.530717,
-    "lon": 3.928689,
-    "club": "TENNIS PADEL CLUB PALAVAS",
-    "nom": "P25 MIXTE Plaine des Jeux, Avenue de l'Abb",
-    "dates": "06/06/2026 -> 06/06/2026",
-    "date_debut": "06/06/2026",
-    "date_fin": "06/06/2026",
-    "date_debut_iso": "2026-06-06",
-    "date_fin_iso": "2026-06-06",
-    "categories": [
-      "P25"
-    ],
-    "categories_str": "P25",
-    "epreuves_detail": [
-      {
-        "categorie": "P25",
-        "genre": "Mixte"
-      }
-    ],
-    "ville": "PALAVAS LES FLOTS",
-    "juge": "François LORENZO",
-    "tel": "09 77 38 54 82",
-    "email": "tennis.padel.club.palavas@gmail.com",
-    "epreuves": "Double Mixte"
-  },
-  {
-    "lat": 43.530717,
-    "lon": 3.928689,
-    "club": "TENNIS PADEL CLUB PALAVAS",
-    "nom": "P25 HOMMES Plaine des Jeux, Avenue de l'Abb",
-    "dates": "07/06/2026 -> 07/06/2026",
-    "date_debut": "07/06/2026",
-    "date_fin": "07/06/2026",
-    "date_debut_iso": "2026-06-07",
-    "date_fin_iso": "2026-06-07",
-    "categories": [
-      "P25"
-    ],
-    "categories_str": "P25",
-    "epreuves_detail": [
-      {
-        "categorie": "P25",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "PALAVAS LES FLOTS",
-    "juge": "François LORENZO",
-    "tel": "09 77 38 54 82",
-    "email": "tennis.padel.club.palavas@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.530717,
-    "lon": 3.928689,
-    "club": "TENNIS PADEL CLUB PALAVAS",
-    "nom": "P250 HOMMES Plaine des Jeux, Avenue de l'Abb",
-    "dates": "07/06/2026 -> 07/06/2026",
-    "date_debut": "07/06/2026",
-    "date_fin": "07/06/2026",
-    "date_debut_iso": "2026-06-07",
-    "date_fin_iso": "2026-06-07",
-    "categories": [
-      "P250"
-    ],
-    "categories_str": "P250",
-    "epreuves_detail": [
+      },
       {
         "categorie": "P250",
         "genre": "Messieurs"
       }
     ],
+    "ville": "LATTES",
+    "juge": "François LORENZO 34970 LATTES Senior Double Mixte",
+    "tel": "04 72 89 74 59",
+    "email": "contact@mhsc-padeltennis.com",
+    "epreuves": "Double Dames / Double Messieurs / Double Mixte"
+  },
+  {
+    "lat": 43.530717,
+    "lon": 3.928689,
+    "club": "TENNIS PADEL CLUB PALAVAS",
+    "nom": "P25 HOMMES Plaine des Jeux, Avenue de l'Abb",
+    "dates": "19/06/2026 -> 19/06/2026",
+    "date_debut": "19/06/2026",
+    "date_fin": "19/06/2026",
+    "date_debut_iso": "2026-06-19",
+    "date_fin_iso": "2026-06-19",
+    "categories": [
+      "P25"
+    ],
+    "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      }
+    ],
     "ville": "PALAVAS LES FLOTS",
-    "juge": "François LORENZO",
+    "juge": "Alexandre GUTKNECHT",
     "tel": "09 77 38 54 82",
     "email": "tennis.padel.club.palavas@gmail.com",
     "epreuves": "Double Messieurs"
@@ -1405,11 +1358,11 @@
     "lon": 3.928689,
     "club": "TENNIS PADEL CLUB PALAVAS",
     "nom": "P100 HOMMES Plaine des Jeux, Avenue de l'Abb",
-    "dates": "12/06/2026 -> 12/06/2026",
-    "date_debut": "12/06/2026",
-    "date_fin": "12/06/2026",
-    "date_debut_iso": "2026-06-12",
-    "date_fin_iso": "2026-06-12",
+    "dates": "26/06/2026 -> 26/06/2026",
+    "date_debut": "26/06/2026",
+    "date_fin": "26/06/2026",
+    "date_debut_iso": "2026-06-26",
+    "date_fin_iso": "2026-06-26",
     "categories": [
       "P100"
     ],
@@ -1430,33 +1383,7 @@
     "lat": 43.530717,
     "lon": 3.928689,
     "club": "TENNIS PADEL CLUB PALAVAS",
-    "nom": "P50 HOMMES Plaine des Jeux, Avenue de l'Abb",
-    "dates": "16/06/2026 -> 16/06/2026",
-    "date_debut": "16/06/2026",
-    "date_fin": "16/06/2026",
-    "date_debut_iso": "2026-06-16",
-    "date_fin_iso": "2026-06-16",
-    "categories": [
-      "P50"
-    ],
-    "categories_str": "P50",
-    "epreuves_detail": [
-      {
-        "categorie": "P50",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "PALAVAS LES FLOTS",
-    "juge": "Alexandre GUTKNECHT",
-    "tel": "09 77 38 54 82",
-    "email": "tennis.padel.club.palavas@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.530717,
-    "lon": 3.928689,
-    "club": "TENNIS PADEL CLUB PALAVAS",
-    "nom": "P100 HOMMES Plaine des Jeux, Avenue de l'Abb",
+    "nom": "P100 H/D Plaine des Jeux, Avenue de l'Abb",
     "dates": "19/06/2026 -> 19/06/2026",
     "date_debut": "19/06/2026",
     "date_fin": "19/06/2026",
@@ -1473,36 +1400,10 @@
       }
     ],
     "ville": "PALAVAS LES FLOTS",
-    "juge": "François LORENZO",
+    "juge": "Sebastien MAURIN",
     "tel": "09 77 38 54 82",
     "email": "tennis.padel.club.palavas@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.530717,
-    "lon": 3.928689,
-    "club": "TENNIS PADEL CLUB PALAVAS",
-    "nom": "P250 FEMMES Plaine des Jeux, Avenue de l'Abb",
-    "dates": "05/06/2026 -> 05/06/2026",
-    "date_debut": "05/06/2026",
-    "date_fin": "05/06/2026",
-    "date_debut_iso": "2026-06-05",
-    "date_fin_iso": "2026-06-05",
-    "categories": [
-      "P250"
-    ],
-    "categories_str": "P250",
-    "epreuves_detail": [
-      {
-        "categorie": "P250",
-        "genre": "Dames"
-      }
-    ],
-    "ville": "PALAVAS LES FLOTS",
-    "juge": "François LORENZO",
-    "tel": "09 77 38 54 82",
-    "email": "tennis.padel.club.palavas@gmail.com",
-    "epreuves": "Double Dames"
+    "epreuves": "Double Dames / Double Messieurs"
   },
   {
     "lat": 43.67247,
@@ -1564,141 +1465,6 @@
     "lat": 43.644392,
     "lon": 3.737945,
     "club": "SUD PADEL VAILHAUQUÈS",
-    "nom": "P100H>55 Sud Padel Ecoparc Bel Air 55 Double Messieurs",
-    "dates": "27/05/2026 -> 27/05/2026",
-    "date_debut": "27/05/2026",
-    "date_fin": "27/05/2026",
-    "date_debut_iso": "2026-05-27",
-    "date_fin_iso": "2026-05-27",
-    "categories": [
-      "P100"
-    ],
-    "categories_str": "P100",
-    "epreuves_detail": [
-      {
-        "categorie": "P100",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "VAILHAUQUES",
-    "juge": "Non precise",
-    "tel": "09 67 05 92 81",
-    "email": "sudpadel@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.644392,
-    "lon": 3.737945,
-    "club": "SUD PADEL VAILHAUQUÈS",
-    "nom": "P250H/P25 Mixte Sud padel Ecoparc Bel Air",
-    "dates": "31/05/2026 -> 31/05/2026",
-    "date_debut": "31/05/2026",
-    "date_fin": "31/05/2026",
-    "date_debut_iso": "2026-05-31",
-    "date_fin_iso": "2026-05-31",
-    "categories": [
-      "P25",
-      "P250"
-    ],
-    "categories_str": "P25 / P250",
-    "epreuves_detail": [
-      {
-        "categorie": "P250",
-        "genre": "Messieurs"
-      },
-      {
-        "categorie": "P25",
-        "genre": "Mixte"
-      }
-    ],
-    "ville": "VAILHAUQUES",
-    "juge": "Non precise",
-    "tel": "09 67 05 92 81",
-    "email": "sudpadel@gmail.com",
-    "epreuves": "Double Messieurs / Double Mixte"
-  },
-  {
-    "lat": 43.644392,
-    "lon": 3.737945,
-    "club": "SUD PADEL VAILHAUQUÈS",
-    "nom": "P50H Sud Padel Ecoparc Bel Air",
-    "dates": "29/05/2026 -> 29/05/2026",
-    "date_debut": "29/05/2026",
-    "date_fin": "29/05/2026",
-    "date_debut_iso": "2026-05-29",
-    "date_fin_iso": "2026-05-29",
-    "categories": [
-      "P50"
-    ],
-    "categories_str": "P50",
-    "epreuves_detail": [
-      {
-        "categorie": "P50",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "VAILHAUQUES",
-    "juge": "Non precise",
-    "tel": "09 67 05 92 81",
-    "email": "sudpadel@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.644392,
-    "lon": 3.737945,
-    "club": "SUD PADEL VAILHAUQUÈS",
-    "nom": "P250 Plus 45 Sud Padel Ecoparc Bel Air 45 Double Messieurs",
-    "dates": "05/06/2026 -> 05/06/2026",
-    "date_debut": "05/06/2026",
-    "date_fin": "05/06/2026",
-    "date_debut_iso": "2026-06-05",
-    "date_fin_iso": "2026-06-05",
-    "categories": [
-      "P250"
-    ],
-    "categories_str": "P250",
-    "epreuves_detail": [
-      {
-        "categorie": "P250",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "VAILHAUQUES",
-    "juge": "Non precise",
-    "tel": "09 67 05 92 81",
-    "email": "sudpadel@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.644392,
-    "lon": 3.737945,
-    "club": "SUD PADEL VAILHAUQUÈS",
-    "nom": "P100H Sud padel Ecoparc Bel Air",
-    "dates": "01/06/2026 -> 01/06/2026",
-    "date_debut": "01/06/2026",
-    "date_fin": "01/06/2026",
-    "date_debut_iso": "2026-06-01",
-    "date_fin_iso": "2026-06-01",
-    "categories": [
-      "P100"
-    ],
-    "categories_str": "P100",
-    "epreuves_detail": [
-      {
-        "categorie": "P100",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "VAILHAUQUES",
-    "juge": "Non precise",
-    "tel": "09 67 05 92 81",
-    "email": "sudpadel@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.644392,
-    "lon": 3.737945,
-    "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P500H/P100D Sud Padel Ecoparc Bel Air",
     "dates": "27/06/2026 -> 27/06/2026",
     "date_debut": "27/06/2026",
@@ -1729,73 +1495,194 @@
     "lat": 43.644392,
     "lon": 3.737945,
     "club": "SUD PADEL VAILHAUQUÈS",
-    "nom": "P250H/P25 Mixte Sud padel Ecoparc Bel Air",
-    "dates": "07/06/2026 -> 07/06/2026",
-    "date_debut": "07/06/2026",
-    "date_fin": "07/06/2026",
-    "date_debut_iso": "2026-06-07",
-    "date_fin_iso": "2026-06-07",
+    "nom": "P25H Sud Padel matin Ecoparc Bel Air",
+    "dates": "20/06/2026 -> 20/06/2026",
+    "date_debut": "20/06/2026",
+    "date_fin": "20/06/2026",
+    "date_debut_iso": "2026-06-20",
+    "date_fin_iso": "2026-06-20",
     "categories": [
-      "P25",
-      "P250"
+      "P25"
     ],
-    "categories_str": "P25 / P250",
+    "categories_str": "P25",
     "epreuves_detail": [
       {
-        "categorie": "P250",
-        "genre": "Messieurs"
-      },
-      {
         "categorie": "P25",
-        "genre": "Mixte"
+        "genre": "Messieurs"
       }
     ],
     "ville": "VAILHAUQUES",
-    "juge": "Non precise",
+    "juge": "Tangui MAURICE",
     "tel": "09 67 05 92 81",
     "email": "sudpadel@gmail.com",
-    "epreuves": "Double Messieurs / Double Mixte"
+    "epreuves": "Double Messieurs"
   },
   {
     "lat": 43.644392,
     "lon": 3.737945,
     "club": "SUD PADEL VAILHAUQUÈS",
-    "nom": "P250H/P25D Sud Padel Ecoparc Bel Air",
-    "dates": "13/06/2026 -> 13/06/2026",
-    "date_debut": "13/06/2026",
-    "date_fin": "13/06/2026",
-    "date_debut_iso": "2026-06-13",
-    "date_fin_iso": "2026-06-13",
+    "nom": "P50H Sud Padel après-midi Ecoparc Bel Air",
+    "dates": "20/06/2026 -> 20/06/2026",
+    "date_debut": "20/06/2026",
+    "date_fin": "20/06/2026",
+    "date_debut_iso": "2026-06-20",
+    "date_fin_iso": "2026-06-20",
     "categories": [
-      "P250"
+      "P50"
     ],
-    "categories_str": "P250",
+    "categories_str": "P50",
     "epreuves_detail": [
       {
-        "categorie": "P250",
+        "categorie": "P50",
         "genre": "Messieurs"
-      },
+      }
+    ],
+    "ville": "VAILHAUQUES",
+    "juge": "Tangui MAURICE",
+    "tel": "09 67 05 92 81",
+    "email": "sudpadel@gmail.com",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.644392,
+    "lon": 3.737945,
+    "club": "SUD PADEL VAILHAUQUÈS",
+    "nom": "P100H Sud padel Ecoparc Bel Air",
+    "dates": "21/06/2026 -> 21/06/2026",
+    "date_debut": "21/06/2026",
+    "date_fin": "21/06/2026",
+    "date_debut_iso": "2026-06-21",
+    "date_fin_iso": "2026-06-21",
+    "categories": [
+      "P100"
+    ],
+    "categories_str": "P100",
+    "epreuves_detail": [
       {
-        "categorie": "P25",
-        "genre": "Dames"
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "VAILHAUQUES",
+    "juge": "Tangui MAURICE",
+    "tel": "09 67 05 92 81",
+    "email": "sudpadel@gmail.com",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.644392,
+    "lon": 3.737945,
+    "club": "SUD PADEL VAILHAUQUÈS",
+    "nom": "P50H Sud Padel après-midi Ecoparc Bel Air",
+    "dates": "21/06/2026 -> 21/06/2026",
+    "date_debut": "21/06/2026",
+    "date_fin": "21/06/2026",
+    "date_debut_iso": "2026-06-21",
+    "date_fin_iso": "2026-06-21",
+    "categories": [
+      "P50"
+    ],
+    "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "VAILHAUQUES",
+    "juge": "Tangui MAURICE",
+    "tel": "09 67 05 92 81",
+    "email": "sudpadel@gmail.com",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.644392,
+    "lon": 3.737945,
+    "club": "SUD PADEL VAILHAUQUÈS",
+    "nom": "P100H>55 Sud Padel Ecoparc Bel Air 55 Double Messieurs",
+    "dates": "31/07/2026 -> 31/07/2026",
+    "date_debut": "31/07/2026",
+    "date_fin": "31/07/2026",
+    "date_debut_iso": "2026-07-31",
+    "date_fin_iso": "2026-07-31",
+    "categories": [
+      "P100"
+    ],
+    "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
       }
     ],
     "ville": "VAILHAUQUES",
     "juge": "Non precise",
     "tel": "09 67 05 92 81",
     "email": "sudpadel@gmail.com",
-    "epreuves": "Double Dames / Double Messieurs"
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.644392,
+    "lon": 3.737945,
+    "club": "SUD PADEL VAILHAUQUÈS",
+    "nom": "P50H Sud Padel Ecoparc Bel Air",
+    "dates": "24/06/2026 -> 24/06/2026",
+    "date_debut": "24/06/2026",
+    "date_fin": "24/06/2026",
+    "date_debut_iso": "2026-06-24",
+    "date_fin_iso": "2026-06-24",
+    "categories": [
+      "P50"
+    ],
+    "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "VAILHAUQUES",
+    "juge": "Non precise",
+    "tel": "09 67 05 92 81",
+    "email": "sudpadel@gmail.com",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.644392,
+    "lon": 3.737945,
+    "club": "SUD PADEL VAILHAUQUÈS",
+    "nom": "P100H Sud padel Ecoparc Bel Air",
+    "dates": "19/06/2026 -> 19/06/2026",
+    "date_debut": "19/06/2026",
+    "date_fin": "19/06/2026",
+    "date_debut_iso": "2026-06-19",
+    "date_fin_iso": "2026-06-19",
+    "categories": [
+      "P100"
+    ],
+    "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "VAILHAUQUES",
+    "juge": "Non precise",
+    "tel": "09 67 05 92 81",
+    "email": "sudpadel@gmail.com",
+    "epreuves": "Double Messieurs"
   },
   {
     "lat": 43.644392,
     "lon": 3.737945,
     "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P500H/P100 Mixte Sud Padel Ecoparc Bel Air",
-    "dates": "30/05/2026 -> 30/05/2026",
-    "date_debut": "30/05/2026",
-    "date_fin": "30/05/2026",
-    "date_debut_iso": "2026-05-30",
-    "date_fin_iso": "2026-05-30",
+    "dates": "12/07/2026 -> 12/07/2026",
+    "date_debut": "12/07/2026",
+    "date_fin": "12/07/2026",
+    "date_debut_iso": "2026-07-12",
+    "date_fin_iso": "2026-07-12",
     "categories": [
       "P100",
       "P500"
@@ -1821,19 +1708,45 @@
     "lat": 43.644392,
     "lon": 3.737945,
     "club": "SUD PADEL VAILHAUQUÈS",
-    "nom": "P25H Sud Padel Ecoparc Bel Air",
-    "dates": "27/05/2026 -> 27/05/2026",
-    "date_debut": "27/05/2026",
-    "date_fin": "27/05/2026",
-    "date_debut_iso": "2026-05-27",
-    "date_fin_iso": "2026-05-27",
+    "nom": "P100 Mixte Sud Padel Ecoparc Bel Air",
+    "dates": "19/06/2026 -> 19/06/2026",
+    "date_debut": "19/06/2026",
+    "date_fin": "19/06/2026",
+    "date_debut_iso": "2026-06-19",
+    "date_fin_iso": "2026-06-19",
     "categories": [
-      "P25"
+      "P100"
     ],
-    "categories_str": "P25",
+    "categories_str": "P100",
     "epreuves_detail": [
       {
-        "categorie": "P25",
+        "categorie": "P100",
+        "genre": "Mixte"
+      }
+    ],
+    "ville": "VAILHAUQUES",
+    "juge": "Non precise",
+    "tel": "09 67 05 92 81",
+    "email": "sudpadel@gmail.com",
+    "epreuves": "Double Mixte"
+  },
+  {
+    "lat": 43.644392,
+    "lon": 3.737945,
+    "club": "SUD PADEL VAILHAUQUÈS",
+    "nom": "P250H Sud padel Ecoparc Bel Air",
+    "dates": "26/06/2026 -> 26/06/2026",
+    "date_debut": "26/06/2026",
+    "date_fin": "26/06/2026",
+    "date_debut_iso": "2026-06-26",
+    "date_fin_iso": "2026-06-26",
+    "categories": [
+      "P250"
+    ],
+    "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
         "genre": "Messieurs"
       }
     ],
@@ -1848,63 +1761,11 @@
     "lon": 3.737945,
     "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P100H Sud padel Ecoparc Bel Air",
-    "dates": "29/05/2026 -> 29/05/2026",
-    "date_debut": "29/05/2026",
-    "date_fin": "29/05/2026",
-    "date_debut_iso": "2026-05-29",
-    "date_fin_iso": "2026-05-29",
-    "categories": [
-      "P100"
-    ],
-    "categories_str": "P100",
-    "epreuves_detail": [
-      {
-        "categorie": "P100",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "VAILHAUQUES",
-    "juge": "Non precise",
-    "tel": "09 67 05 92 81",
-    "email": "sudpadel@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.644392,
-    "lon": 3.737945,
-    "club": "SUD PADEL VAILHAUQUÈS",
-    "nom": "P100H Sud padel Ecoparc Bel Air",
-    "dates": "03/06/2026 -> 03/06/2026",
-    "date_debut": "03/06/2026",
-    "date_fin": "03/06/2026",
-    "date_debut_iso": "2026-06-03",
-    "date_fin_iso": "2026-06-03",
-    "categories": [
-      "P100"
-    ],
-    "categories_str": "P100",
-    "epreuves_detail": [
-      {
-        "categorie": "P100",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "VAILHAUQUES",
-    "juge": "Non precise",
-    "tel": "09 67 05 92 81",
-    "email": "sudpadel@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.644392,
-    "lon": 3.737945,
-    "club": "SUD PADEL VAILHAUQUÈS",
-    "nom": "P100H Sud padel matin Ecoparc Bel Air",
-    "dates": "06/06/2026 -> 06/06/2026",
-    "date_debut": "06/06/2026",
-    "date_fin": "06/06/2026",
-    "date_debut_iso": "2026-06-06",
-    "date_fin_iso": "2026-06-06",
+    "dates": "22/06/2026 -> 22/06/2026",
+    "date_debut": "22/06/2026",
+    "date_fin": "22/06/2026",
+    "date_debut_iso": "2026-06-22",
+    "date_fin_iso": "2026-06-22",
     "categories": [
       "P100"
     ],
@@ -1925,90 +1786,12 @@
     "lat": 43.644392,
     "lon": 3.737945,
     "club": "SUD PADEL VAILHAUQUÈS",
-    "nom": "P25H Sud Padel Après-midi Ecoparc Bel Air",
-    "dates": "14/06/2026 -> 14/06/2026",
-    "date_debut": "14/06/2026",
-    "date_fin": "14/06/2026",
-    "date_debut_iso": "2026-06-14",
-    "date_fin_iso": "2026-06-14",
-    "categories": [
-      "P25"
-    ],
-    "categories_str": "P25",
-    "epreuves_detail": [
-      {
-        "categorie": "P25",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "VAILHAUQUES",
-    "juge": "Tangui MAURICE",
-    "tel": "09 67 05 92 81",
-    "email": "sudpadel@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.644392,
-    "lon": 3.737945,
-    "club": "SUD PADEL VAILHAUQUÈS",
-    "nom": "P50H Sud Padel Ecoparc Bel Air",
-    "dates": "08/06/2026 -> 08/06/2026",
-    "date_debut": "08/06/2026",
-    "date_fin": "08/06/2026",
-    "date_debut_iso": "2026-06-08",
-    "date_fin_iso": "2026-06-08",
-    "categories": [
-      "P50"
-    ],
-    "categories_str": "P50",
-    "epreuves_detail": [
-      {
-        "categorie": "P50",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "VAILHAUQUES",
-    "juge": "Non precise",
-    "tel": "09 67 05 92 81",
-    "email": "sudpadel@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.644392,
-    "lon": 3.737945,
-    "club": "SUD PADEL VAILHAUQUÈS",
-    "nom": "P50H Sud Padel après-midi Ecoparc Bel Air",
-    "dates": "06/06/2026 -> 06/06/2026",
-    "date_debut": "06/06/2026",
-    "date_fin": "06/06/2026",
-    "date_debut_iso": "2026-06-06",
-    "date_fin_iso": "2026-06-06",
-    "categories": [
-      "P50"
-    ],
-    "categories_str": "P50",
-    "epreuves_detail": [
-      {
-        "categorie": "P50",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "VAILHAUQUES",
-    "juge": "Non precise",
-    "tel": "09 67 05 92 81",
-    "email": "sudpadel@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.644392,
-    "lon": 3.737945,
-    "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P100H Sud padel Ecoparc Bel Air",
-    "dates": "10/06/2026 -> 10/06/2026",
-    "date_debut": "10/06/2026",
-    "date_fin": "10/06/2026",
-    "date_debut_iso": "2026-06-10",
-    "date_fin_iso": "2026-06-10",
+    "dates": "28/06/2026 -> 28/06/2026",
+    "date_debut": "28/06/2026",
+    "date_fin": "28/06/2026",
+    "date_debut_iso": "2026-06-28",
+    "date_fin_iso": "2026-06-28",
     "categories": [
       "P100"
     ],
@@ -2030,11 +1813,11 @@
     "lon": 3.737945,
     "club": "SUD PADEL VAILHAUQUÈS",
     "nom": "P100 H Sud Padel Ecoparc Bel Air",
-    "dates": "05/06/2026 -> 05/06/2026",
-    "date_debut": "05/06/2026",
-    "date_fin": "05/06/2026",
-    "date_debut_iso": "2026-06-05",
-    "date_fin_iso": "2026-06-05",
+    "dates": "29/06/2026 -> 29/06/2026",
+    "date_debut": "29/06/2026",
+    "date_fin": "29/06/2026",
+    "date_debut_iso": "2026-06-29",
+    "date_fin_iso": "2026-06-29",
     "categories": [
       "P100"
     ],
@@ -2081,12 +1864,12 @@
     "lat": 43.595119,
     "lon": 3.970693,
     "club": "TENNIS PADEL MAUGUIO",
-    "nom": "P250 Dames",
-    "dates": "30/05/2026 -> 30/05/2026",
-    "date_debut": "30/05/2026",
-    "date_fin": "30/05/2026",
-    "date_debut_iso": "2026-05-30",
-    "date_fin_iso": "2026-05-30",
+    "nom": "P250 +45 Messieurs",
+    "dates": "26/07/2026 -> 26/07/2026",
+    "date_debut": "26/07/2026",
+    "date_fin": "26/07/2026",
+    "date_debut_iso": "2026-07-26",
+    "date_fin_iso": "2026-07-26",
     "categories": [
       "P250"
     ],
@@ -2094,66 +1877,14 @@
     "epreuves_detail": [
       {
         "categorie": "P250",
-        "genre": "Dames"
+        "genre": "Messieurs"
       }
     ],
     "ville": "MAUGUIO",
     "juge": "Patrick PINON",
     "tel": "06 25 29 52 43",
     "email": "tcmauguio@gmail.com",
-    "epreuves": "Double Dames"
-  },
-  {
-    "lat": 43.595119,
-    "lon": 3.970693,
-    "club": "TENNIS PADEL MAUGUIO",
-    "nom": "P50 Messieurs",
-    "dates": "01/06/2026 -> 01/06/2026",
-    "date_debut": "01/06/2026",
-    "date_fin": "01/06/2026",
-    "date_debut_iso": "2026-06-01",
-    "date_fin_iso": "2026-06-01",
-    "categories": [
-      "P50"
-    ],
-    "categories_str": "P50",
-    "epreuves_detail": [
-      {
-        "categorie": "P50",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "MAUGUIO",
-    "juge": "Thibaut DALLERY",
-    "tel": "06 25 29 52 43",
-    "email": "tcmauguio@gmail.com",
     "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.595119,
-    "lon": 3.970693,
-    "club": "TENNIS PADEL MAUGUIO",
-    "nom": "P100 MIXTE",
-    "dates": "15/06/2026 -> 15/06/2026",
-    "date_debut": "15/06/2026",
-    "date_fin": "15/06/2026",
-    "date_debut_iso": "2026-06-15",
-    "date_fin_iso": "2026-06-15",
-    "categories": [
-      "P100"
-    ],
-    "categories_str": "P100",
-    "epreuves_detail": [
-      {
-        "categorie": "P100",
-        "genre": "Mixte"
-      }
-    ],
-    "ville": "MAUGUIO",
-    "juge": "Thibaut DALLERY",
-    "tel": "06 25 29 52 43",
-    "email": "tcmauguio@gmail.com",
-    "epreuves": "Double Mixte"
   },
   {
     "lat": 43.595119,
@@ -2185,12 +1916,64 @@
     "lat": 43.595119,
     "lon": 3.970693,
     "club": "TENNIS PADEL MAUGUIO",
-    "nom": "P250 +45 Messieurs",
-    "dates": "26/07/2026 -> 26/07/2026",
-    "date_debut": "26/07/2026",
-    "date_fin": "26/07/2026",
-    "date_debut_iso": "2026-07-26",
-    "date_fin_iso": "2026-07-26",
+    "nom": "P25 Messieurs",
+    "dates": "03/07/2026 -> 03/07/2026",
+    "date_debut": "03/07/2026",
+    "date_fin": "03/07/2026",
+    "date_debut_iso": "2026-07-03",
+    "date_fin_iso": "2026-07-03",
+    "categories": [
+      "P25"
+    ],
+    "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "MAUGUIO",
+    "juge": "Ludovic ARS",
+    "tel": "06 25 29 52 43",
+    "email": "tcmauguio@free.fr",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.611731,
+    "lon": 4.012595,
+    "club": "TENNIS PADEL MAUGUIO",
+    "nom": "P50 Mixte",
+    "dates": "09/07/2026 -> 09/07/2026",
+    "date_debut": "09/07/2026",
+    "date_fin": "09/07/2026",
+    "date_debut_iso": "2026-07-09",
+    "date_fin_iso": "2026-07-09",
+    "categories": [
+      "P50"
+    ],
+    "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Mixte"
+      }
+    ],
+    "ville": "MAUGUIO",
+    "juge": "Celine SALENDRES",
+    "tel": "06 25 29 52 43",
+    "email": "tcmauguio@gmail.com",
+    "epreuves": "Double Mixte"
+  },
+  {
+    "lat": 43.595119,
+    "lon": 3.970693,
+    "club": "TENNIS PADEL MAUGUIO",
+    "nom": "P250 Mixte",
+    "dates": "19/07/2026 -> 19/07/2026",
+    "date_debut": "19/07/2026",
+    "date_fin": "19/07/2026",
+    "date_debut_iso": "2026-07-19",
+    "date_fin_iso": "2026-07-19",
     "categories": [
       "P250"
     ],
@@ -2198,14 +1981,66 @@
     "epreuves_detail": [
       {
         "categorie": "P250",
-        "genre": "Messieurs"
+        "genre": "Mixte"
       }
     ],
     "ville": "MAUGUIO",
     "juge": "Patrick PINON",
     "tel": "06 25 29 52 43",
+    "email": "tcmauguio@free.fr",
+    "epreuves": "Double Mixte"
+  },
+  {
+    "lat": 43.611731,
+    "lon": 4.012595,
+    "club": "TENNIS PADEL MAUGUIO",
+    "nom": "P25 Mixte",
+    "dates": "13/07/2026 -> 13/07/2026",
+    "date_debut": "13/07/2026",
+    "date_fin": "13/07/2026",
+    "date_debut_iso": "2026-07-13",
+    "date_fin_iso": "2026-07-13",
+    "categories": [
+      "P25"
+    ],
+    "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Mixte"
+      }
+    ],
+    "ville": "MAUGUIO",
+    "juge": "Thibaut DALLERY",
+    "tel": "06 25 29 52 43",
+    "email": "tcmauguio@free.fr",
+    "epreuves": "Double Mixte"
+  },
+  {
+    "lat": 43.595119,
+    "lon": 3.970693,
+    "club": "TENNIS PADEL MAUGUIO",
+    "nom": "P50 Dames",
+    "dates": "23/07/2026 -> 23/07/2026",
+    "date_debut": "23/07/2026",
+    "date_fin": "23/07/2026",
+    "date_debut_iso": "2026-07-23",
+    "date_fin_iso": "2026-07-23",
+    "categories": [
+      "P50"
+    ],
+    "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Dames"
+      }
+    ],
+    "ville": "MAUGUIO",
+    "juge": "Celine SALENDRES",
+    "tel": "06 25 29 52 43",
     "email": "tcmauguio@gmail.com",
-    "epreuves": "Double Messieurs"
+    "epreuves": "Double Dames"
   },
   {
     "lat": 43.658648,
@@ -2256,90 +2091,12 @@
     "lat": 43.658648,
     "lon": 4.010883,
     "club": "TC BAILLARGUES",
-    "nom": "P100 Femmes chemin du pradas",
-    "dates": "30/05/2026 -> 30/05/2026",
-    "date_debut": "30/05/2026",
-    "date_fin": "30/05/2026",
-    "date_debut_iso": "2026-05-30",
-    "date_fin_iso": "2026-05-30",
-    "categories": [
-      "P100"
-    ],
-    "categories_str": "P100",
-    "epreuves_detail": [
-      {
-        "categorie": "P100",
-        "genre": "Dames"
-      }
-    ],
-    "ville": "BAILLARGUES",
-    "juge": "Jean Bernard BLANCA",
-    "tel": "04 67 87 10 50",
-    "email": "tcb34670@gmail.com",
-    "epreuves": "Double Dames"
-  },
-  {
-    "lat": 43.658648,
-    "lon": 4.010883,
-    "club": "TC BAILLARGUES",
-    "nom": "P25 Hommes chemin du pradas",
-    "dates": "31/05/2026 -> 31/05/2026",
-    "date_debut": "31/05/2026",
-    "date_fin": "31/05/2026",
-    "date_debut_iso": "2026-05-31",
-    "date_fin_iso": "2026-05-31",
-    "categories": [
-      "P25"
-    ],
-    "categories_str": "P25",
-    "epreuves_detail": [
-      {
-        "categorie": "P25",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "BAILLARGUES",
-    "juge": "KEVIN GENESTE",
-    "tel": "04 67 87 10 50",
-    "email": "tcb34670@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.658648,
-    "lon": 4.010883,
-    "club": "TC BAILLARGUES",
-    "nom": "P25 Dames chemin du pradas",
-    "dates": "06/06/2026 -> 06/06/2026",
-    "date_debut": "06/06/2026",
-    "date_fin": "06/06/2026",
-    "date_debut_iso": "2026-06-06",
-    "date_fin_iso": "2026-06-06",
-    "categories": [
-      "P25"
-    ],
-    "categories_str": "P25",
-    "epreuves_detail": [
-      {
-        "categorie": "P25",
-        "genre": "Dames"
-      }
-    ],
-    "ville": "BAILLARGUES",
-    "juge": "Nicolas BRU",
-    "tel": "04 67 87 10 50",
-    "email": "tcb34670@gmail.com",
-    "epreuves": "Double Dames"
-  },
-  {
-    "lat": 43.658648,
-    "lon": 4.010883,
-    "club": "TC BAILLARGUES",
-    "nom": "P250 Mixte chemin du pradas",
-    "dates": "07/06/2026 -> 07/06/2026",
-    "date_debut": "07/06/2026",
-    "date_fin": "07/06/2026",
-    "date_debut_iso": "2026-06-07",
-    "date_fin_iso": "2026-06-07",
+    "nom": "P250 Hommes chemin du pradas",
+    "dates": "22/06/2026 -> 22/06/2026",
+    "date_debut": "22/06/2026",
+    "date_fin": "22/06/2026",
+    "date_debut_iso": "2026-06-22",
+    "date_fin_iso": "2026-06-22",
     "categories": [
       "P250"
     ],
@@ -2347,56 +2104,11 @@
     "epreuves_detail": [
       {
         "categorie": "P250",
-        "genre": "Mixte"
-      }
-    ],
-    "ville": "BAILLARGUES",
-    "juge": "Jean François PLANCHAIS",
-    "tel": "04 67 87 10 50",
-    "email": "tcb34670@gmail.com",
-    "epreuves": "Double Mixte"
-  },
-  {
-    "lat": 43.658648,
-    "lon": 4.010883,
-    "club": "TC BAILLARGUES",
-    "nom": "P Jeunes chemin du pradas 13/14 Double Messieurs",
-    "dates": "13/06/2026 -> 13/06/2026",
-    "date_debut": "13/06/2026",
-    "date_fin": "13/06/2026",
-    "date_debut_iso": "2026-06-13",
-    "date_fin_iso": "2026-06-13",
-    "categories": [],
-    "categories_str": "Non precisee",
-    "epreuves_detail": [],
-    "ville": "BAILLARGUES",
-    "juge": "fabien LESME",
-    "tel": "04 67 87 10 50",
-    "email": "tcb34670@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.658648,
-    "lon": 4.010883,
-    "club": "TC BAILLARGUES",
-    "nom": "P500 Hommes chemin du pradas",
-    "dates": "14/06/2026 -> 14/06/2026",
-    "date_debut": "14/06/2026",
-    "date_fin": "14/06/2026",
-    "date_debut_iso": "2026-06-14",
-    "date_fin_iso": "2026-06-14",
-    "categories": [
-      "P500"
-    ],
-    "categories_str": "P500",
-    "epreuves_detail": [
-      {
-        "categorie": "P500",
         "genre": "Messieurs"
       }
     ],
     "ville": "BAILLARGUES",
-    "juge": "LOIC VOSSIER",
+    "juge": "Jean François PLANCHAIS",
     "tel": "04 67 87 10 50",
     "email": "tcb34670@gmail.com",
     "epreuves": "Double Messieurs"
@@ -2431,113 +2143,27 @@
     "lat": 43.658648,
     "lon": 4.010883,
     "club": "TC BAILLARGUES",
-    "nom": "P250 Hommes chemin du pradas",
-    "dates": "22/06/2026 -> 22/06/2026",
-    "date_debut": "22/06/2026",
-    "date_fin": "22/06/2026",
-    "date_debut_iso": "2026-06-22",
-    "date_fin_iso": "2026-06-22",
+    "nom": "P100 Hommes chemin du pradas",
+    "dates": "13/07/2026 -> 13/07/2026",
+    "date_debut": "13/07/2026",
+    "date_fin": "13/07/2026",
+    "date_debut_iso": "2026-07-13",
+    "date_fin_iso": "2026-07-13",
     "categories": [
-      "P250"
+      "P100"
     ],
-    "categories_str": "P250",
+    "categories_str": "P100",
     "epreuves_detail": [
       {
-        "categorie": "P250",
+        "categorie": "P100",
         "genre": "Messieurs"
       }
     ],
     "ville": "BAILLARGUES",
-    "juge": "Jean François PLANCHAIS",
+    "juge": "KEVIN GENESTE",
     "tel": "04 67 87 10 50",
     "email": "tcb34670@gmail.com",
     "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.684438,
-    "lon": 3.978493,
-    "club": "TENNIS & PADEL CLUB DE CASTRIES",
-    "nom": "Tournoi interne P100 DH-DD-DM TPC de Castries",
-    "dates": "03/12/2025 -> 03/06/2026",
-    "date_debut": "03/12/2025",
-    "date_fin": "03/06/2026",
-    "date_debut_iso": "2025-12-03",
-    "date_fin_iso": "2026-06-03",
-    "categories": [
-      "P100"
-    ],
-    "categories_str": "P100",
-    "epreuves_detail": [
-      {
-        "categorie": "P100",
-        "genre": "Messieurs"
-      },
-      {
-        "categorie": "P100",
-        "genre": "Dames"
-      },
-      {
-        "categorie": "P100",
-        "genre": "Mixte"
-      }
-    ],
-    "ville": "CASTRIES",
-    "juge": "Guillaume GRASSER 04 67 87 35 10 Senior Double Mixte",
-    "tel": "04 67 87 35 10",
-    "email": "tennis.castries@gmail.com",
-    "epreuves": "Double Dames / Double Messieurs / Double Mixte"
-  },
-  {
-    "lat": 43.684438,
-    "lon": 3.978493,
-    "club": "TENNIS & PADEL CLUB DE CASTRIES",
-    "nom": "P100 Hommes",
-    "dates": "14/06/2026 -> 14/06/2026",
-    "date_debut": "14/06/2026",
-    "date_fin": "14/06/2026",
-    "date_debut_iso": "2026-06-14",
-    "date_fin_iso": "2026-06-14",
-    "categories": [
-      "P100"
-    ],
-    "categories_str": "P100",
-    "epreuves_detail": [
-      {
-        "categorie": "P100",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "CASTRIES",
-    "juge": "Nathan RIBAULT",
-    "tel": "06 26 86 53 23",
-    "email": "jap.padel.castries@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.684438,
-    "lon": 3.978493,
-    "club": "TENNIS & PADEL CLUB DE CASTRIES",
-    "nom": "P100 Mixte Very bad tour",
-    "dates": "11/06/2026 -> 11/06/2026",
-    "date_debut": "11/06/2026",
-    "date_fin": "11/06/2026",
-    "date_debut_iso": "2026-06-11",
-    "date_fin_iso": "2026-06-11",
-    "categories": [
-      "P100"
-    ],
-    "categories_str": "P100",
-    "epreuves_detail": [
-      {
-        "categorie": "P100",
-        "genre": "Mixte"
-      }
-    ],
-    "ville": "CASTRIES",
-    "juge": "Yannis PELE",
-    "tel": "06 78 58 60 72",
-    "email": "jap.padel.castries@gmail.com",
-    "epreuves": "Double Mixte"
   },
   {
     "lat": 43.693605,
@@ -2563,6 +2189,84 @@
     "juge": "Yannis PELE",
     "tel": "26 06 77 99 29",
     "email": "Padel.castries@gmail.com",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.684438,
+    "lon": 3.978493,
+    "club": "TENNIS & PADEL CLUB DE CASTRIES",
+    "nom": "P25 MIXTE",
+    "dates": "03/07/2026 -> 03/07/2026",
+    "date_debut": "03/07/2026",
+    "date_fin": "03/07/2026",
+    "date_debut_iso": "2026-07-03",
+    "date_fin_iso": "2026-07-03",
+    "categories": [
+      "P25"
+    ],
+    "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Mixte"
+      }
+    ],
+    "ville": "CASTRIES",
+    "juge": "Guillaume GRASSER",
+    "tel": "06 77 99 29 46",
+    "email": "jap.padel.castries@gmail.com",
+    "epreuves": "Double Mixte"
+  },
+  {
+    "lat": 43.684438,
+    "lon": 3.978493,
+    "club": "TENNIS & PADEL CLUB DE CASTRIES",
+    "nom": "P50 Dames",
+    "dates": "08/07/2026 -> 08/07/2026",
+    "date_debut": "08/07/2026",
+    "date_fin": "08/07/2026",
+    "date_debut_iso": "2026-07-08",
+    "date_fin_iso": "2026-07-08",
+    "categories": [
+      "P50"
+    ],
+    "categories_str": "P50",
+    "epreuves_detail": [
+      {
+        "categorie": "P50",
+        "genre": "Dames"
+      }
+    ],
+    "ville": "CASTRIES",
+    "juge": "Guillaume GRASSER",
+    "tel": "06 77 99 29 46",
+    "email": "jap.padel.castries@gmail.com",
+    "epreuves": "Double Dames"
+  },
+  {
+    "lat": 43.684438,
+    "lon": 3.978493,
+    "club": "TENNIS & PADEL CLUB DE CASTRIES",
+    "nom": "P25 HOMMES",
+    "dates": "17/07/2026 -> 17/07/2026",
+    "date_debut": "17/07/2026",
+    "date_fin": "17/07/2026",
+    "date_debut_iso": "2026-07-17",
+    "date_fin_iso": "2026-07-17",
+    "categories": [
+      "P25"
+    ],
+    "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "CASTRIES",
+    "juge": "Guillaume GRASSER",
+    "tel": "06 77 99 29 46",
+    "email": "jap.padel.castries@gmail.com",
     "epreuves": "Double Messieurs"
   },
   {
@@ -2596,15 +2300,15 @@
     "epreuves": "Double Dames / Double Messieurs / Double Mixte"
   },
   {
-    "lat": 43.71991,
-    "lon": 4.036552,
-    "club": "TC DE RESTINCLIERES BEAULIEU",
-    "nom": "P100 F TP Restinclières",
-    "dates": "31/05/2026 -> 31/05/2026",
-    "date_debut": "31/05/2026",
-    "date_fin": "31/05/2026",
-    "date_debut_iso": "2026-05-31",
-    "date_fin_iso": "2026-05-31",
+    "lat": 43.487673,
+    "lon": 3.792281,
+    "club": "PADEL VIC",
+    "nom": "P100 Vic la Gardiole Chemin d'Aiguebonne",
+    "dates": "03/07/2026 -> 05/07/2026",
+    "date_debut": "03/07/2026",
+    "date_fin": "05/07/2026",
+    "date_debut_iso": "2026-07-03",
+    "date_fin_iso": "2026-07-05",
     "categories": [
       "P100"
     ],
@@ -2612,14 +2316,22 @@
     "epreuves_detail": [
       {
         "categorie": "P100",
+        "genre": "Messieurs"
+      },
+      {
+        "categorie": "P100",
         "genre": "Dames"
+      },
+      {
+        "categorie": "P100",
+        "genre": "Mixte"
       }
     ],
-    "ville": "RESTINCLIERES",
-    "juge": "Yannis PELE",
-    "tel": "06 78 58 60 72",
-    "email": "pele.yannis@gmail.com",
-    "epreuves": "Double Dames"
+    "ville": "VIC LA GARDIOLE",
+    "juge": "Axel SABALETE 06 81 01 09 94 Senior Double Mixte",
+    "tel": "06 81 01 09 94",
+    "email": "a.javier_ss@hotmail.com",
+    "epreuves": "Double Dames / Double Messieurs / Double Mixte"
   },
   {
     "lat": 43.71991,
@@ -2677,12 +2389,12 @@
     "lat": 43.71991,
     "lon": 4.036552,
     "club": "TC DE RESTINCLIERES BEAULIEU",
-    "nom": "P250 H TP Restinclières",
-    "dates": "15/06/2026 -> 15/06/2026",
-    "date_debut": "15/06/2026",
-    "date_fin": "15/06/2026",
-    "date_debut_iso": "2026-06-15",
-    "date_fin_iso": "2026-06-15",
+    "nom": "P250 H +45 TP Restinclières",
+    "dates": "09/07/2026 -> 09/07/2026",
+    "date_debut": "09/07/2026",
+    "date_fin": "09/07/2026",
+    "date_debut_iso": "2026-07-09",
+    "date_fin_iso": "2026-07-09",
     "categories": [
       "P250"
     ],
@@ -2703,121 +2415,12 @@
     "lat": 43.71991,
     "lon": 4.036552,
     "club": "TC DE RESTINCLIERES BEAULIEU",
-    "nom": "P250 H TP Restinclières",
-    "dates": "08/06/2026 -> 08/06/2026",
-    "date_debut": "08/06/2026",
-    "date_fin": "08/06/2026",
-    "date_debut_iso": "2026-06-08",
-    "date_fin_iso": "2026-06-08",
-    "categories": [
-      "P250"
-    ],
-    "categories_str": "P250",
-    "epreuves_detail": [
-      {
-        "categorie": "P250",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "RESTINCLIERES",
-    "juge": "Yannis PELE",
-    "tel": "06 78 58 60 72",
-    "email": "pele.yannis@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.71991,
-    "lon": 4.036552,
-    "club": "TC DE RESTINCLIERES BEAULIEU",
-    "nom": "P100 et P250 jeunes TP Restinclières",
-    "dates": "03/06/2026 -> 03/06/2026",
-    "date_debut": "03/06/2026",
-    "date_fin": "03/06/2026",
-    "date_debut_iso": "2026-06-03",
-    "date_fin_iso": "2026-06-03",
-    "categories": [
-      "P100",
-      "P250"
-    ],
-    "categories_str": "P100 / P250",
-    "epreuves_detail": [
-      {
-        "categorie": "P100",
-        "genre": "Messieurs"
-      },
-      {
-        "categorie": "P250",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "RESTINCLIERES",
-    "juge": "Yannis PELE",
-    "tel": "06 78 58 60 72",
-    "email": "pele.yannis@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.674257,
-    "lon": 4.088727,
-    "club": "GM PADEL LUNEL VIEL",
-    "nom": "P100 MIXTE GM PADEL 7 IMPASSE DES COURRENS CHEMIN BA",
-    "dates": "30/05/2026 -> 30/05/2026",
-    "date_debut": "30/05/2026",
-    "date_fin": "30/05/2026",
-    "date_debut_iso": "2026-05-30",
-    "date_fin_iso": "2026-05-30",
-    "categories": [
-      "P100"
-    ],
-    "categories_str": "P100",
-    "epreuves_detail": [
-      {
-        "categorie": "P100",
-        "genre": "Mixte"
-      }
-    ],
-    "ville": "LUNEL VIEL",
-    "juge": "Thibaut ROUVIERE",
-    "tel": "04 34 11 16 50",
-    "email": "gmsquash34@gmail.com",
-    "epreuves": "Double Mixte"
-  },
-  {
-    "lat": 43.674257,
-    "lon": 4.088727,
-    "club": "GM PADEL LUNEL VIEL",
-    "nom": "P100 GM PADEL 7 IMPASSE DES COURRENS CHEMIN BA",
-    "dates": "29/06/2026 -> 29/06/2026",
-    "date_debut": "29/06/2026",
-    "date_fin": "29/06/2026",
-    "date_debut_iso": "2026-06-29",
-    "date_fin_iso": "2026-06-29",
-    "categories": [
-      "P100"
-    ],
-    "categories_str": "P100",
-    "epreuves_detail": [
-      {
-        "categorie": "P100",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "LUNEL VIEL",
-    "juge": "Christophe BRUNET",
-    "tel": "04 34 11 16 50",
-    "email": "gmsquash34@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.674257,
-    "lon": 4.088727,
-    "club": "GM PADEL LUNEL VIEL",
-    "nom": "P25 GM PADEL 7 IMPASSE DES COURRENS CHEMIN BA",
-    "dates": "06/06/2026 -> 06/06/2026",
-    "date_debut": "06/06/2026",
-    "date_fin": "06/06/2026",
-    "date_debut_iso": "2026-06-06",
-    "date_fin_iso": "2026-06-06",
+    "nom": "P25 H TP Restinclières",
+    "dates": "03/07/2026 -> 03/07/2026",
+    "date_debut": "03/07/2026",
+    "date_fin": "03/07/2026",
+    "date_debut_iso": "2026-07-03",
+    "date_fin_iso": "2026-07-03",
     "categories": [
       "P25"
     ],
@@ -2828,22 +2431,22 @@
         "genre": "Messieurs"
       }
     ],
-    "ville": "LUNEL VIEL",
-    "juge": "Christophe BRUNET",
-    "tel": "04 34 11 16 50",
-    "email": "gmsquash34@gmail.com",
+    "ville": "RESTINCLIERES",
+    "juge": "Yannis PELE",
+    "tel": "06 78 58 60 72",
+    "email": "pele.yannis@gmail.com",
     "epreuves": "Double Messieurs"
   },
   {
-    "lat": 43.674257,
-    "lon": 4.088727,
-    "club": "GM PADEL LUNEL VIEL",
-    "nom": "P100 GM PADEL 7 IMPASSE DES COURRENS CHEMIN BA",
-    "dates": "06/06/2026 -> 06/06/2026",
-    "date_debut": "06/06/2026",
-    "date_fin": "06/06/2026",
-    "date_debut_iso": "2026-06-06",
-    "date_fin_iso": "2026-06-06",
+    "lat": 43.71991,
+    "lon": 4.036552,
+    "club": "TC DE RESTINCLIERES BEAULIEU",
+    "nom": "P100 Hommes TP Restinclières",
+    "dates": "08/07/2026 -> 08/07/2026",
+    "date_debut": "08/07/2026",
+    "date_fin": "08/07/2026",
+    "date_debut_iso": "2026-07-08",
+    "date_fin_iso": "2026-07-08",
     "categories": [
       "P100"
     ],
@@ -2854,22 +2457,105 @@
         "genre": "Messieurs"
       }
     ],
-    "ville": "LUNEL VIEL",
-    "juge": "Christophe BRUNET",
-    "tel": "04 34 11 16 50",
-    "email": "gmsquash34@gmail.com",
+    "ville": "RESTINCLIERES",
+    "juge": "Yannis PELE",
+    "tel": "06 78 58 60 72",
+    "email": "pele.yannis@gmail.com",
     "epreuves": "Double Messieurs"
   },
   {
-    "lat": 43.674257,
-    "lon": 4.088727,
-    "club": "GM PADEL LUNEL VIEL",
-    "nom": "P50 GM PADEL 7 IMPASSE DES COURRENS CHEMIN BA",
-    "dates": "15/06/2026 -> 15/06/2026",
-    "date_debut": "15/06/2026",
-    "date_fin": "15/06/2026",
-    "date_debut_iso": "2026-06-15",
-    "date_fin_iso": "2026-06-15",
+    "lat": 43.71991,
+    "lon": 4.036552,
+    "club": "TC DE RESTINCLIERES BEAULIEU",
+    "nom": "P100 Mixte TP Restinclières",
+    "dates": "10/07/2026 -> 10/07/2026",
+    "date_debut": "10/07/2026",
+    "date_fin": "10/07/2026",
+    "date_debut_iso": "2026-07-10",
+    "date_fin_iso": "2026-07-10",
+    "categories": [
+      "P100"
+    ],
+    "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Mixte"
+      }
+    ],
+    "ville": "RESTINCLIERES",
+    "juge": "Yannis PELE",
+    "tel": "06 78 58 60 72",
+    "email": "pele.yannis@gmail.com",
+    "epreuves": "Double Mixte"
+  },
+  {
+    "lat": 43.71991,
+    "lon": 4.036552,
+    "club": "TC DE RESTINCLIERES BEAULIEU",
+    "nom": "P100 F & H TP Restinclières",
+    "dates": "11/07/2026 -> 11/07/2026",
+    "date_debut": "11/07/2026",
+    "date_fin": "11/07/2026",
+    "date_debut_iso": "2026-07-11",
+    "date_fin_iso": "2026-07-11",
+    "categories": [
+      "P100"
+    ],
+    "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Dames"
+      }
+    ],
+    "ville": "RESTINCLIERES",
+    "juge": "Yannis PELE",
+    "tel": "06 78 58 60 72",
+    "email": "pele.yannis@gmail.com",
+    "epreuves": "Double Dames / Double Messieurs"
+  },
+  {
+    "lat": 43.71991,
+    "lon": 4.036552,
+    "club": "TC DE RESTINCLIERES BEAULIEU",
+    "nom": "P250 Hommes & P25 Mixte Restinclières",
+    "dates": "12/07/2026 -> 12/07/2026",
+    "date_debut": "12/07/2026",
+    "date_fin": "12/07/2026",
+    "date_debut_iso": "2026-07-12",
+    "date_fin_iso": "2026-07-12",
+    "categories": [
+      "P25",
+      "P250"
+    ],
+    "categories_str": "P25 / P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      },
+      {
+        "categorie": "P25",
+        "genre": "Mixte"
+      }
+    ],
+    "ville": "RESTINCLIERES",
+    "juge": "Yannis PELE",
+    "tel": "06 78 58 60 72",
+    "email": "pele.yannis@gmail.com",
+    "epreuves": "Double Messieurs / Double Mixte"
+  },
+  {
+    "lat": 43.71991,
+    "lon": 4.036552,
+    "club": "TC DE RESTINCLIERES BEAULIEU",
+    "nom": "P50 F & H TP Restinclières",
+    "dates": "15/07/2026 -> 16/07/2026",
+    "date_debut": "15/07/2026",
+    "date_fin": "16/07/2026",
+    "date_debut_iso": "2026-07-15",
+    "date_fin_iso": "2026-07-16",
     "categories": [
       "P50"
     ],
@@ -2877,14 +2563,137 @@
     "epreuves_detail": [
       {
         "categorie": "P50",
+        "genre": "Dames"
+      }
+    ],
+    "ville": "RESTINCLIERES",
+    "juge": "Yannis PELE",
+    "tel": "06 78 58 60 72",
+    "email": "pele.yannis@gmail.com",
+    "epreuves": "Double Dames / Double Messieurs"
+  },
+  {
+    "lat": 43.71991,
+    "lon": 4.036552,
+    "club": "TC DE RESTINCLIERES BEAULIEU",
+    "nom": "P250 H TP Restinclières",
+    "dates": "21/07/2026 -> 21/07/2026",
+    "date_debut": "21/07/2026",
+    "date_fin": "21/07/2026",
+    "date_debut_iso": "2026-07-21",
+    "date_fin_iso": "2026-07-21",
+    "categories": [
+      "P250"
+    ],
+    "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
         "genre": "Messieurs"
       }
     ],
-    "ville": "LUNEL VIEL",
-    "juge": "Christophe BRUNET",
-    "tel": "04 34 11 16 50",
-    "email": "gmsquash34@gmail.com",
+    "ville": "RESTINCLIERES",
+    "juge": "Yannis PELE",
+    "tel": "06 78 58 60 72",
+    "email": "pele.yannis@gmail.com",
     "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.71991,
+    "lon": 4.036552,
+    "club": "TC DE RESTINCLIERES BEAULIEU",
+    "nom": "P25 H TP Restinclières",
+    "dates": "23/07/2026 -> 23/07/2026",
+    "date_debut": "23/07/2026",
+    "date_fin": "23/07/2026",
+    "date_debut_iso": "2026-07-23",
+    "date_fin_iso": "2026-07-23",
+    "categories": [
+      "P25"
+    ],
+    "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "RESTINCLIERES",
+    "juge": "Yannis PELE",
+    "tel": "06 78 58 60 72",
+    "email": "pele.yannis@gmail.com",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.71991,
+    "lon": 4.036552,
+    "club": "TC DE RESTINCLIERES BEAULIEU",
+    "nom": "P 50 H & P 100 F TP Restinclières",
+    "dates": "26/07/2026 -> 26/07/2026",
+    "date_debut": "26/07/2026",
+    "date_fin": "26/07/2026",
+    "date_debut_iso": "2026-07-26",
+    "date_fin_iso": "2026-07-26",
+    "categories": [],
+    "categories_str": "Non precisee",
+    "epreuves_detail": [],
+    "ville": "RESTINCLIERES",
+    "juge": "Yannis PELE",
+    "tel": "06 78 58 60 72",
+    "email": "pele.yannis@gmail.com",
+    "epreuves": "Double Dames / Double Messieurs"
+  },
+  {
+    "lat": 43.71991,
+    "lon": 4.036552,
+    "club": "TC DE RESTINCLIERES BEAULIEU",
+    "nom": "P100 Hommes TP Restinclières",
+    "dates": "29/07/2026 -> 29/07/2026",
+    "date_debut": "29/07/2026",
+    "date_fin": "29/07/2026",
+    "date_debut_iso": "2026-07-29",
+    "date_fin_iso": "2026-07-29",
+    "categories": [
+      "P100"
+    ],
+    "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "RESTINCLIERES",
+    "juge": "Yannis PELE",
+    "tel": "06 78 58 60 72",
+    "email": "pele.yannis@gmail.com",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.71991,
+    "lon": 4.036552,
+    "club": "TC DE RESTINCLIERES BEAULIEU",
+    "nom": "P25 Dames TP RESTINCLIÈRES",
+    "dates": "31/07/2026 -> 31/07/2026",
+    "date_debut": "31/07/2026",
+    "date_fin": "31/07/2026",
+    "date_debut_iso": "2026-07-31",
+    "date_fin_iso": "2026-07-31",
+    "categories": [
+      "P25"
+    ],
+    "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Dames"
+      }
+    ],
+    "ville": "RESTINCLIERES",
+    "juge": "Yannis PELE",
+    "tel": "06 78 58 60 72",
+    "email": "pele.yannis@gmail.com",
+    "epreuves": "Double Dames"
   },
   {
     "lat": 43.674257,
@@ -2994,38 +2803,12 @@
     "lat": 43.674257,
     "lon": 4.088727,
     "club": "GM PADEL LUNEL VIEL",
-    "nom": "P250 GM PADEL 7 IMPASSE DES COURRENS CHEMIN BA",
-    "dates": "13/06/2026 -> 13/06/2026",
-    "date_debut": "13/06/2026",
-    "date_fin": "13/06/2026",
-    "date_debut_iso": "2026-06-13",
-    "date_fin_iso": "2026-06-13",
-    "categories": [
-      "P250"
-    ],
-    "categories_str": "P250",
-    "epreuves_detail": [
-      {
-        "categorie": "P250",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "LUNEL VIEL",
-    "juge": "Thibaut ROUVIERE",
-    "tel": "04 34 11 16 50",
-    "email": "gmsquash34@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.674257,
-    "lon": 4.088727,
-    "club": "GM PADEL LUNEL VIEL",
     "nom": "P100 GM PADEL 7 IMPASSE DES COURRENS CHEMIN BA",
-    "dates": "08/06/2026 -> 08/06/2026",
-    "date_debut": "08/06/2026",
-    "date_fin": "08/06/2026",
-    "date_debut_iso": "2026-06-08",
-    "date_fin_iso": "2026-06-08",
+    "dates": "29/06/2026 -> 29/06/2026",
+    "date_debut": "29/06/2026",
+    "date_fin": "29/06/2026",
+    "date_debut_iso": "2026-06-29",
+    "date_fin_iso": "2026-06-29",
     "categories": [
       "P100"
     ],
@@ -3033,32 +2816,6 @@
     "epreuves_detail": [
       {
         "categorie": "P100",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "LUNEL VIEL",
-    "juge": "Sebastien MAURIN",
-    "tel": "04 34 11 16 50",
-    "email": "gmsquash34@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.674257,
-    "lon": 4.088727,
-    "club": "GM PADEL LUNEL VIEL",
-    "nom": "P50 GM PADEL 7 IMPASSE DES COURRENS CHEMIN BA",
-    "dates": "01/06/2026 -> 01/06/2026",
-    "date_debut": "01/06/2026",
-    "date_fin": "01/06/2026",
-    "date_debut_iso": "2026-06-01",
-    "date_fin_iso": "2026-06-01",
-    "categories": [
-      "P50"
-    ],
-    "categories_str": "P50",
-    "epreuves_detail": [
-      {
-        "categorie": "P50",
         "genre": "Messieurs"
       }
     ],
@@ -3098,79 +2855,27 @@
     "lat": 43.558914,
     "lon": 4.099168,
     "club": "MY CENTER LA GRANDE MOTTE",
-    "nom": "P50 HOMMES La plaine des Jeux",
-    "dates": "28/05/2026 -> 28/05/2026",
-    "date_debut": "28/05/2026",
-    "date_fin": "28/05/2026",
-    "date_debut_iso": "2026-05-28",
-    "date_fin_iso": "2026-05-28",
+    "nom": "P25 H et D La plaine des Jeux",
+    "dates": "21/06/2026 -> 21/06/2026",
+    "date_debut": "21/06/2026",
+    "date_fin": "21/06/2026",
+    "date_debut_iso": "2026-06-21",
+    "date_fin_iso": "2026-06-21",
     "categories": [
-      "P50"
+      "P25"
     ],
-    "categories_str": "P50",
+    "categories_str": "P25",
     "epreuves_detail": [
       {
-        "categorie": "P50",
+        "categorie": "P25",
         "genre": "Messieurs"
-      }
-    ],
-    "ville": "LA GRANDE MOTTE",
-    "juge": "Alexandre GUTKNECHT",
-    "tel": "06 83 93 43 25",
-    "email": "mycenterlagrandemotte@gmail.com",
-    "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.558914,
-    "lon": 4.099168,
-    "club": "MY CENTER LA GRANDE MOTTE",
-    "nom": "P100 MIXTE La plaine des Jeux",
-    "dates": "31/05/2026 -> 31/05/2026",
-    "date_debut": "31/05/2026",
-    "date_fin": "31/05/2026",
-    "date_debut_iso": "2026-05-31",
-    "date_fin_iso": "2026-05-31",
-    "categories": [
-      "P100"
-    ],
-    "categories_str": "P100",
-    "epreuves_detail": [
-      {
-        "categorie": "P100",
-        "genre": "Mixte"
       }
     ],
     "ville": "LA GRANDE MOTTE",
     "juge": "Christophe PERROT",
     "tel": "06 83 93 43 25",
     "email": "mycenterlagrandemotte@gmail.com",
-    "epreuves": "Double Mixte"
-  },
-  {
-    "lat": 43.558914,
-    "lon": 4.099168,
-    "club": "MY CENTER LA GRANDE MOTTE",
-    "nom": "P100 HOMMES La plaine des Jeux",
-    "dates": "11/06/2026 -> 11/06/2026",
-    "date_debut": "11/06/2026",
-    "date_fin": "11/06/2026",
-    "date_debut_iso": "2026-06-11",
-    "date_fin_iso": "2026-06-11",
-    "categories": [
-      "P100"
-    ],
-    "categories_str": "P100",
-    "epreuves_detail": [
-      {
-        "categorie": "P100",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "LA GRANDE MOTTE",
-    "juge": "Alexandre GUTKNECHT",
-    "tel": "06 83 93 43 25",
-    "email": "mycenterlagrandemotte@gmail.com",
-    "epreuves": "Double Messieurs"
+    "epreuves": "Double Dames / Double Messieurs"
   },
   {
     "lat": 43.558914,
@@ -3202,32 +2907,6 @@
     "lat": 43.558914,
     "lon": 4.099168,
     "club": "MY CENTER LA GRANDE MOTTE",
-    "nom": "P250 HOMMES La plaine des Jeux",
-    "dates": "14/06/2026 -> 14/06/2026",
-    "date_debut": "14/06/2026",
-    "date_fin": "14/06/2026",
-    "date_debut_iso": "2026-06-14",
-    "date_fin_iso": "2026-06-14",
-    "categories": [
-      "P250"
-    ],
-    "categories_str": "P250",
-    "epreuves_detail": [
-      {
-        "categorie": "P250",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "LA GRANDE MOTTE",
-    "juge": "François LORENZO",
-    "tel": "06 83 93 43 25",
-    "email": "mycenterlagrandemotte@gmail.com",
-    "epreuves": "Double Dames / Double Messieurs"
-  },
-  {
-    "lat": 43.558914,
-    "lon": 4.099168,
-    "club": "MY CENTER LA GRANDE MOTTE",
     "nom": "P25 HOMMES La plaine des Jeux",
     "dates": "25/06/2026 -> 25/06/2026",
     "date_debut": "25/06/2026",
@@ -3246,6 +2925,58 @@
     ],
     "ville": "LA GRANDE MOTTE",
     "juge": "Alexandre GUTKNECHT",
+    "tel": "06 83 93 43 25",
+    "email": "mycenterlagrandemotte@gmail.com",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.558914,
+    "lon": 4.099168,
+    "club": "MY CENTER LA GRANDE MOTTE",
+    "nom": "P25 HOMMES La plaine des Jeux",
+    "dates": "02/07/2026 -> 02/07/2026",
+    "date_debut": "02/07/2026",
+    "date_fin": "02/07/2026",
+    "date_debut_iso": "2026-07-02",
+    "date_fin_iso": "2026-07-02",
+    "categories": [
+      "P25"
+    ],
+    "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "LA GRANDE MOTTE",
+    "juge": "Alexandre GUTKNECHT",
+    "tel": "06 83 93 43 25",
+    "email": "mycenterlagrandemotte@gmail.com",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.558914,
+    "lon": 4.099168,
+    "club": "MY CENTER LA GRANDE MOTTE",
+    "nom": "P100 HOMMES La plaine des Jeux",
+    "dates": "03/07/2026 -> 03/07/2026",
+    "date_debut": "03/07/2026",
+    "date_fin": "03/07/2026",
+    "date_debut_iso": "2026-07-03",
+    "date_fin_iso": "2026-07-03",
+    "categories": [
+      "P100"
+    ],
+    "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "LA GRANDE MOTTE",
+    "juge": "Christophe PERROT",
     "tel": "06 83 93 43 25",
     "email": "mycenterlagrandemotte@gmail.com",
     "epreuves": "Double Messieurs"
@@ -3275,37 +3006,6 @@
     "tel": "09 85 02 96 74",
     "email": "setepadelclub@gmail.com",
     "epreuves": "Double Messieurs"
-  },
-  {
-    "lat": 43.420775,
-    "lon": 3.707942,
-    "club": "SETE PADEL",
-    "nom": "P100F 27/05 Soirée + P25H 29/05 Aprem Parc Aquatechnique",
-    "dates": "27/05/2026 -> 29/05/2026",
-    "date_debut": "27/05/2026",
-    "date_fin": "29/05/2026",
-    "date_debut_iso": "2026-05-27",
-    "date_fin_iso": "2026-05-29",
-    "categories": [
-      "P25",
-      "P100"
-    ],
-    "categories_str": "P25 / P100",
-    "epreuves_detail": [
-      {
-        "categorie": "P100",
-        "genre": "Dames"
-      },
-      {
-        "categorie": "P25",
-        "genre": "Messieurs"
-      }
-    ],
-    "ville": "SETE",
-    "juge": "Guillaume LARY",
-    "tel": "09 85 02 96 74",
-    "email": "setepadelclub@gmail.com",
-    "epreuves": "Double Dames / Double Messieurs"
   },
   {
     "lat": 43.420775,
@@ -3431,11 +3131,11 @@
     "lon": 3.707942,
     "club": "SETE PADEL",
     "nom": "P50 H Soirée Parc Aquatechnique",
-    "dates": "10/06/2026 -> 10/06/2026",
-    "date_debut": "10/06/2026",
-    "date_fin": "10/06/2026",
-    "date_debut_iso": "2026-06-10",
-    "date_fin_iso": "2026-06-10",
+    "dates": "03/07/2026 -> 03/07/2026",
+    "date_debut": "03/07/2026",
+    "date_fin": "03/07/2026",
+    "date_debut_iso": "2026-07-03",
+    "date_fin_iso": "2026-07-03",
     "categories": [
       "P50"
     ],
@@ -3447,7 +3147,7 @@
       }
     ],
     "ville": "SETE",
-    "juge": "Guillaume LARY",
+    "juge": "Fabien DUGRIP",
     "tel": "09 85 02 96 74",
     "email": "setepadelclub@gmail.com",
     "epreuves": "Double Messieurs"
@@ -3456,45 +3156,75 @@
     "lat": 43.420775,
     "lon": 3.707942,
     "club": "SETE PADEL",
-    "nom": "P25 H 12/06 Après-midi Parc Aquatechnique",
-    "dates": "12/06/2026 -> 12/06/2026",
-    "date_debut": "12/06/2026",
-    "date_fin": "12/06/2026",
-    "date_debut_iso": "2026-06-12",
-    "date_fin_iso": "2026-06-12",
+    "nom": "P500 H Soirée Parc Aquatechnique",
+    "dates": "06/07/2026 -> 06/07/2026",
+    "date_debut": "06/07/2026",
+    "date_fin": "06/07/2026",
+    "date_debut_iso": "2026-07-06",
+    "date_fin_iso": "2026-07-06",
     "categories": [
-      "P25"
+      "P500"
     ],
-    "categories_str": "P25",
+    "categories_str": "P500",
     "epreuves_detail": [
       {
-        "categorie": "P25",
+        "categorie": "P500",
         "genre": "Messieurs"
+      }
+    ],
+    "ville": "SETE",
+    "juge": "Mathilde LARY",
+    "tel": "09 85 02 96 74",
+    "email": "setepadelclub@gmail.com",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.420775,
+    "lon": 3.707942,
+    "club": "SETE PADEL",
+    "nom": "P100 H Soirée +45 & P100 F Soirée Parc Aquatechnique",
+    "dates": "08/07/2026 -> 08/07/2026",
+    "date_debut": "08/07/2026",
+    "date_fin": "08/07/2026",
+    "date_debut_iso": "2026-07-08",
+    "date_fin_iso": "2026-07-08",
+    "categories": [
+      "P100"
+    ],
+    "categories_str": "P100",
+    "epreuves_detail": [
+      {
+        "categorie": "P100",
+        "genre": "Messieurs"
+      },
+      {
+        "categorie": "P100",
+        "genre": "Dames"
       }
     ],
     "ville": "SETE",
     "juge": "Guillaume LARY",
     "tel": "09 85 02 96 74",
     "email": "setepadelclub@gmail.com",
-    "epreuves": "Double Messieurs"
+    "epreuves": "Double Dames / Double Messieurs"
   },
   {
     "lat": 43.420775,
     "lon": 3.707942,
     "club": "SETE PADEL",
-    "nom": "P250 H 12/06 Soirée Parc Aquatechnique",
-    "dates": "12/06/2026 -> 12/06/2026",
-    "date_debut": "12/06/2026",
-    "date_fin": "12/06/2026",
-    "date_debut_iso": "2026-06-12",
-    "date_fin_iso": "2026-06-12",
+    "nom": "P100 H Soirée Parc Aquatechnique",
+    "dates": "10/07/2026 -> 10/07/2026",
+    "date_debut": "10/07/2026",
+    "date_fin": "10/07/2026",
+    "date_debut_iso": "2026-07-10",
+    "date_fin_iso": "2026-07-10",
     "categories": [
-      "P250"
+      "P100"
     ],
-    "categories_str": "P250",
+    "categories_str": "P100",
     "epreuves_detail": [
       {
-        "categorie": "P250",
+        "categorie": "P100",
         "genre": "Messieurs"
       }
     ],
@@ -3509,11 +3239,11 @@
     "lon": 3.707942,
     "club": "SETE PADEL",
     "nom": "P500 H & F Parc Aquatechnique",
-    "dates": "07/06/2026 -> 07/06/2026",
-    "date_debut": "07/06/2026",
-    "date_fin": "07/06/2026",
-    "date_debut_iso": "2026-06-07",
-    "date_fin_iso": "2026-06-07",
+    "dates": "14/07/2026 -> 14/07/2026",
+    "date_debut": "14/07/2026",
+    "date_fin": "14/07/2026",
+    "date_debut_iso": "2026-07-14",
+    "date_fin_iso": "2026-07-14",
     "categories": [
       "P500"
     ],
@@ -3534,21 +3264,78 @@
     "lat": 43.420775,
     "lon": 3.707942,
     "club": "SETE PADEL",
-    "nom": "P50 Mixte 03/06 soirée & P100 H 05/06 soirée Parc Aquatechnique",
-    "dates": "03/06/2026 -> 05/06/2026",
-    "date_debut": "03/06/2026",
-    "date_fin": "05/06/2026",
-    "date_debut_iso": "2026-06-03",
-    "date_fin_iso": "2026-06-05",
+    "nom": "P25 H Soirée Parc Aquatechnique",
+    "dates": "17/07/2026 -> 17/07/2026",
+    "date_debut": "17/07/2026",
+    "date_fin": "17/07/2026",
+    "date_debut_iso": "2026-07-17",
+    "date_fin_iso": "2026-07-17",
+    "categories": [
+      "P25"
+    ],
+    "categories_str": "P25",
+    "epreuves_detail": [
+      {
+        "categorie": "P25",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "SETE",
+    "juge": "Guillaume LARY",
+    "tel": "09 85 02 96 74",
+    "email": "setepadelclub@gmail.com",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.420775,
+    "lon": 3.707942,
+    "club": "SETE PADEL",
+    "nom": "P250 H Soirée Parc Aquatechnique",
+    "dates": "29/07/2026 -> 29/07/2026",
+    "date_debut": "29/07/2026",
+    "date_fin": "29/07/2026",
+    "date_debut_iso": "2026-07-29",
+    "date_fin_iso": "2026-07-29",
+    "categories": [
+      "P250"
+    ],
+    "categories_str": "P250",
+    "epreuves_detail": [
+      {
+        "categorie": "P250",
+        "genre": "Messieurs"
+      }
+    ],
+    "ville": "SETE",
+    "juge": "Guillaume LARY",
+    "tel": "09 85 02 96 74",
+    "email": "setepadelclub@gmail.com",
+    "epreuves": "Double Messieurs"
+  },
+  {
+    "lat": 43.420775,
+    "lon": 3.707942,
+    "club": "SETE PADEL",
+    "nom": "P250 F & P50 Mixte 22/07 Soir & P100 H 24/07 Soir Parc Aquatechnique",
+    "dates": "22/07/2026 -> 24/07/2026",
+    "date_debut": "22/07/2026",
+    "date_fin": "24/07/2026",
+    "date_debut_iso": "2026-07-22",
+    "date_fin_iso": "2026-07-24",
     "categories": [
       "P50",
-      "P100"
+      "P100",
+      "P250"
     ],
-    "categories_str": "P50 / P100",
+    "categories_str": "P50 / P100 / P250",
     "epreuves_detail": [
       {
         "categorie": "P50",
         "genre": "Mixte"
+      },
+      {
+        "categorie": "P250",
+        "genre": "Dames"
       },
       {
         "categorie": "P100",
@@ -3556,9 +3343,9 @@
       }
     ],
     "ville": "SETE",
-    "juge": "Fabien DUGRIP",
+    "juge": "Guillaume LARY 34200 SETE Senior Double Mixte",
     "tel": "09 85 02 96 74",
     "email": "setepadelclub@gmail.com",
-    "epreuves": "Double Messieurs / Double Mixte"
+    "epreuves": "Double Dames / Double Messieurs / Double Mixte"
   }
 ]

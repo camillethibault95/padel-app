@@ -19,15 +19,23 @@ def slugify(ville):
     return s.lower().replace(" ", "-")
 
 
-def telecharger_pdf_depuis_url(url, chemin):
+def telecharger_pdf_depuis_url(context, url, chemin):
+    """Telecharge le PDF en reutilisant la session Playwright (cookies + JS valides)."""
     try:
-        r = requests.get(url, timeout=30)
-        r.raise_for_status()
+        response = context.request.get(url, timeout=30000)
+        if response.status != 200:
+            print(f"     ERREUR HTTP {response.status}")
+            return False
+        body = response.body()
+        # Verifier que c'est bien un PDF (commence par %PDF)
+        if not body.startswith(b"%PDF"):
+            print(f"     ERREUR : le contenu n'est pas un PDF (debut : {body[:50]})")
+            return False
         with open(chemin, "wb") as f:
-            f.write(r.content)
+            f.write(body)
         return True
     except Exception as e:
-        print(f"     ERREUR requests : {e}")
+        print(f"     ERREUR : {e}")
         return False
 
 
@@ -77,7 +85,7 @@ def chercher_et_telecharger(context, page, ville):
         # Le fichier principal s'appelle tournois.pdf (compat avec clean_and_geocode.py)
         chemin_pdf = os.path.join(DOSSIER_PROJET, "tournois.pdf")
         
-        if telecharger_pdf_depuis_url(url_pdf, chemin_pdf):
+        if telecharger_pdf_depuis_url(context, url_pdf, chemin_pdf):
             print(f"     OK : tournois.pdf")
             nouvel_onglet.close()
             page.bring_to_front()
