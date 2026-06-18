@@ -100,6 +100,11 @@ def construire_points(tournois):
             "juge": t["juge_arbitre"] or "Non precise",
             "tel": t["telephone"] or "",
             "email": t["email"] or "",
+            "inscription_methode": t.get("inscription_methode", ""),
+            "inscription_ios": t.get("inscription_ios", ""),
+            "inscription_android": t.get("inscription_android", ""),
+            "inscription_web": t.get("inscription_web", ""),
+            "inscription_tel": t.get("inscription_tel", ""),
             "epreuves": epreuves,
         })
     return points

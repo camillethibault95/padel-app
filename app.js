@@ -83,7 +83,53 @@ function popupHtml(t) {
         '<div class="info"><span class="label">Juge-arbitre</span><br>' + t.juge + '</div>' +
         (t.tel ? '<div class="info"><span class="label">Téléphone</span><br>' + t.tel + '</div>' : '') +
         (t.email ? '<div class="info"><span class="label">Email</span><br><a href="mailto:' + t.email + '">' + t.email + '</a></div>' : '') +
+        boutonInscription(t) +
         '</div>';
+}
+
+// ----- BOUTON S'INSCRIRE -----
+function detectPlatform() {
+    const ua = navigator.userAgent;
+    if (/iPhone|iPad|iPod/i.test(ua)) return "ios";
+    if (/Android/i.test(ua)) return "android";
+    return "desktop";
+}
+
+function boutonInscription(t) {
+    const methode = t.inscription_methode || "";
+    const platform = detectPlatform();
+    
+    if (methode === "app") {
+        // Mobile : ouvrir le store correspondant
+        if (platform === "ios" && t.inscription_ios) {
+            return '<a class="btn-inscription" href="' + t.inscription_ios + '" target="_blank">📱 S\'inscrire via l\'app</a>';
+        }
+        if (platform === "android" && t.inscription_android) {
+            return '<a class="btn-inscription" href="' + t.inscription_android + '" target="_blank">📱 S\'inscrire via l\'app</a>';
+        }
+        // Desktop ou app pas dispo sur cette plateforme : site web ou choix des 2 stores
+        if (t.inscription_web) {
+            return '<a class="btn-inscription" href="' + t.inscription_web + '" target="_blank">🌐 S\'inscrire sur le site</a>';
+        }
+        if (t.inscription_ios && t.inscription_android) {
+            return '<div class="btn-inscription-group">' +
+                '<a class="btn-inscription" href="' + t.inscription_ios + '" target="_blank">🍎 iOS</a>' +
+                '<a class="btn-inscription" href="' + t.inscription_android + '" target="_blank">🤖 Android</a>' +
+                '</div>';
+        }
+        return "";
+    }
+    
+    if (methode === "web" && t.inscription_web) {
+        return '<a class="btn-inscription" href="' + t.inscription_web + '" target="_blank">🌐 S\'inscrire sur le site</a>';
+    }
+    
+    if (methode === "tel" && t.inscription_tel) {
+        const telClean = t.inscription_tel.replace(/\s/g, "");
+        return '<a class="btn-inscription" href="tel:' + telClean + '">📞 Appeler le club</a>';
+    }
+    
+    return "";
 }
 
 function filtrer() {
@@ -184,6 +230,7 @@ function refreshList() {
             '<div class="list-tournoi-info">⚖️ ' + t.juge + '</div>' +
             (t.tel ? '<div class="list-tournoi-info">📞 ' + t.tel + '</div>' : '') +
             (t.email ? '<div class="list-tournoi-info">✉️ <a href="mailto:' + t.email + '">' + t.email + '</a></div>' : '') +
+            boutonInscription(t) +
         '</div>';
     }).join("");
 }
@@ -285,6 +332,7 @@ function showDayDetails(dateStr, tournoisDuJour) {
             '<div class="day-tournoi-info">⚖️ ' + t.juge + '</div>' +
             (t.tel ? '<div class="day-tournoi-info">📞 ' + t.tel + '</div>' : "") +
             (t.email ? '<div class="day-tournoi-info">✉️ <a href="mailto:' + t.email + '">' + t.email + '</a></div>' : "") +
+            boutonInscription(t) +
         '</div>';
     }).join("");
     

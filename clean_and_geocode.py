@@ -5,6 +5,53 @@ import requests
 import pdfplumber
 
 
+def load_clubs(chemin="clubs.csv"):
+    """Charge clubs.csv en dict : { nom_normalise : {methode, ios, android, web, tel, notes} }"""
+    clubs = {}
+    try:
+        with open(chemin, encoding="utf-8") as f:
+            reader = csv.DictReader(f)
+            for row in reader:
+                nom = row["nom_club"].strip().upper()
+                clubs[nom] = {
+                    "methode": row.get("methode", "").strip(),
+                    "ios": row.get("url_ios", "").strip(),
+                    "android": row.get("url_android", "").strip(),
+                    "web": row.get("url_web", "").strip(),
+                    "tel": row.get("telephone", "").strip(),
+                    "notes": row.get("notes", "").strip(),
+                }
+        print(f"   {len(clubs)} clubs charges depuis {chemin}")
+    except FileNotFoundError:
+        print(f"   ATTENTION : {chemin} introuvable, pas d'infos d'inscription")
+    return clubs
+
+
+def match_club(nom_tournoi_club, dict_clubs):
+    """Cherche le club correspondant : exact, puis 'contient', puis None."""
+    if not nom_tournoi_club:
+        return None
+    nom_norm = nom_tournoi_club.strip().upper()
+    
+    # 1. Match exact
+    if nom_norm in dict_clubs:
+        return dict_clubs[nom_norm]
+    
+    # 2. Match "contient" (le nom du tournoi contient le nom d'un club du CSV, ou inverse)
+    for nom_csv, infos in dict_clubs.items():
+        if nom_csv in nom_norm or nom_norm in nom_csv:
+            return infos
+    
+    # 3. Match par mots-cles : si 2+ mots significatifs en commun
+    mots_tournoi = set(m for m in nom_norm.split() if len(m) > 3)
+    for nom_csv, infos in dict_clubs.items():
+        mots_csv = set(m for m in nom_csv.split() if len(m) > 3)
+        if len(mots_tournoi & mots_csv) >= 2:
+            return infos
+    
+    return None
+
+
 def lire_pdf(chemin):
     with pdfplumber.open(chemin) as pdf:
         return "\n".join(page.extract_text() for page in pdf.pages)
@@ -115,6 +162,49 @@ def extraire_tournois(texte):
         
         tournois.append(data)
     
+    # Filtre : tournois non passes ET dates valides (entre 2024 et 2030)
+    from datetime import datetime, date
+    today = datetime.now().date()
+    date_min = date(2024, 1, 1)
+    date_max = date(2030, 12, 31)
+    tournois_a_venir = []
+    retires_passe = 0
+    retires_aberrants = 0
+    for t in tournois:
+        if not t.get("date_fin") or not t.get("date_debut"):
+            retires_aberrants += 1
+            continue
+        try:
+            date_debut = datetime.strptime(t["date_debut"], "%d/%m/%Y").date()
+            date_fin = datetime.strptime(t["date_fin"], "%d/%m/%Y").date()
+            
+            # Date aberrante (avant 2024 ou apres 2030) ?
+            if date_debut < date_min or date_debut > date_max:
+                retires_aberrants += 1
+                continue
+            if date_fin < date_min or date_fin > date_max:
+                retires_aberrants += 1
+                continue
+            
+            # Tournoi deja passe ?
+            if date_fin < today:
+                retires_passe += 1
+                continue
+            
+            # Tournoi trop long (> 30 jours) ? Probablement un tournoi interne club
+            duree = (date_fin - date_debut).days
+            if duree > 30:
+                retires_aberrants += 1
+                continue
+            
+            tournois_a_venir.append(t)
+        except ValueError:
+            retires_aberrants += 1
+            continue
+    
+    print(f"   Tournois retires : {retires_passe} passes + {retires_aberrants} dates aberrantes")
+    tournois = tournois_a_venir
+    
     vus = set()
     uniques = []
     for t in tournois:
@@ -169,6 +259,27 @@ for i, t in enumerate(tournois, 1):
     time.sleep(0.1)
 
 # Sauver
+# --- Enrichissement avec clubs.csv ---
+print("\n🔗 Association tournois <-> clubs...")
+dict_clubs = load_clubs()
+matches = 0
+for t in tournois:
+    infos = match_club(t.get("club"), dict_clubs)
+    if infos:
+        matches += 1
+        t["inscription_methode"] = infos["methode"]
+        t["inscription_ios"] = infos["ios"]
+        t["inscription_android"] = infos["android"]
+        t["inscription_web"] = infos["web"]
+        t["inscription_tel"] = infos["tel"]
+    else:
+        t["inscription_methode"] = ""
+        t["inscription_ios"] = ""
+        t["inscription_android"] = ""
+        t["inscription_web"] = ""
+        t["inscription_tel"] = ""
+print(f"   {matches}/{len(tournois)} tournois associes a un club")
+
 fieldnames = list(tournois[0].keys())
 for t in tournois:
     if isinstance(t.get("categories_p"), list):
